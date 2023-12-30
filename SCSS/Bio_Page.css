@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 100%;
+  opacity: 0.8;
+  height: 55vh;
+  background: url(https://th.bing.com/th/id/OIP.H6Vz9zpi9tCZZe1rjvNalQHaL2?rs=1&pid=ImgDetMain);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.left-card {
+  height: 90%;
+  background: url(https://th.bing.com/th/id/OIP.H6Vz9zpi9tCZZe1rjvNalQHaL2?rs=1&pid=ImgDetMain);
+  background-size: cover;
+  box-shadow: 6px 6px 5px black;
+  width: 16vw;
+  border-radius: 7px;
+}
+.subheading {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+.description {
+  font-size: 18px;
+  padding: 8px;
+}
+.about {
+  margin: 15px 3px;
+}
+.outer-container {
+  height: 180px;
+  padding: 8px;
+  margin: 10px 4px;
+  width: 180px;
+}
+.outer-container img {
+  border-radius: 60px;
+  width: 120px;
+  height: 120px;
+}
+.cast-name {
+  font-size: 18px;
+  margin-top: 10px;
+}

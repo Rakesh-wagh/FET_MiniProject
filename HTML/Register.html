@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <script src="../PLUGINS/All_cdn.js"></script>
+    <link rel="stylesheet" href="../SCSS/Login.css" />
+  </head>
+  <body>
+    <div class="login-background">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center fs-1 mt-5 mb-3 greetings-color">
+              Welcome
+            </div>
+            <div class="text-center mb-5 greetings-color">
+              Welcome to Book Me!!
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-10 col-md-8 col-sm-5 m-auto">
+            <div class="card border-0 rounded mb-3 shadow">
+              <div class="card-body">
+                <h5 class="card-title text-center mb-5 mt-4" id="register">
+                  Registration
+                </h5>
+                <label for="name" class="font-weight-bold">Full Name:</label>
+                <div class="mb-3 input-group shadow p-2">
+                  <input
+                    type="text"
+                    class="form-control input-box"
+                    placeholder="Enter Your Name"
+                    id="name"
+                    required
+                    maxlength="30"
+                  />
+                </div>
+                <label for="email">Email:</label>
+                <div class="mb-3 input-group shadow p-2">
+                  <input
+                    type="email"
+                    class="form-control input-box"
+                    placeholder="Enter Your Email"
+                    id="email"
+                    required
+                  />
+                </div>
+                <label for="phone" class="font-weight-bold"
+                  >Phone Number:</label
+                >
+                <div class="mb-3 input-group shadow p-2">
+                  <input
+                    type="text"
+                    class="form-control input-box"
+                    placeholder="Enter Your Phone Number"
+                    id="phone"
+                    required
+                    maxlength="10"
+                  />
+                </div>
+                <label for="dob" class="font-weight-bold">Date Of Birth:</label>
+                <div class="mb-3 input-group shadow p-2">
+                  <input
+                    type="date"
+                    class="form-control input-box"
+                    placeholder="DOB"
+                    id="dob"
+                  />
+                </div>
+                <label for="gender" class="font-weight-bold">Gender:</label>
+                <div class="mb-3 input-group shadow p-2">
+                  <input
+                    type="radio"
+                    name="gender"
+                    id="male"
+                    value="Male"
+                    class="m-2"
+                  />Male
+                  <input
+                    type="radio"
+                    name="gender"
+                    id="female"
+                    value="Female"
+                    class="m-2"
+                  />Female
+                  <input
+                    type="radio"
+                    name="gender"
+                    id="other"
+                    value="Other"
+                    class="m-2"
+                  />Other
+                </div>
+                <label for="address" class="font-weight-bold">Address:</label>
+                <div class="mb-3 input-group shadow p-2">
+                  <input
+                    type="text"
+                    class="form-control input-box"
+                    placeholder="Address"
+                    id="address"
+                  />
+                </div>
+                <label for="city" class="font-weight-bold">City:</label>
+                <div class="mb-3 input-group shadow p-2">
+                  <input
+                    type="text"
+                    class="form-control input-box"
+                    placeholder="City "
+                    id="city"
+                    required
+                  />
+                </div>
+                <label for="state" class="font-weight-bold">State:</label>
+                <div class="mb-3 input-group shadow p-2">
+                  <input
+                    type="text"
+                    class="form-control input-box"
+                    placeholder="State"
+                    id="state"
+                    required
+                  />
+                </div>
+
+                <label for="password" class="font-weight-bold"
+                  >Create Password:</label
+                >
+                <div class="mb-3 input-group shadow p-2">
+                  <input
+                    type="password"
+                    id="password"
+                    required
+                    class="form-control input-box"
+                    placeholder="Create Password"
+                    maxlength="10"
+                  />
+                </div>
+                <label for="cpassword" class="font-weight-bold"
+                  >Confirm Password:</label
+                >
+                <div class="mb-3 input-group shadow p-2">
+                  <input
+                    type="password"
+                    id="cpassword"
+                    maxlength="10"
+                    class="form-control input-box"
+                    placeholder="Confirm Password"
+                  />
+                </div>
+                <div class="text-center mb-5 my-5">
+                  <button type="button" class="btn button-color" id="register">
+                    Register
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Link To Controller -->
+    <script
+      src="../JAVASCRIPT/Controllers/Add_User_Controller.js"
+      type="module"
+    ></script>
+  </body>
+</html>
