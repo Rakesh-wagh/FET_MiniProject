@@ -20,6 +20,13 @@
   width: 16vw;
   border-radius: 7px;
 }
+.right {
+  height: 50%;
+  margin: 6px 15px;
+  position: absolute;
+  left: 20rem;
+  top: 25px;
+}
 .subheading {
   font-size: 24px;
   font-weight: 700;
