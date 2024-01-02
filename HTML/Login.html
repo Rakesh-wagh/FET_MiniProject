@@ -26,7 +26,7 @@
             <div class="card border-0 rounded mb-3 shadow">
               <div class="card-body">
                 <h5 class="card-title text-center mb-5 mt-4">Log in</h5>
-                <form>
+                <form method="post">
                   <label for="">Email:</label>
                   <div class="mb-3 input-group shadow p-2">
                     <span class="input-icon my-2">
@@ -34,6 +34,7 @@
                     </span>
                     <input
                       type="email"
+                      id="username"
                       class="form-control input-box"
                       placeholder="Email"
                     />
@@ -45,6 +46,7 @@
                     </span>
                     <input
                       type="password"
+                      id="password"
                       class="form-control input-box"
                       placeholder="Password"
                     />
@@ -58,9 +60,9 @@
                     >
                   </div>
                   <div class="text-center mb-5">
-                    <button type="submit" class="btn button-color">
+                    <a type="submit" id="loginForm" class="btn button-color">
                       Login
-                    </button>
+                    </a>
                   </div>
                 </form>
               </div>
@@ -69,5 +71,9 @@
         </div>
       </div>
     </div>
+    <script
+      src="../JAVASCRIPT/Controllers/Login_Controller.js"
+      type="module"
+    ></script>
   </body>
 </html>

@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookMe - The Best Online Ticket Booking</title>
+    <script src="./plugins.js"></script>
+    <link rel="stylesheet" href="../SCSS/index.css" />
+  </head>
+  <body>
+    <div class="loading-container" data-loading-container>
+      <div class="loading-circle"></div>
+    </div>
+    <!-- Header  -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo"
+          >BookMe
+          <!-- <img src="./assets/images/logo.svg" width="148" height="38" alt="Fasteat home"> -->
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button
+            class="nav-close-btn"
+            aria-label="close menu"
+            data-nav-toggler
+          >
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <!-- <img
+              src="./assets/images/logo.svg"
+              width="148"
+              height="38"
+              alt="Fasteat home"
+            /> -->
+            BookMe
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-link>Movies</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-link>Music</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-link>Sports</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-link>Events</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Search Bar  -->
+        <div
+          class="input-group"
+          style="border: 2px solid orange; border-radius: 5px"
+        >
+          <input
+            type="search"
+            id="form1"
+            class="form-control"
+            placeholder="Search"
+          />
+          <button type="button" data-mdb-ripple-init>
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <div class="header-action">
+          <a href="./Login.html" class="btn btn-primary has-after">Login</a>
+        </div>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-overlay data-nav-toggler></div>
+      </div>
+    </header>
+
+    <!-- Movies Cards -->
+    <section class="movies section" style="padding-top: 100px">
+      <h2 class="section-title">Recommended Movies</h2>
+      <div class="Movie-container">
+        <div class="Mcard">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+          <a href="./Bio_Page.html" class="btn-primary stretched-link">.</a>
+        </div>
+        <div class="Mcard">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+        <div class="Mcard">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+        <div class="Mcard col-lg-3">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+        <div class="Mcard col-lg-3">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+      </div>
+    </section>
+    <!-- Music Cards  -->
+    <section class="movies section">
+      <h2 class="section-title">Music</h2>
+      <div class="Movie-container">
+        <div class="Mcard">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+        <div class="Mcard">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+        <div class="Mcard">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+        <div class="Mcard col-lg-3">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+        <div class="Mcard col-lg-3">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+      </div>
+    </section>
+    <!-- Sports Cards  -->
+    <section class="movies section">
+      <h2 class="section-title">Sports</h2>
+      <div class="Movie-container">
+        <div class="Mcard">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+        <div class="Mcard">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+        <div class="Mcard">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+        <div class="Mcard col-lg-3">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+        <div class="Mcard col-lg-3">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+      </div>
+    </section>
+    <!-- Events Cards -->
+    <section class="movies section">
+      <h2 class="section-title">Events</h2>
+      <div class="Movie-container">
+        <div class="Mcard">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+        <div class="Mcard">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+        <div class="Mcard">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+        <div class="Mcard col-lg-3">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+        <div class="Mcard col-lg-3">
+          <img src="../IMAGES/salaar.webp" alt="Movie" />
+          <h3>Movie Title</h3>
+          <p>Genre:</p>
+          <p>Languages:</p>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial  -->
+    <section class="section testi" aria-labelledby="testi-label">
+      <div class="container">
+        <div class="testi-content" data-reveal="left">
+          <h2 class="h2 section-title" id="testi-label">
+            What users say about us
+          </h2>
+
+          <blockquote class="testi-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
+            quisquam odio velit reiciendis, iusto tempore delectus alias
+            voluptate sint vitae.
+          </blockquote>
+
+          <div class="wrapper">
+            <img
+              src="../IMAGES/testimonial-banner.png"
+              width="70"
+              height="70"
+              loading="lazy"
+              alt="Thomas Adamson"
+              class="author-img"
+            />
+
+            <div>
+              <p class="author-title">Thomas Adamson</p>
+
+              <div class="rating-wrapper">
+                <ion-icon name="star" aria-hidden="true"></ion-icon>
+                <ion-icon name="star" aria-hidden="true"></ion-icon>
+                <ion-icon name="star" aria-hidden="true"></ion-icon>
+                <ion-icon name="star" aria-hidden="true"></ion-icon>
+                <ion-icon name="star" aria-hidden="true"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <figure class="testi-banner" data-reveal="right">
+          <img
+            src="../IMAGES/testimonial-banner.png"
+            width="680"
+            height="588"
+            alt="testimonial banner"
+            class="w-100"
+          />
+        </figure>
+      </div>
+    </section>
+    <!-- partnership -->
+    <section class="section partnership" aria-label="partnership">
+      <div class="container">
+        <h2 class="h2 section-title" data-reveal>CATEGORIES</h2>
+
+        <ul class="grid-list">
+          <li data-reveal="left">
+            <div class="partnership-card">
+              <figure
+                class="card-banner img-holder"
+                style="--width: 640; --height: 402"
+              >
+                <img
+                  src="../IMAGES/testimonial-banner.png"
+                  width="640"
+                  height="402"
+                  loading="lazy"
+                  alt="Join Courier"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h5 card-title">MOVIES</h3>
+
+                <a href="#" class="btn btn-primary has-after">
+                  <span class="span">EXPLORE</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li data-reveal="right">
+            <div class="partnership-card">
+              <figure
+                class="card-banner img-holder"
+                style="--width: 640; --height: 402"
+              >
+                <img
+                  src="../IMAGES/testimonial-banner.png"
+                  width="640"
+                  height="402"
+                  loading="lazy"
+                  alt="Join Merchant"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h5 card-title">MUSIC</h3>
+
+                <a href="#" class="btn btn-primary has-after">
+                  <span class="span">EXPLORE</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="section footer-top grid-list">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <!-- <img
+                src="./assets/images/logo-footer.svg"
+                width="148"
+                height="38"
+                alt="fasteat home"
+              /> -->
+              BookMe
+            </a>
+            <h2 class="h2 section-title">The Best Online Ticket Booking!</h2>
+            <p class="section-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
+              excepturi, sapiente, debitis distinctio soluta natus in, delectus
+              qui necessitatibus ullam illo magni at quisquam eligendi?
+            </p>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title h5">Categories</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <span class="span">Home</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <span class="span">About Us</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <span class="span">Contact Us</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title h5">Reach Us</p>
+            </li>
+
+            <li>
+              <a href="mailto:bookme@mail.net" class="footer-link">
+                <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+                <span class="span">bookme@mail.net</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:+91344567890" class="footer-link">
+                <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+                <span class="span">+91 34 456 78 90</span>
+              </a>
+            </li>
+
+            <li>
+              <ul class="social-list">
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy Copyright 2023 BookMe. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../JAVASCRIPT/Controllers/Index_Controller.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
