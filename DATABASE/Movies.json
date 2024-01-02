@@ -1,0 +1,167 @@
+{
+    "movies":[
+        {
+            "id":"1",
+            "title":"The Conjuring",            
+            "genre":"Horror",
+            "duration_minutes":"112 minutes",
+            "language":"English",
+            "director":"James Wan",
+            "producer":"Peter Safran, Rob Cowan",
+            "cast":["Vera Farmiga","Patrick Wilson","Lili Taylor"],
+            "rating":" 7.5/10 (IMDb)",
+            "description":"Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. As they dig deeper, they encounter sinister forces.",
+            "music_director":"Joseph Bishara"
+           
+        },
+
+        {
+            "id":"2",
+            "title":"Stree",
+            "genre":"Horror",
+            "duration_minutes":"128 minutes",
+            "language":"Hindi",
+            "director":"Amar Kushik",
+            "producer":"Dinesh Vijan, Raj & D.K.",
+            "cast":["Rajkummar Rao","Shraddha Kapoor","Pankaj Tripathi"],
+            "rating":"7.6/10 (IMDb)",
+            "description":"In the town of Chanderi, men start disappearing every night, leaving behind their clothes. The mysterious entity responsible is believed to be the ghost of a woman, Stree, who stalks and abducts men.Unfortunately, I couldn't find the music director for Stree, but I hope you find these recommendations intriguing!",
+            "music_director":"Sachin–Jigar"
+
+        },
+
+        {
+            "id":"3",
+            "title":"The Grand Budapest Hotel",
+            "genre":"Comedy",
+            "duration_minutes":"99 minutes",
+            "language":"English",
+            "director":"Wes Anderson",
+            "producer":"Wes Anderson, Scott Rudin, Steven Rales, Jeremy Dawson",
+            "cast":["Ralph Fiennes","Tony Revolori","F. Murray Abraham","Jude Law, Saoirse Ronan","Adrien Brody"],
+            "rating":"8.1/10 (IMDb)",
+            "description":"This whimsical comedy follows the adventures of a hotel concierge and his protégé as they become embroiled in a comedic caper involving stolen art, murder, and the pursuit of a valuable Renaissance painting.",
+            "music_director":"Alexandre Desplat"
+
+        },
+
+        {
+            "id":"4",
+            "title":"Andaz Apna Apna",
+            "genre":"Comedy",
+            "duration_minutes":"160 minutes",
+            "language":"Hindi",
+            "director":"Rajkumar Santoshi",
+            "producer":"Vinay Kumar Sinha",
+            "cast":["Aamir Khan","Salman Khan","Raveena Tandon","Karisma Kapoor","Paresh Rawal","Shakti Kapoor"],
+            "rating":"Rating: 8.2/10 (IMDb)",
+            "description":"A classic Bollywood comedy, Andaz Apna Apna revolves around two slackers who dream of getting rich by wooing an heiress. The film is a laughter riot with memorable characters and hilarious situations.Please note that ratings and details may vary, and it's always a good idea to check the latest information before watching.",
+            "music_director":"Tushar Bhatia"
+
+        },
+
+        {
+            "id":"5",
+            "title":"Mad Max: Fury Road",
+            "genre":"Action",
+            "duration_minutes":"120 minutes",
+            "language":"English",
+            "director":"George Miller",
+            "producer":"Doug Mitchell, George Miller, P.J. Voeten",
+            "cast":["Tom Hardy","Charlize Theron","Nicholas Hoult"],
+            "rating":"8.1/10 (IMDb)",
+            "description":" In a post-apocalyptic wasteland, Max teams up with Furiosa to escape a tyrannical warlord and his army, leading to a high-octane, relentless pursuit across the desert.Hindi Action Movie:",
+            "music_director":"junkie XL"
+
+        },
+
+        {
+            "id":"6",
+            "title":"Baahubali: The Beginning",
+            "genre":"Action",
+            "duration_minutes":"",
+            "language":"Hindi",
+            "director":"S. S. Rajamouli",
+            "producer":"Shobu Yarlagadda, Prasad Devineni",
+            "cast":["Prabha","Rana Daggubati","Anushka Shetty"],
+            "rating":"8.1/10 (IMDb)",
+            "description":"The film follows the epic journey of Shivudu as he discovers his roots, faces powerful enemies, and unravels the mystery behind the kingdom of Mahishmati, featuring breathtaking action sequences and visual effects.Please note that ratings may vary, and these are approximate values from IMDb as of my last update in January 2022.",
+            "music_director":"M.M. Keeravani"
+
+        },
+
+        {
+            "id":"7",
+            "title":"Andhadhun",
+            "genre":"Thriller",
+            "duration_minutes":"139 minutes",
+            "language":"Hindi",
+            "director":"Sriram Raghavan",
+            "producer":"Viacom18 Motion Pictures, Matchbox Pictures",
+            "cast":[ "Ayushmann Khurrana", "Tabu", "Radhika Apte"],
+            "rating":"8.3/10 (IMDb)",
+            "description":"Andhadhun is a suspenseful thriller where a visually impaired pianist becomes entangled in a web of crime after witnessing a murder. The film keeps the audience on the edge with its unpredictable twists and turns.Please note that the ratings are based on IMDb scores as of my last knowledge update in January 2022, and they may have changed since then.",
+            "music_director":"Raftaar and Girish Nakod, and Amit Trivedi"
+
+        },
+        {
+            "id":"8",
+            "title":"Gone Girl",            
+            "genre":"Thriller",
+            "duration_minutes":"149 minutes",
+            "language":"English",
+            "director":"David Fincher",
+            "producer":"Leslie Dixon, Bruna Papandrea, Reese Witherspoon, Cean Chaffin",
+            "cast":["Ben Affleck", "Rosamund Pike", "Neil Patrick Harris", "Tyler Perry"],
+            "rating":"8.1/10 (IMDb)",
+            "description":"Gone Girl is a gripping mystery thriller that explores the complexities of a marriage in the midst of a high-profile disappearance. As the media frenzy unfolds, secrets unravel, and the line between truth and deception blurs.",
+            "music_director":"Tent Reznor "
+
+        }
+        ,
+        {
+            "id":"9",
+            "title":"The Notebook",
+            "genre":"Romantic",
+            "duration_minutes":"123 minutes",
+            "language":"English",
+            "director":"Nick Cassavetes",
+            "producer":"Mark Johnson",
+            "cast":["Ryan Gosling", "Rachel McAdams"],
+            "rating":"7.8/10 (IMDb)",
+            "description":"The Notebook is a heartwarming tale of young love and enduring passion. It follows the story of Noah and Allie, who fall deeply in love during the summer but are separated by societal expectations. The movie explores the power of true love and the impact of choices made throughout a lifetime.",
+            "music_director":"Aaron Zigman"
+
+        }
+        ,
+        {
+            "id":"10",
+            "title":"Dilwale Dulhania Le Jayenge",
+            "genre":"Romantic",
+            "duration_minutes":"189 minutes",
+            "language":"Hindi",
+            "director":"Aditya Chopra",
+            "producer":"Yash Chopra",
+            "cast":["Shah Rukh Khan", "Kajol"],
+            "rating":"8.1/10 (IMDb)",
+            "description":"Dilwale Dulhania Le Jayenge is a timeless classic that tells the story of Raj and Simran, two individuals who fall in love during a trip to Europe. However, their love faces opposition from Simran's conservative father. The movie is celebrated for its memorable dialogues, iconic scenes, and its portrayal of traditional values.",
+            "music_director":"Jatin-Lalit"
+
+        }
+        ,
+        {
+            "id":"11",
+            "title":"Sairat",
+            "genre":"Romantic",
+            "duration_minutes":"174 minutes",
+            "language":"Marathi",
+            "director":"Nagraj Manjule",
+            "producer":"Nagraj Manjule, Nitin Keni, and Nikhil Sane",
+            "cast":["Rinku Rajguru", "Akash Thosar"],
+            "rating":"8.0/10 (IMDb)",
+            "description":"Sairat is a love story that transcends social boundaries, exploring the challenges faced by a young couple from different castes in rural Maharashtra. The film captures the raw emotions and harsh realities of societal norms, making it a powerful and acclaimed romantic drama.",
+            "music_director":"Ajay-Atul"
+
+        }
+    ]
+}
