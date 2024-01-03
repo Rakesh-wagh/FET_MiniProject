@@ -1,8 +1,23 @@
-"use strict";
+import MovieService from "../Services/Movies_Service.js";
+// Fetching data from json
+$(document).ready(() => {
+  MovieService.getmovieDetails()
+    .then((response) => {
+      let data = response.data;
+      for (let i of data) {
+        let card = `<div class="Mcard">
+      <img src="${i.img}" alt="Movie" />
+      <h3>${i.title}</h3>
+      <p>${i.genre}</p>
+      <p>${i.language}</p>
+    </div>`;
+        $(".Movie-container").append(card);
+      }
+    })
+    .catch(() => {});
+});
 
-/**
- * add event on multiple elements
- */
+// ("use strict");
 
 const addEventOnElements = function (elem, type, callback) {
   for (let i = 0, len = elem.length; i < len; i++) {
@@ -21,10 +36,7 @@ window.addEventListener("load", function () {
   document.body.classList.add("loaded");
 });
 
-/**
- * MOBILE NAVBAR TOGGLE
- */
-
+// Navbar Toggle
 const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
 const navbarLinks = document.querySelectorAll("[data-nav-link]");

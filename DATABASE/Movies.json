@@ -7,11 +7,12 @@
             "duration_minutes":"112 minutes",
             "language":"English",
             "director":"James Wan",
-            "producer":"Peter Safran, Rob Cowan",
+            "producer":"Peter Safran,Vera Farmiga",
             "cast":["Vera Farmiga","Patrick Wilson","Lili Taylor"],
             "rating":" 7.5/10 (IMDb)",
             "description":"Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. As they dig deeper, they encounter sinister forces.",
-            "music_director":"Joseph Bishara"
+            "music_director":"Joseph Bishara",
+            "img":"../IMAGES/cover_img/theconjuring.webp"
            
         },
 
@@ -26,22 +27,24 @@
             "cast":["Rajkummar Rao","Shraddha Kapoor","Pankaj Tripathi"],
             "rating":"7.6/10 (IMDb)",
             "description":"In the town of Chanderi, men start disappearing every night, leaving behind their clothes. The mysterious entity responsible is believed to be the ghost of a woman, Stree, who stalks and abducts men.Unfortunately, I couldn't find the music director for Stree, but I hope you find these recommendations intriguing!",
-            "music_director":"Sachin–Jigar"
+            "music_director":"Sachin–Jigar",
+            "img":"../IMAGES/cover_img/stree.webp"
 
         },
 
         {
             "id":"3",
-            "title":"The Grand Budapest Hotel",
+            "title":"Wonka",
             "genre":"Comedy",
-            "duration_minutes":"99 minutes",
+            "duration_minutes":"116 minutes",
             "language":"English",
-            "director":"Wes Anderson",
-            "producer":"Wes Anderson, Scott Rudin, Steven Rales, Jeremy Dawson",
-            "cast":["Ralph Fiennes","Tony Revolori","F. Murray Abraham","Jude Law, Saoirse Ronan","Adrien Brody"],
-            "rating":"8.1/10 (IMDb)",
-            "description":"This whimsical comedy follows the adventures of a hotel concierge and his protégé as they become embroiled in a comedic caper involving stolen art, murder, and the pursuit of a valuable Renaissance painting.",
-            "music_director":"Alexandre Desplat"
+            "director":"Paul King",
+            "producer":"Nathan Crowley",
+            "cast":["Timothee Chalamet","Rowan Atkinson","Calah Lane"],
+            "rating":"8.7/10 (IMDb)",
+            "description":"Based on the extraordinary character of Charlie and the Chocolate Factory, Roald Dahl`s most iconic children`s book, Wonka tells the wondrous story of how the world`s greatest inventor, magician and chocolate-maker became the beloved Willy Wonka we know today.",
+            "music_director":"Paul King",
+            "img":"../IMAGES/cover_img/wonka.webp"
 
         },
 
@@ -56,7 +59,8 @@
             "cast":["Aamir Khan","Salman Khan","Raveena Tandon","Karisma Kapoor","Paresh Rawal","Shakti Kapoor"],
             "rating":"Rating: 8.2/10 (IMDb)",
             "description":"A classic Bollywood comedy, Andaz Apna Apna revolves around two slackers who dream of getting rich by wooing an heiress. The film is a laughter riot with memorable characters and hilarious situations.Please note that ratings and details may vary, and it's always a good idea to check the latest information before watching.",
-            "music_director":"Tushar Bhatia"
+            "music_director":"Tushar Bhatia",
+            "img":"../IMAGES/cover_img/andaz-apna-apna.webp"
 
         },
 
@@ -71,7 +75,8 @@
             "cast":["Tom Hardy","Charlize Theron","Nicholas Hoult"],
             "rating":"8.1/10 (IMDb)",
             "description":" In a post-apocalyptic wasteland, Max teams up with Furiosa to escape a tyrannical warlord and his army, leading to a high-octane, relentless pursuit across the desert.Hindi Action Movie:",
-            "music_director":"junkie XL"
+            "music_director":"junkie XL",
+            "img":"../IMAGES/cover_img/mad-max-fury-road.webp"
 
         },
 
@@ -86,7 +91,8 @@
             "cast":["Prabha","Rana Daggubati","Anushka Shetty"],
             "rating":"8.1/10 (IMDb)",
             "description":"The film follows the epic journey of Shivudu as he discovers his roots, faces powerful enemies, and unravels the mystery behind the kingdom of Mahishmati, featuring breathtaking action sequences and visual effects.Please note that ratings may vary, and these are approximate values from IMDb as of my last update in January 2022.",
-            "music_director":"M.M. Keeravani"
+            "music_director":"M.M. Keeravani",
+            "img":"../IMAGES/cover_img/baahubali-the-beginning.webp"
 
         },
 
@@ -101,7 +107,8 @@
             "cast":[ "Ayushmann Khurrana", "Tabu", "Radhika Apte"],
             "rating":"8.3/10 (IMDb)",
             "description":"Andhadhun is a suspenseful thriller where a visually impaired pianist becomes entangled in a web of crime after witnessing a murder. The film keeps the audience on the edge with its unpredictable twists and turns.Please note that the ratings are based on IMDb scores as of my last knowledge update in January 2022, and they may have changed since then.",
-            "music_director":"Raftaar and Girish Nakod, and Amit Trivedi"
+            "music_director":"Raftaar and Girish Nakod, and Amit Trivedi",
+            "img":"../IMAGES/cover_img/andhadhun.webp"
 
         },
         {
@@ -115,7 +122,8 @@
             "cast":["Ben Affleck", "Rosamund Pike", "Neil Patrick Harris", "Tyler Perry"],
             "rating":"8.1/10 (IMDb)",
             "description":"Gone Girl is a gripping mystery thriller that explores the complexities of a marriage in the midst of a high-profile disappearance. As the media frenzy unfolds, secrets unravel, and the line between truth and deception blurs.",
-            "music_director":"Tent Reznor "
+            "music_director":"Tent Reznor ",
+            "img":"../IMAGES/cover_img/gone-girl.webp"
 
         }
         ,
@@ -130,7 +138,8 @@
             "cast":["Ryan Gosling", "Rachel McAdams"],
             "rating":"7.8/10 (IMDb)",
             "description":"The Notebook is a heartwarming tale of young love and enduring passion. It follows the story of Noah and Allie, who fall deeply in love during the summer but are separated by societal expectations. The movie explores the power of true love and the impact of choices made throughout a lifetime.",
-            "music_director":"Aaron Zigman"
+            "music_director":"Aaron Zigman",
+            "img":"../IMAGES/cover_img/the-notebook.webp"
 
         }
         ,
@@ -145,7 +154,8 @@
             "cast":["Shah Rukh Khan", "Kajol"],
             "rating":"8.1/10 (IMDb)",
             "description":"Dilwale Dulhania Le Jayenge is a timeless classic that tells the story of Raj and Simran, two individuals who fall in love during a trip to Europe. However, their love faces opposition from Simran's conservative father. The movie is celebrated for its memorable dialogues, iconic scenes, and its portrayal of traditional values.",
-            "music_director":"Jatin-Lalit"
+            "music_director":"Jatin-Lalit",
+            "img":"../IMAGES/cover_img/DDLJ.webp"
 
         }
         ,
@@ -160,7 +170,8 @@
             "cast":["Rinku Rajguru", "Akash Thosar"],
             "rating":"8.0/10 (IMDb)",
             "description":"Sairat is a love story that transcends social boundaries, exploring the challenges faced by a young couple from different castes in rural Maharashtra. The film captures the raw emotions and harsh realities of societal norms, making it a powerful and acclaimed romantic drama.",
-            "music_director":"Ajay-Atul"
+            "music_director":"Ajay-Atul",
+            "img":"../IMAGES/cover_img/sairat.webp"
 
         }
     ]
