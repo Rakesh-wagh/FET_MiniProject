@@ -3,58 +3,142 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Events Page</title>
-    <script src="../PLUGINS/All_cdn.js"></script>
+    <title>Document</title>
     <link rel="stylesheet" href="../SCSS/Events_Page.css" />
+    <script src="../PLUGINS/All_cdn.js"></script>
   </head>
   <body>
-    <h4>Filters</h4>
-    <div class="sidebar sidebarMenu d-flex">
-      <div class="first w-100">
-        <h5>Languages</h5>
-        <ul class="d-flex p-2 m-2">
-          <li><a href="">Marathi</a></li>
-          <li><a href="">English</a></li>
-          <li><a href="">Hindi</a></li>
-        </ul>
-      </div>
-      <div class="second w-100">
-        <h5>Genres</h5>
-        <ul class="d-flex p-2 m-2">
-          <li><a href="">Action</a</li>
-          <li><a href="">Comedy</a></li>
-          <li><a href="">Romance</a></li>
-          <li><a href="">Adventure</a></li>
-        </ul>
-      </div>
-    
-    </div>
-    <div class="right d-flex">
-      <h4>Events in Pune</h4>
-      <div class="Mcard">
-        <img src="../IMAGES/salaar.webp" alt="Events" />
-        <h3>Events Title</h3>
-        <p>Genre:</p>
-        <p>Languages:</p>
-      </div>
-      <div class="Mcard">
-        <img src="../IMAGES/salaar.webp" alt="Events" />
-        <h3>Events Title</h3>
-        <p>Genre:</p>
-        <p>Languages:</p>
-      </div>
-      <div class="Mcard">
-        <img src="../IMAGES/salaar.webp" alt="Events" />
-        <h3>Events Title</h3>
-        <p>Genre:</p>
-        <p>Languages:</p>
-      </div>
-      <div class="Mcard">
-        <img src="../IMAGES/salaar.webp" alt="Events" />
-        <h3>Events Title</h3>
-        <p>Genre:</p>
-        <p>Languages:</p>
-      </div>
+    <div class="container main-container">
+      <header id="header" class="header"><h2>Events</h2></header>
+
+      <section id="section" class="section">
+        <div class="row m-3">
+          <div
+            class="Events-container col-3 col-md-6 col-sm-12 mb-3"
+            style="width: 18rem"
+            class="c1"
+          >
+            <div class="card-body">
+              <img
+                src="../IMAGES/cover_img/the-notebook.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <h3 class="card-title">The Notebook</h3>
+              <a href="#" class="Events_explore">Explore</a>
+            </div>
+          </div>
+
+          <div
+            class="Events-container col-3 col-md-6 col-sm-12 mb-3"
+            style="width: 18rem"
+            class="c1"
+          >
+            <div class="card-body">
+              <img
+                src="../IMAGES/cover_img/andaz-apna-apna.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <h3 class="card-title">Andaz Apna Apna</h3>
+              <a href="#" class="Events_explore">Explore</a>
+            </div>
+          </div>
+
+          <div
+            class="Events-container col-3 col-md-6 col-sm-12 mb-3"
+            style="width: 18rem"
+            class="c1"
+          >
+            <div class="card-body">
+              <img
+                src="../IMAGES/cover_img/baahubali-the-beginning.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <h3 class="card-title">Bahubali:The Beginning</h3>
+              <a href="#" class="Events_explore">Explore</a>
+            </div>
+          </div>
+          <div
+            class="Events-container col-3 col-md-6 col-sm-12 mb-3"
+            style="width: 18rem"
+            class="c1"
+          >
+            <div class="card-body">
+              <img
+                src="../IMAGES/cover_img/DDLJ.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <h3 class="card-title">DDLJ</h3>
+              <a href="#" class="Events_explore">Explore</a>
+            </div>
+          </div>
+          <div
+            class="Events-container col-3 col-md-6 col-sm-12 mb-3"
+            style="width: 18rem"
+            class="c1"
+          >
+            <div class="card-body">
+              <img
+                src="../IMAGES/cover_img/andhadhun.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <h3 class="card-title">Andhadhund</h3>
+              <a href="#" class="Events_explore">Explore</a>
+            </div>
+          </div>
+          <div
+            class="Events-container col-3 col-md-6 col-sm-12 mb-3"
+            style="width: 18rem"
+            class="c1"
+          >
+            <div class="card-body">
+              <img
+                src="../IMAGES/cover_img/mad-max-fury-road.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <h3 class="card-title">Mad Max Fury Road</h3>
+              <a href="#" class="Events_explore">Explore</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside id="aside" class="aside">
+        <div
+          class="div col-3 col-md-6 col-sm-12 mb-3 filter_card"
+          style="width: 18rem"
+          class="as-1"
+        >
+          <span>Language</span>
+          <div class="filter">
+            <button type="button" class="button">English</button>
+            <button type="button" class="button">Hindi</button>
+            <button type="button" class="button">Marathi</button>
+            <!-- <button type="button" class="button">All</button> -->
+          </div>
+        </div>
+
+        <div
+          class="div col-3 col-md-6 col-sm-12 mb-3 filter_card"
+          style="width: 18rem"
+          class="as-2"
+        >
+          <span>Genre</span>
+          <div class="filter">
+            <button type="button" class="button">Comedy</button>
+            <button type="button" class="button">Horror</button>
+            <button type="button" class="button">Thriller</button><br />
+            <button type="button" class="button">Romantic</button>
+            <button type="button" class="button">All</button>
+          </div>
+        </div>
+      </aside>
+      <footer id="footer" class="footer">FOOTER</footer>
     </div>
   </body>
 </html>
