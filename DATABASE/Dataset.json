@@ -44,7 +44,7 @@
             "rating":"8.7/10 (IMDb)",
             "description":"Based on the extraordinary character of Charlie and the Chocolate Factory, Roald Dahl`s most iconic children`s book, Wonka tells the wondrous story of how the world`s greatest inventor, magician and chocolate-maker became the beloved Willy Wonka we know today.",
             "music_director":"Paul King",
-            "img":"../IMAGES/cover_img/wonka_50.webp"
+            "img":"../IMAGES/cover_img/wonka.webp"
 
         },
 
@@ -174,5 +174,80 @@
             "img":"../IMAGES/cover_img/sairat.webp"
 
         }
-    ]
+    ],
+    "events": [
+        {
+          "event_id":1,
+          "event_name": "Rambo Circus",
+          "artist_name": "African Artists",
+          "venue": "Phoenix MarketCity, Pune",
+          "date": "January 4 2024",
+          "time": "06:30 PM",
+          "ticket_price": "₹ 350 onwards",
+          "about_event": "Catch a whiff of nostalgia at the award-winning Rambo Circus! The age old circus has some classics and lots of new tricks for you - from death-defying acts like Contortion, German Wheel, Cycle Tricks, Rolla Bolla to fresh new acts like roller skating, ladder balance. And how can one forget the entertaining acts of the beloved clowns!",
+          "terms_and_conditions": "1. No outside food and drinks allowed. 2. No video recording allowed.",
+          "event_poster": "../IMAGES/Events/img1.webp"
+        },
+        {
+          "event_id":2,
+          "event_name": "Standup Comedy",
+          "artist_name": "Zakir Khan",
+          "venue": "Mayfield Estate, Pune",
+          "date": "January 21, 2024",
+          "time": "05:30 PM",
+          "ticket_price": "₹ 1499 onwards",
+          "about_event": "1Ready for a night of giggles and gastronomic delights? Clear your calendars and leave your 'Hmm..accha thik hain' attitude at the door because the sultan of stand-up, Zakir Khan is rolling into your town like a laughter tornado with his new tour",
+          "terms_and_conditions": "1. Age Limit: 18+ 2. Tickets once booked cannot be exchanged or refunded 3. Entry will be first come, first serve basis as per your ticket category",
+          "event_poster": "../IMAGES/Events/img2.webp"
+        },
+        {    
+          "event_id":3,
+          "event_name": "Ed Sheran: +-=x India Tour",
+          "artist_name": "Ed Sheran",
+          "venue": "Mahalakshmi Race Course, Mumbai",
+          "date": "March 16, 2024",
+          "time": "03:00 PM",
+          "ticket_price": "₹ 8500 onwards",
+          "about_event": "We're Thinking Out Loud here, but picture yourself at Ed Sheeran's LIVE concert!",
+          "terms_and_conditions": "1. By accepting, holding or using a ticket, you acknowledge that you have read, understood, accepted and agreed to the full terms and conditions. 2. Admits one (1) person of age 5 years and above only. ",
+          "event_poster": "../IMAGES/Events/img3.webp"
+        },
+        {
+          "event_id":4,
+          "event_name": "Kisi Ko Batana Mat",
+          "artist_name": "Anubhav Singh Bassi",
+          "venue": "Rang Sharda, Mumbai",
+          "date": "January 28, 2024",
+          "time": "05:00 PM",
+          "ticket_price": "₹ 1500",
+          "about_event": "After the great success of his previous show Bas kar bassi, Anubhav Singh Bassi is coming back to perform live on stage. This time, he will bring a whole new set of funny stories and jokes that will keep you entertained. Get ready to enjoy an exciting and hilarious performance that will make you laugh uncontrollably and leave you in high spirits.",
+          "terms_and_conditions": "1. Tickets once booked cannot be exchanged or refunded 2. An Internet handling fee per ticket may be levied. Please check the total amount before payment",
+          "event_poster": "../IMAGES/Events/img4.webp"
+        },
+        {
+          "event_id":5,
+          "event_name": "Toxic-Stand Up Comedy",
+          "artist_name": "Abhishek Upmanyu",
+          "venue": "JT Performing Arts Centre, Kochi",
+          "date": "January 31, 2024",
+          "time": "10:30 AM",
+          "ticket_price": "₹ 999 onwards",
+          "about_event": "In Abhishek Upmanyu Live, Abhishek takes you on a hilarious journey through the everyday quirks and absurdities of life. With his unique observational humor, he takes everything from relationships and technology to Indian culture and more, offering a fresh perspective on the world we live in.",
+          "terms_and_conditions": "1. Tickets once booked cannot be exchanged or refunded 2. An Internet handling fee per ticket may be levied. Please check the total amount before payment",
+          "event_poster": "../IMAGES/Events/img5.webp"
+        },
+        {
+          "event_id":6,
+          "event_name": "Musical Fiesta",
+          "artist_name": "Mahesh Kale",
+          "venue": "Mahakavi Kalidas Kalamandir, Nashik",
+          "date": "January 15, 2024",
+          "time": "05:00 PM",
+          "ticket_price": "₹ 500 onwards",
+          "about_event": "The great or the best is Sawaai and this is a collection of best of Mahesh Kale's songs. This event is specially designed for his fans.",
+          "terms_and_conditions": "No professional videography allowed. Strictly no resale of tickets.",
+          "event_poster": "../IMAGES/Events/img6.webp"
+        }
+    
+      ]
 }
