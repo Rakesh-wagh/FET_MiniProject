@@ -4,19 +4,23 @@ $(document).ready(() => {
   MovieService.getmovieDetails()
     .then((response) => {
       let data = response.data;
+      let count = 1;
       for (let i of data) {
+        if (count > 4) {
+          break;
+        }
+        count++;
         let card = `<div class="Mcard">
       <img src="${i.img}" alt="Movie" />
       <h3>${i.title}</h3>
-      <p>${i.genre}</p>
-      <p>${i.language}</p>
+      <p >${i.genre}</p>
+      <p >${i.language}</p>
     </div>`;
         $(".Movie-container").append(card);
       }
     })
     .catch(() => {});
 });
-
 // ("use strict");
 
 const addEventOnElements = function (elem, type, callback) {
