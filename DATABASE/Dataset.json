@@ -1,253 +1,291 @@
 {
-    "movies":[
-        {
-            "id":"1",
-            "title":"The Conjuring",            
-            "genre":"Horror",
-            "duration_minutes":"112 minutes",
-            "language":"English",
-            "director":"James Wan",
-            "producer":"Peter Safran,Vera Farmiga",
-            "cast":["Vera Farmiga","Patrick Wilson","Lili Taylor"],
-            "rating":" 7.5/10 (IMDb)",
-            "description":"Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. As they dig deeper, they encounter sinister forces.",
-            "music_director":"Joseph Bishara",
-            "img":"../IMAGES/cover_img/theconjuring_50.webp"
-           
-        },
-
-        {
-            "id":"2",
-            "title":"Stree",
-            "genre":"Horror",
-            "duration_minutes":"128 minutes",
-            "language":"Hindi",
-            "director":"Amar Kushik",
-            "producer":"Dinesh Vijan, Raj & D.K.",
-            "cast":["Rajkummar Rao","Shraddha Kapoor","Pankaj Tripathi"],
-            "rating":"7.6/10 (IMDb)",
-            "description":"In the town of Chanderi, men start disappearing every night, leaving behind their clothes. The mysterious entity responsible is believed to be the ghost of a woman, Stree, who stalks and abducts men.Unfortunately, I couldn't find the music director for Stree, but I hope you find these recommendations intriguing!",
-            "music_director":"Sachin–Jigar",
-            "img":"../IMAGES/cover_img/stree_360x480.webp"
-
-        },
-
-        {
-            "id":"3",
-            "title":"Wonka",
-            "genre":"Comedy",
-            "duration_minutes":"116 minutes",
-            "language":"English",
-            "director":"Paul King",
-            "producer":"Nathan Crowley",
-            "cast":["Timothee Chalamet","Rowan Atkinson","Calah Lane"],
-            "rating":"8.7/10 (IMDb)",
-            "description":"Based on the extraordinary character of Charlie and the Chocolate Factory, Roald Dahl`s most iconic children`s book, Wonka tells the wondrous story of how the world`s greatest inventor, magician and chocolate-maker became the beloved Willy Wonka we know today.",
-            "music_director":"Paul King",
-            "img":"../IMAGES/cover_img/wonka.webp"
-
-        },
-
-        {
-            "id":"4",
-            "title":"Andaz Apna Apna",
-            "genre":"Comedy",
-            "duration_minutes":"160 minutes",
-            "language":"Hindi",
-            "director":"Rajkumar Santoshi",
-            "producer":"Vinay Kumar Sinha",
-            "cast":["Aamir Khan","Salman Khan","Raveena Tandon","Karisma Kapoor","Paresh Rawal","Shakti Kapoor"],
-            "rating":"Rating: 8.2/10 (IMDb)",
-            "description":"A classic Bollywood comedy, Andaz Apna Apna revolves around two slackers who dream of getting rich by wooing an heiress. The film is a laughter riot with memorable characters and hilarious situations.Please note that ratings and details may vary, and it's always a good idea to check the latest information before watching.",
-            "music_director":"Tushar Bhatia",
-            "img":"../IMAGES/cover_img/andaz-apna-apna.webp"
-
-        },
-
-        {
-            "id":"5",
-            "title":"Mad Max: Fury Road",
-            "genre":"Action",
-            "duration_minutes":"120 minutes",
-            "language":"English",
-            "director":"George Miller",
-            "producer":"Doug Mitchell, George Miller, P.J. Voeten",
-            "cast":["Tom Hardy","Charlize Theron","Nicholas Hoult"],
-            "rating":"8.1/10 (IMDb)",
-            "description":" In a post-apocalyptic wasteland, Max teams up with Furiosa to escape a tyrannical warlord and his army, leading to a high-octane, relentless pursuit across the desert.Hindi Action Movie:",
-            "music_director":"junkie XL",
-            "img":"../IMAGES/cover_img/mad-max-fury-road_360x480.webp"
-
-        },
-
-        {
-            "id":"6",
-            "title":"Baahubali: The Beginning",
-            "genre":"Action",
-            "duration_minutes":"",
-            "language":"Hindi",
-            "director":"S. S. Rajamouli",
-            "producer":"Shobu Yarlagadda, Prasad Devineni",
-            "cast":["Prabha","Rana Daggubati","Anushka Shetty"],
-            "rating":"8.1/10 (IMDb)",
-            "description":"The film follows the epic journey of Shivudu as he discovers his roots, faces powerful enemies, and unravels the mystery behind the kingdom of Mahishmati, featuring breathtaking action sequences and visual effects.Please note that ratings may vary, and these are approximate values from IMDb as of my last update in January 2022.",
-            "music_director":"M.M. Keeravani",
-            "img":"../IMAGES/cover_img/baahubali-the-beginning_360x480.webp"
-
-        },
-
-        {
-            "id":"7",
-            "title":"Andhadhun",
-            "genre":"Thriller",
-            "duration_minutes":"139 minutes",
-            "language":"Hindi",
-            "director":"Sriram Raghavan",
-            "producer":"Viacom18 Motion Pictures, Matchbox Pictures",
-            "cast":[ "Ayushmann Khurrana", "Tabu", "Radhika Apte"],
-            "rating":"8.3/10 (IMDb)",
-            "description":"Andhadhun is a suspenseful thriller where a visually impaired pianist becomes entangled in a web of crime after witnessing a murder. The film keeps the audience on the edge with its unpredictable twists and turns.Please note that the ratings are based on IMDb scores as of my last knowledge update in January 2022, and they may have changed since then.",
-            "music_director":"Raftaar and Girish Nakod, and Amit Trivedi",
-            "img":"../IMAGES/cover_img/andhadhun_360x480.webp"
-
-        },
-        {
-            "id":"8",
-            "title":"Gone Girl",            
-            "genre":"Thriller",
-            "duration_minutes":"149 minutes",
-            "language":"English",
-            "director":"David Fincher",
-            "producer":"Leslie Dixon, Bruna Papandrea, Reese Witherspoon, Cean Chaffin",
-            "cast":["Ben Affleck", "Rosamund Pike", "Neil Patrick Harris", "Tyler Perry"],
-            "rating":"8.1/10 (IMDb)",
-            "description":"Gone Girl is a gripping mystery thriller that explores the complexities of a marriage in the midst of a high-profile disappearance. As the media frenzy unfolds, secrets unravel, and the line between truth and deception blurs.",
-            "music_director":"Tent Reznor ",
-            "img":"../IMAGES/cover_img/gone-girl.webp"
-
-        }
-        ,
-        {
-            "id":"9",
-            "title":"The Notebook",
-            "genre":"Romantic",
-            "duration_minutes":"123 minutes",
-            "language":"English",
-            "director":"Nick Cassavetes",
-            "producer":"Mark Johnson",
-            "cast":["Ryan Gosling", "Rachel McAdams"],
-            "rating":"7.8/10 (IMDb)",
-            "description":"The Notebook is a heartwarming tale of young love and enduring passion. It follows the story of Noah and Allie, who fall deeply in love during the summer but are separated by societal expectations. The movie explores the power of true love and the impact of choices made throughout a lifetime.",
-            "music_director":"Aaron Zigman",
-            "img":"../IMAGES/cover_img/the-notebook.webp"
-
-        }
-        ,
-        {
-            "id":"10",
-            "title":"Dilwale Dulhania Le Jayenge",
-            "genre":"Romantic",
-            "duration_minutes":"189 minutes",
-            "language":"Hindi",
-            "director":"Aditya Chopra",
-            "producer":"Yash Chopra",
-            "cast":["Shah Rukh Khan", "Kajol"],
-            "rating":"8.1/10 (IMDb)",
-            "description":"Dilwale Dulhania Le Jayenge is a timeless classic that tells the story of Raj and Simran, two individuals who fall in love during a trip to Europe. However, their love faces opposition from Simran's conservative father. The movie is celebrated for its memorable dialogues, iconic scenes, and its portrayal of traditional values.",
-            "music_director":"Jatin-Lalit",
-            "img":"../IMAGES/cover_img/DDLJ_360x480.webp"
-
-        }
-        ,
-        {
-            "id":"11",
-            "title":"Sairat",
-            "genre":"Romantic",
-            "duration_minutes":"174 minutes",
-            "language":"Marathi",
-            "director":"Nagraj Manjule",
-            "producer":"Nagraj Manjule, Nitin Keni, and Nikhil Sane",
-            "cast":["Rinku Rajguru", "Akash Thosar"],
-            "rating":"8.0/10 (IMDb)",
-            "description":"Sairat is a love story that transcends social boundaries, exploring the challenges faced by a young couple from different castes in rural Maharashtra. The film captures the raw emotions and harsh realities of societal norms, making it a powerful and acclaimed romantic drama.",
-            "music_director":"Ajay-Atul",
-            "img":"../IMAGES/cover_img/sairat.webp"
-
-        }
-    ],
-    "events": [
-        {
-          "event_id":1,
-          "event_name": "Rambo Circus",
-          "artist_name": "African Artists",
-          "venue": "Phoenix MarketCity, Pune",
-          "date": "January 4 2024",
-          "time": "06:30 PM",
-          "ticket_price": "₹ 350 onwards",
-          "about_event": "Catch a whiff of nostalgia at the award-winning Rambo Circus! The age old circus has some classics and lots of new tricks for you - from death-defying acts like Contortion, German Wheel, Cycle Tricks, Rolla Bolla to fresh new acts like roller skating, ladder balance. And how can one forget the entertaining acts of the beloved clowns!",
-          "terms_and_conditions": "1. No outside food and drinks allowed. 2. No video recording allowed.",
-          "event_poster": "../IMAGES/Events/img1.webp"
-        },
-        {
-          "event_id":2,
-          "event_name": "Standup Comedy",
-          "artist_name": "Zakir Khan",
-          "venue": "Mayfield Estate, Pune",
-          "date": "January 21, 2024",
-          "time": "05:30 PM",
-          "ticket_price": "₹ 1499 onwards",
-          "about_event": "1Ready for a night of giggles and gastronomic delights? Clear your calendars and leave your 'Hmm..accha thik hain' attitude at the door because the sultan of stand-up, Zakir Khan is rolling into your town like a laughter tornado with his new tour",
-          "terms_and_conditions": "1. Age Limit: 18+ 2. Tickets once booked cannot be exchanged or refunded 3. Entry will be first come, first serve basis as per your ticket category",
-          "event_poster": "../IMAGES/Events/img2.webp"
-        },
-        {    
-          "event_id":3,
-          "event_name": "Ed Sheran: +-=x India Tour",
-          "artist_name": "Ed Sheran",
-          "venue": "Mahalakshmi Race Course, Mumbai",
-          "date": "March 16, 2024",
-          "time": "03:00 PM",
-          "ticket_price": "₹ 8500 onwards",
-          "about_event": "We're Thinking Out Loud here, but picture yourself at Ed Sheeran's LIVE concert!",
-          "terms_and_conditions": "1. By accepting, holding or using a ticket, you acknowledge that you have read, understood, accepted and agreed to the full terms and conditions. 2. Admits one (1) person of age 5 years and above only. ",
-          "event_poster": "../IMAGES/Events/img3.webp"
-        },
-        {
-          "event_id":4,
-          "event_name": "Kisi Ko Batana Mat",
-          "artist_name": "Anubhav Singh Bassi",
-          "venue": "Rang Sharda, Mumbai",
-          "date": "January 28, 2024",
-          "time": "05:00 PM",
-          "ticket_price": "₹ 1500",
-          "about_event": "After the great success of his previous show Bas kar bassi, Anubhav Singh Bassi is coming back to perform live on stage. This time, he will bring a whole new set of funny stories and jokes that will keep you entertained. Get ready to enjoy an exciting and hilarious performance that will make you laugh uncontrollably and leave you in high spirits.",
-          "terms_and_conditions": "1. Tickets once booked cannot be exchanged or refunded 2. An Internet handling fee per ticket may be levied. Please check the total amount before payment",
-          "event_poster": "../IMAGES/Events/img4.webp"
-        },
-        {
-          "event_id":5,
-          "event_name": "Toxic-Stand Up Comedy",
-          "artist_name": "Abhishek Upmanyu",
-          "venue": "JT Performing Arts Centre, Kochi",
-          "date": "January 31, 2024",
-          "time": "10:30 AM",
-          "ticket_price": "₹ 999 onwards",
-          "about_event": "In Abhishek Upmanyu Live, Abhishek takes you on a hilarious journey through the everyday quirks and absurdities of life. With his unique observational humor, he takes everything from relationships and technology to Indian culture and more, offering a fresh perspective on the world we live in.",
-          "terms_and_conditions": "1. Tickets once booked cannot be exchanged or refunded 2. An Internet handling fee per ticket may be levied. Please check the total amount before payment",
-          "event_poster": "../IMAGES/Events/img5.webp"
-        },
-        {
-          "event_id":6,
-          "event_name": "Musical Fiesta",
-          "artist_name": "Mahesh Kale",
-          "venue": "Mahakavi Kalidas Kalamandir, Nashik",
-          "date": "January 15, 2024",
-          "time": "05:00 PM",
-          "ticket_price": "₹ 500 onwards",
-          "about_event": "The great or the best is Sawaai and this is a collection of best of Mahesh Kale's songs. This event is specially designed for his fans.",
-          "terms_and_conditions": "No professional videography allowed. Strictly no resale of tickets.",
-          "event_poster": "../IMAGES/Events/img6.webp"
-        }
-    
-      ]
+  "Users": [
+    {
+      "_FullName": "John William",
+      "_email": "John@yahoo.com",
+      "_gender": "Male",
+      "_date_of_birth": "2000-05-14",
+      "_password": "4785",
+      "_address": "Harinagar",
+      "_phone": "7458962514",
+      "_state": "maharashtra",
+      "_city": "Aurangabad",
+      "id": 1
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "title": "The Conjuring",
+      "genre": "Horror",
+      "duration_minutes": "112 minutes",
+      "language": "English",
+      "director": "James Wan",
+      "producer": "Peter Safran,Vera Farmiga",
+      "cast": [
+        "Vera Farmiga",
+        "Patrick Wilson",
+        "Lili Taylor"
+      ],
+      "rating": " 7.5/10 (IMDb)",
+      "description": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. As they dig deeper, they encounter sinister forces.",
+      "music_director": "Joseph Bishara",
+      "img": "../IMAGES/cover_img/theconjuring_50.webp"
+    },
+    {
+      "id": "2",
+      "title": "Stree",
+      "genre": "Horror",
+      "duration_minutes": "128 minutes",
+      "language": "Hindi",
+      "director": "Amar Kushik",
+      "producer": "Dinesh Vijan, Raj & D.K.",
+      "cast": [
+        "Rajkummar Rao",
+        "Shraddha Kapoor",
+        "Pankaj Tripathi"
+      ],
+      "rating": "7.6/10 (IMDb)",
+      "description": "In the town of Chanderi, men start disappearing every night, leaving behind their clothes. The mysterious entity responsible is believed to be the ghost of a woman, Stree, who stalks and abducts men.Unfortunately, I couldn't find the music director for Stree, but I hope you find these recommendations intriguing!",
+      "music_director": "Sachin–Jigar",
+      "img": "../IMAGES/cover_img/stree_360x480.webp"
+    },
+    {
+      "id": "3",
+      "title": "Wonka",
+      "genre": "Comedy",
+      "duration_minutes": "116 minutes",
+      "language": "English",
+      "director": "Paul King",
+      "producer": "Nathan Crowley",
+      "cast": [
+        "Timothee Chalamet",
+        "Rowan Atkinson",
+        "Calah Lane"
+      ],
+      "rating": "8.7/10 (IMDb)",
+      "description": "Based on the extraordinary character of Charlie and the Chocolate Factory, Roald Dahl`s most iconic children`s book, Wonka tells the wondrous story of how the world`s greatest inventor, magician and chocolate-maker became the beloved Willy Wonka we know today.",
+      "music_director": "Paul King",
+      "img": "../IMAGES/cover_img/wonka.webp"
+    },
+    {
+      "id": "4",
+      "title": "Andaz Apna Apna",
+      "genre": "Comedy",
+      "duration_minutes": "160 minutes",
+      "language": "Hindi",
+      "director": "Rajkumar Santoshi",
+      "producer": "Vinay Kumar Sinha",
+      "cast": [
+        "Aamir Khan",
+        "Salman Khan",
+        "Raveena Tandon",
+        "Karisma Kapoor",
+        "Paresh Rawal",
+        "Shakti Kapoor"
+      ],
+      "rating": "Rating: 8.2/10 (IMDb)",
+      "description": "A classic Bollywood comedy, Andaz Apna Apna revolves around two slackers who dream of getting rich by wooing an heiress. The film is a laughter riot with memorable characters and hilarious situations.Please note that ratings and details may vary, and it's always a good idea to check the latest information before watching.",
+      "music_director": "Tushar Bhatia",
+      "img": "../IMAGES/cover_img/andaz-apna-apna.webp"
+    },
+    {
+      "id": "5",
+      "title": "Mad Max: Fury Road",
+      "genre": "Action",
+      "duration_minutes": "120 minutes",
+      "language": "English",
+      "director": "George Miller",
+      "producer": "Doug Mitchell, George Miller, P.J. Voeten",
+      "cast": [
+        "Tom Hardy",
+        "Charlize Theron",
+        "Nicholas Hoult"
+      ],
+      "rating": "8.1/10 (IMDb)",
+      "description": " In a post-apocalyptic wasteland, Max teams up with Furiosa to escape a tyrannical warlord and his army, leading to a high-octane, relentless pursuit across the desert.Hindi Action Movie:",
+      "music_director": "junkie XL",
+      "img": "../IMAGES/cover_img/mad-max-fury-road_360x480.webp"
+    },
+    {
+      "id": "6",
+      "title": "Baahubali: The Beginning",
+      "genre": "Action",
+      "duration_minutes": "",
+      "language": "Hindi",
+      "director": "S. S. Rajamouli",
+      "producer": "Shobu Yarlagadda, Prasad Devineni",
+      "cast": [
+        "Prabha",
+        "Rana Daggubati",
+        "Anushka Shetty"
+      ],
+      "rating": "8.1/10 (IMDb)",
+      "description": "The film follows the epic journey of Shivudu as he discovers his roots, faces powerful enemies, and unravels the mystery behind the kingdom of Mahishmati, featuring breathtaking action sequences and visual effects.Please note that ratings may vary, and these are approximate values from IMDb as of my last update in January 2022.",
+      "music_director": "M.M. Keeravani",
+      "img": "../IMAGES/cover_img/baahubali-the-beginning_360x480.webp"
+    },
+    {
+      "id": "7",
+      "title": "Andhadhun",
+      "genre": "Thriller",
+      "duration_minutes": "139 minutes",
+      "language": "Hindi",
+      "director": "Sriram Raghavan",
+      "producer": "Viacom18 Motion Pictures, Matchbox Pictures",
+      "cast": [
+        "Ayushmann Khurrana",
+        "Tabu",
+        "Radhika Apte"
+      ],
+      "rating": "8.3/10 (IMDb)",
+      "description": "Andhadhun is a suspenseful thriller where a visually impaired pianist becomes entangled in a web of crime after witnessing a murder. The film keeps the audience on the edge with its unpredictable twists and turns.Please note that the ratings are based on IMDb scores as of my last knowledge update in January 2022, and they may have changed since then.",
+      "music_director": "Raftaar and Girish Nakod, and Amit Trivedi",
+      "img": "../IMAGES/cover_img/andhadhun_360x480.webp"
+    },
+    {
+      "id": "8",
+      "title": "Gone Girl",
+      "genre": "Thriller",
+      "duration_minutes": "149 minutes",
+      "language": "English",
+      "director": "David Fincher",
+      "producer": "Leslie Dixon, Bruna Papandrea, Reese Witherspoon, Cean Chaffin",
+      "cast": [
+        "Ben Affleck",
+        "Rosamund Pike",
+        "Neil Patrick Harris",
+        "Tyler Perry"
+      ],
+      "rating": "8.1/10 (IMDb)",
+      "description": "Gone Girl is a gripping mystery thriller that explores the complexities of a marriage in the midst of a high-profile disappearance. As the media frenzy unfolds, secrets unravel, and the line between truth and deception blurs.",
+      "music_director": "Tent Reznor ",
+      "img": "../IMAGES/cover_img/gone-girl.webp"
+    },
+    {
+      "id": "9",
+      "title": "The Notebook",
+      "genre": "Romantic",
+      "duration_minutes": "123 minutes",
+      "language": "English",
+      "director": "Nick Cassavetes",
+      "producer": "Mark Johnson",
+      "cast": [
+        "Ryan Gosling",
+        "Rachel McAdams"
+      ],
+      "rating": "7.8/10 (IMDb)",
+      "description": "The Notebook is a heartwarming tale of young love and enduring passion. It follows the story of Noah and Allie, who fall deeply in love during the summer but are separated by societal expectations. The movie explores the power of true love and the impact of choices made throughout a lifetime.",
+      "music_director": "Aaron Zigman",
+      "img": "../IMAGES/cover_img/the-notebook.webp"
+    },
+    {
+      "id": "10",
+      "title": "Dilwale Dulhania Le Jayenge",
+      "genre": "Romantic",
+      "duration_minutes": "189 minutes",
+      "language": "Hindi",
+      "director": "Aditya Chopra",
+      "producer": "Yash Chopra",
+      "cast": [
+        "Shah Rukh Khan",
+        "Kajol"
+      ],
+      "rating": "8.1/10 (IMDb)",
+      "description": "Dilwale Dulhania Le Jayenge is a timeless classic that tells the story of Raj and Simran, two individuals who fall in love during a trip to Europe. However, their love faces opposition from Simran's conservative father. The movie is celebrated for its memorable dialogues, iconic scenes, and its portrayal of traditional values.",
+      "music_director": "Jatin-Lalit",
+      "img": "../IMAGES/cover_img/DDLJ_360x480.webp"
+    },
+    {
+      "id": "11",
+      "title": "Sairat",
+      "genre": "Romantic",
+      "duration_minutes": "174 minutes",
+      "language": "Marathi",
+      "director": "Nagraj Manjule",
+      "producer": "Nagraj Manjule, Nitin Keni, and Nikhil Sane",
+      "cast": [
+        "Rinku Rajguru",
+        "Akash Thosar"
+      ],
+      "rating": "8.0/10 (IMDb)",
+      "description": "Sairat is a love story that transcends social boundaries, exploring the challenges faced by a young couple from different castes in rural Maharashtra. The film captures the raw emotions and harsh realities of societal norms, making it a powerful and acclaimed romantic drama.",
+      "music_director": "Ajay-Atul",
+      "img": "../IMAGES/cover_img/sairat.webp"
+    }
+  ],
+  "events": [
+    {
+      "event_id": 1,
+      "event_name": "Rambo Circus",
+      "artist_name": "African Artists",
+      "venue": "Phoenix MarketCity, Pune",
+      "date": "January 4 2024",
+      "time": "06:30 PM",
+      "ticket_price": "₹ 350 onwards",
+      "about_event": "Catch a whiff of nostalgia at the award-winning Rambo Circus! The age old circus has some classics and lots of new tricks for you - from death-defying acts like Contortion, German Wheel, Cycle Tricks, Rolla Bolla to fresh new acts like roller skating, ladder balance. And how can one forget the entertaining acts of the beloved clowns!",
+      "terms_and_conditions": "1. No outside food and drinks allowed. 2. No video recording allowed.",
+      "event_poster": "../IMAGES/Events/img1.webp"
+    },
+    {
+      "event_id": 2,
+      "event_name": "Standup Comedy",
+      "artist_name": "Zakir Khan",
+      "venue": "Mayfield Estate, Pune",
+      "date": "January 21, 2024",
+      "time": "05:30 PM",
+      "ticket_price": "₹ 1499 onwards",
+      "about_event": "1Ready for a night of giggles and gastronomic delights? Clear your calendars and leave your 'Hmm..accha thik hain' attitude at the door because the sultan of stand-up, Zakir Khan is rolling into your town like a laughter tornado with his new tour",
+      "terms_and_conditions": "1. Age Limit: 18+ 2. Tickets once booked cannot be exchanged or refunded 3. Entry will be first come, first serve basis as per your ticket category",
+      "event_poster": "../IMAGES/Events/img2.webp"
+    },
+    {
+      "event_id": 3,
+      "event_name": "Ed Sheran: +-=x India Tour",
+      "artist_name": "Ed Sheran",
+      "venue": "Mahalakshmi Race Course, Mumbai",
+      "date": "March 16, 2024",
+      "time": "03:00 PM",
+      "ticket_price": "₹ 8500 onwards",
+      "about_event": "We're Thinking Out Loud here, but picture yourself at Ed Sheeran's LIVE concert!",
+      "terms_and_conditions": "1. By accepting, holding or using a ticket, you acknowledge that you have read, understood, accepted and agreed to the full terms and conditions. 2. Admits one (1) person of age 5 years and above only. ",
+      "event_poster": "../IMAGES/Events/img3.webp"
+    },
+    {
+      "event_id": 4,
+      "event_name": "Kisi Ko Batana Mat",
+      "artist_name": "Anubhav Singh Bassi",
+      "venue": "Rang Sharda, Mumbai",
+      "date": "January 28, 2024",
+      "time": "05:00 PM",
+      "ticket_price": "₹ 1500",
+      "about_event": "After the great success of his previous show Bas kar bassi, Anubhav Singh Bassi is coming back to perform live on stage. This time, he will bring a whole new set of funny stories and jokes that will keep you entertained. Get ready to enjoy an exciting and hilarious performance that will make you laugh uncontrollably and leave you in high spirits.",
+      "terms_and_conditions": "1. Tickets once booked cannot be exchanged or refunded 2. An Internet handling fee per ticket may be levied. Please check the total amount before payment",
+      "event_poster": "../IMAGES/Events/img4.webp"
+    },
+    {
+      "event_id": 5,
+      "event_name": "Toxic-Stand Up Comedy",
+      "artist_name": "Abhishek Upmanyu",
+      "venue": "JT Performing Arts Centre, Kochi",
+      "date": "January 31, 2024",
+      "time": "10:30 AM",
+      "ticket_price": "₹ 999 onwards",
+      "about_event": "In Abhishek Upmanyu Live, Abhishek takes you on a hilarious journey through the everyday quirks and absurdities of life. With his unique observational humor, he takes everything from relationships and technology to Indian culture and more, offering a fresh perspective on the world we live in.",
+      "terms_and_conditions": "1. Tickets once booked cannot be exchanged or refunded 2. An Internet handling fee per ticket may be levied. Please check the total amount before payment",
+      "event_poster": "../IMAGES/Events/img5.webp"
+    },
+    {
+      "event_id": 6,
+      "event_name": "Musical Fiesta",
+      "artist_name": "Mahesh Kale",
+      "venue": "Mahakavi Kalidas Kalamandir, Nashik",
+      "date": "January 15, 2024",
+      "time": "05:00 PM",
+      "ticket_price": "₹ 500 onwards",
+      "about_event": "The great or the best is Sawaai and this is a collection of best of Mahesh Kale's songs. This event is specially designed for his fans.",
+      "terms_and_conditions": "No professional videography allowed. Strictly no resale of tickets.",
+      "event_poster": "../IMAGES/Events/img6.webp"
+    }
+  ]
 }
