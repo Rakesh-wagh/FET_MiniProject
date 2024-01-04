@@ -8,26 +8,13 @@
     <link rel="stylesheet" href="../SCSS/Login.css" />
   </head>
   <body>
-    <div class="login-background">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="text-center fs-1 mt-5 mb-3 greetings-color">
-              Welcome
-            </div>
-            <div class="text-center mb-5 greetings-color">
-              Welcome to Book Me!!
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
+        <div class="row main-card">
           <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3">
             <div class="card border-0 rounded mb-3 shadow">
               <div class="card-body">
-                <h5 class="card-title text-center mb-5 mt-4">Log in</h5>
+                <h5 class="card-title text-center mb-5 mt-4">Log In</h5>
                 <form method="post">
-                  <label for="">Email:</label>
+                  <label for="">Email:*</label>
                   <div class="mb-3 input-group shadow p-2">
                     <span class="input-icon my-2">
                       <i class="far fa-envelope mx-2"></i>
@@ -37,9 +24,10 @@
                       id="username"
                       class="form-control input-box"
                       placeholder="Email"
+                      required
                     />
                   </div>
-                  <label for="">Password:</label>
+                  <label for="">Password:*</label>
                   <div class="mb-3 input-group shadow p-2">
                     <span class="input-icon my-2">
                       <i class="fas fa-lock mx-2"></i>
@@ -49,12 +37,11 @@
                       id="password"
                       class="form-control input-box"
                       placeholder="Password"
+                      required
                     />
                   </div>
                   <div class="text-start mb-5">
-                    <a href="./Forgot.html" class="password-color" id="forgot"
-                      >Forgot Password?</a
-                    >
+                
                     <a href="./Register.html" class="password-color" id="signup"
                       >Sign Up</a
                     >

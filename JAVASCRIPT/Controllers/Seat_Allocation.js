@@ -4,6 +4,9 @@ const count = document.getElementById("count");
 const total = document.getElementById("total");
 const movieSelect = document.getElementById("movie");
 
+// Get the username input field
+const usernameInput = document.getElementById("username");
+
 let ticketPrice = +movieSelect.value;
 
 //Update total and count

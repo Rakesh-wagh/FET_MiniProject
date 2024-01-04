@@ -19,6 +19,7 @@ $(document).ready(() => {
               ans = 1;
               sessionStorage.setItem("Username", uId);
               sessionStorage.setItem("Id", User.id);
+              sessionStorage.setItem("loggedIn", true);
               sessionStorage.setItem("Name", User._email);
               console.log(User._email);
               window.location.href = "index.html";

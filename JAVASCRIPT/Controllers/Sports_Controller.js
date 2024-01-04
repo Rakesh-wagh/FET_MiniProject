@@ -1,7 +1,7 @@
-import EventService from "../Services/Events_Service.js";
+import SportService from "../Services/Sports_Service.js";
 // Fetching data from json
 $(document).ready(() => {
-  EventService.geteventDetails()
+  SportService.getsportDetails()
     .then((response) => {
       console.log(response);
       let data = response.data;
@@ -9,17 +9,18 @@ $(document).ready(() => {
         let card = `
         <div
         class="movie-container col-3 col-md-6 col-sm-12 mb-3 c1"
+        style="width: 18rem"
        
-      ><div class="card-body Mcard ">
+      ><div class="card-body Mcard">
         <img
-          src="${i.event_poster}"
+          src="${i.sports_poster}"
           class="card-img-top"
           alt="..."
         />
-        <h3 class="card-title">${i.event_name}</h3>
+        <h3 class="card-title">${i.sportName}</h3>
         <a href="#" class="movie_explore">Explore</a>
       </div></div>`;
-        $(".Event-container").append(card);
+        $(".Sports-container").append(card);
         $(".row").append(card);
       }
     })

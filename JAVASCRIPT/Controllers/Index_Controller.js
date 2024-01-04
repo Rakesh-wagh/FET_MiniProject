@@ -22,7 +22,7 @@ $(document).ready(() => {
       }
       //For redirection of movies
       $(".Go").click(function () {
-        var Id = $(this).attr("categoryId");
+        const Id = $(this).attr("categoryId");
         window.location.href = "Bio_Page.html?id=" + Id;
       });
     })

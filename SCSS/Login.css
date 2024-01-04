@@ -4,10 +4,12 @@
 }
 
 .button-color {
-  background-color: var(--marigold) !important;
   color: #ffffff;
-  height: 60px;
-  width: 39%;
+  border: 2px solid var(--marigold);
+  background-color: var(--marigold);
+  font-size: 13px;
+  margin: 10px auto;
+  font-family: var(--ff-poppins);
 }
 
 label {
@@ -19,12 +21,9 @@ label {
 #signup {
   position: absolute;
   right: 25px;
+  margin-top: 5px;
 }
-#register {
-  font-size: 30px;
-  font-family: var(--ff-poppins);
-  /* font-weight: 700; */
-}
+
 .input-icon {
   background-color: #ffffff !important;
   border: 0;
@@ -34,31 +33,11 @@ label {
   border: 0;
   box-shadow: none;
 }
-.input-box:focus {
-  box-shadow: none;
-}
 
-.login-background {
-  height: 100%;
-}
-
-.greetings-color {
-  color: #ffffff;
-}
-.email-phone {
-  display: grid;
-  grid-template-rows: 1fr;
-}
 .main-card {
-  height: 750px;
-  margin-top: 2px;
+  margin-top: 10%;
+  align-items: center;
 }
-
-.register_button {
-  border: 2px solid var(--marigold);
-  background-color: var(--marigold);
-  font-size: 13px;
-  margin-left: 43%;
-  margin-top: 6px;
-  font-family: var(--ff-poppins);
+.card-title {
+  font-size: 25px;
 }

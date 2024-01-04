@@ -5,7 +5,7 @@
       "_email": "John@yahoo.com",
       "_gender": "Male",
       "_date_of_birth": "2000-05-14",
-      "_password": "4785",
+      "_password": "1111",
       "_address": "Harinagar",
       "_phone": "7458962514",
       "_state": "maharashtra",
@@ -286,6 +286,118 @@
       "about_event": "The great or the best is Sawaai and this is a collection of best of Mahesh Kale's songs. This event is specially designed for his fans.",
       "terms_and_conditions": "No professional videography allowed. Strictly no resale of tickets.",
       "event_poster": "../IMAGES/Events/img6.webp"
+    }
+  ],
+  "sports": [
+    {
+      "sports_id": 1,
+      "sportName": "Mumbai Half Marathon",
+      "place": "Bandra Fort Garden, Mumbai",
+      "date": "January 4, 2024",
+      "time": "05:30 AM",
+      "ticket_price": "₹ 1500 onwards",
+      "about": "Run will be on scenic Bandstand Carter Road Route.All Participants will get Bib, Medal, T-Shirt, Banana, Water, Breakfast and e-Certificate.",
+      "terms_and_conditions": "1. Age Categories - 10 years to 44 years and 45 years to 59 years and 60 years and above Male and Female. 2. We recommend that you arrive at-least 30 minutes prior at the venue for a seamless entry. ",
+      "sports_poster": "../IMAGES/sports_data/img1.jpg"
+    },
+    {
+      "sports_id": 2,
+      "sportName": "Football - Mumbai City FC vs Bengaluru FC",
+      "place": "Mumbai Football Arena, Mumbai",
+      "date": "January 17, 2024",
+      "time": "6:00 PM",
+      "ticket_price": "₹ 1999 onwards",
+      "about": "A high-intensity football match in the Indian Super League.",
+      "terms_and_conditions": "1. Entry allowed with valid tickets only. 2. No re-entry after exiting the stadium. 3. Alcoholic beverages not permitted.",
+      "sports_poster": "../IMAGES/sports_data/img2.jpg"
+    },
+    {
+      "sports_id": 3,
+      "sportName": "Cricket - IPL T20: Mumbai Indians vs Chennai Super Kings",
+      "place": "Wankhede Stadium, Mumbai",
+      "date": "February 4, 2024",
+      "time": "8:00 PM",
+      "ticket_price": "₹ 2999 onwards",
+      "about": "The biggest rivalry of IPL between Mumbai Indians and Chennai Super Kings.",
+      "terms_and_conditions": "1. No resale of tickets allowed. 2. Alcoholic beverages not permitted inside the stadium. 3. Security checks mandatory.",
+      "sports_poster": "../IMAGES/sports_data/img3.jpg"
+    },
+    {
+      "sports_id": 4,
+      "sportName": "Commonwealth Games - Athletics",
+      "place": "Shree Shiv Chhatrapati Sports Complex, Pune",
+      "date": "February 4, 2024",
+      "time": "9:00 AM",
+      "ticket_price": "₹ 499 onwards",
+      "about": "Athletic events showcasing global talent in the Commonwealth Games.",
+      "terms_and_conditions": "1. No entry without a valid ticket. 2. Security checks at the entrance. 3. Prohibited items include weapons and sharp objects.",
+      "sports_poster": "../IMAGES/sports_data/img4.jpg"
+    },
+    {
+      "sports_id": 5,
+      "sportName": "Football - Indian Super League Semifinals",
+      "place": "Shree Shiv Chhatrapati Sports Complex, Pune",
+      "date": "March 19, 2024",
+      "time": "7:30 PM",
+      "ticket_price": "₹ 999 onwards",
+      "about": "The semifinal matches of the Indian Super League with top teams battling for a spot in the final.",
+      "terms_and_conditions": "1. Entry allowed with valid tickets only. 2. No outside food or beverages allowed. 3. Parking available on a first-come, first-served basis.",
+      "sports_poster": "../IMAGES/sports_data/img5.jpg"
+    },
+    {
+      "sports_id": 6,
+      "sportName": "Cricket - IPL T20: Mumbai Indians vs Royal Challengers Banglore",
+      "place": "DY Patil Stadium, Mumbai",
+      "date": "March 23, 2024",
+      "time": "8:00 PM",
+      "ticket_price": "₹ 2599 onwards",
+      "about": "An intense IPL match between Mumbai Indians and Royal Challengers Banglore promising exciting cricket moments.",
+      "terms_and_conditions": "1. No resale of tickets allowed. 2. Alcoholic beverages not permitted inside the stadium. 3. Security checks mandatory.",
+      "sports_poster": "../IMAGES/sports_data/img6.jpg"
+    },
+    {
+      "sports_id": 7,
+      "sportName": "Kabaddi - Pro Kabaddi League",
+      "place": "NSCI Dome, Mumbai",
+      "date": "March 28, 2024",
+      "time": "6:30 PM",
+      "ticket_price": "₹ 1299 onwards",
+      "about": "A high-stakes match in the Pro Kabaddi League showcasing exceptional talent.",
+      "terms_and_conditions": "1. No entry without a valid ticket. 2. Limited parking available. 3. Spectators to adhere to seating arrangements.",
+      "sports_poster": "../IMAGES/sports_data/img7.jpg"
+    },
+    {
+      "sports_id": 8,
+      "sportName": "Cricket - India vs Pakistan T20",
+      "place": "Wankhede Stadium, Mumbai",
+      "date": "March 30, 2024",
+      "time": "7:30 PM",
+      "ticket_price": "₹ 3999 onwards",
+      "about": "An intense T20 match between arch-rivals India and Pakistan.",
+      "terms_and_conditions": "1. No resale of tickets allowed. 2. Alcoholic beverages not permitted. 3. Security checks at stadium entrances.",
+      "sports_poster": "../IMAGES/sports_data/img8.jpg"
+    },
+    {
+      "sports_id": 9,
+      "sportName": "Football - Pune City FC vs FC Goa",
+      "place": "Balewadi Stadium, Pune",
+      "date": "April 4, 2024",
+      "time": "7:30 PM",
+      "ticket_price": "₹ 499 onwards",
+      "about": "A thrilling match in the Indian Super League between Pune City FC and FC Goa.",
+      "terms_and_conditions": "1. Entry allowed with valid tickets only. 2. No outside food or beverages allowed. 3. Bag checks at the entrance.",
+      "sports_poster": "../IMAGES/sports_data/img9.jpg"
+    },
+    {
+      "sports_id": 10,
+      "sportName": "Commonwealth Games - Wrestling",
+      "place": "Shree Shiv Chhatrapati Sports Complex, Pune",
+      "date": "April 14, 2024",
+      "time": "11:00 AM",
+      "ticket_price": "₹ 999 onwards",
+      "about": "Wrestling events featuring global competitors in the Commonwealth Games.",
+      "terms_and_conditions": "1. No entry without a valid ticket. 2. Security checks at the entrance. 3. Prohibited items include weapons and sharp objects.",
+      "sports_poster": "../IMAGES/sports_data/img10.jpg"
     }
   ]
 }

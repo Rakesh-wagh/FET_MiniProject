@@ -184,7 +184,7 @@ body.active {
 .h3,
 .h4,
 .h5 {
-  color: var(--jet);
+  color: black;
   font-weight: var(--fw-700);
   line-height: 1.2;
 }
@@ -266,7 +266,9 @@ body.active {
 .btn-secondary::after {
   background-color: var(--marigold);
 }
-
+#movie_section {
+  background-color: white;
+}
 .btn-secondary:is(:hover, :focus-visible) {
   color: var(--white);
 }
@@ -277,6 +279,11 @@ body.active {
 
 .section-title {
   margin-block-end: 20px;
+
+  padding-left: 15px;
+  font-style: var(--ff-poppins);
+  color: var(--marigold);
+  background-color: white;
 }
 
 .grid-list {
@@ -471,7 +478,7 @@ body.active {
 }
 
 .navbar-link {
-  color: var(--eerie-black);
+  color: var(--marigold);
   padding-block: 12px;
 }
 
@@ -490,19 +497,28 @@ body.active {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.Sports-container {
+  display: grid;
+  background-color: rgb(87, 86, 84);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 .Mcard {
   position: relative;
   display: inline-block;
+  text-align: center;
   max-height: 400px;
+  background-color: white;
   min-width: 100px;
   max-width: 220px;
   margin: 21px 16px;
-  border: 2px solid var(--light-gray);
+  margin-left: 20%;
+  border: 2px solid var(--marigold);
   border-radius: 9px;
   padding: 2px 2px;
+  color: var(--marigold);
 }
 .Mcard:hover {
-  box-shadow: 3px 3px 2px var(--marigold);
+  box-shadow: 0 4px 8px 0 var(--marigold), 0 6px 20px 0 var(--marigold);
 }
 .Mcard img {
   height: 75%;
@@ -541,16 +557,23 @@ body.active {
   \*-----------------------------------*/
 
 .partnership {
-  background-color: var(--jet);
+  background-color: grey;
   overflow-x: hidden;
 }
 
 .partnership .section-title {
   text-align: center;
-  color: var(--white);
-  margin-block-end: 50px;
+  color: var(--marigold);
+  margin-block-end: 20px;
+  background-color: grey;
+  border-radius: 8px;
+  text-shadow: 2px 2px 3px white;
+  border: 2px solid var(--marigold);
 }
-
+.carousel {
+  top: 50px;
+  position: relative;
+}
 .partnership-card {
   position: relative;
 }

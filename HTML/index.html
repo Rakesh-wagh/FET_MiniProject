@@ -47,9 +47,6 @@
               <a href="./Movie.html" class="navbar-link" data-nav-link>Movies</a>
             </li>
 
-            <li class="navbar-item">
-              <a href="./Music.html" class="navbar-link" data-nav-link>Music</a>
-            </li>
 
             <li class="navbar-item">
               <a href="./Sports.html" class="navbar-link" data-nav-link>Sports</a>
@@ -76,7 +73,7 @@
           </button>
         </div>
         <div class="header-action">
-          <a href="./Login.html" class="btn btn-primary has-after">Login</a>
+          <a href="./Login.html" class="btn btn-primary has-after" id="loginbtn">Login</a>
         </div>
 
         <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
@@ -86,7 +83,33 @@
         <div class="overlay" data-overlay data-nav-toggler></div>
       </div>
     </header>
-
+<!-- Carausal  -->
+<div id="carouselExampleIndicators" class="carousel slide mt-5">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../IMAGES/carousel/img1.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../IMAGES/carousel/img4.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../IMAGES/carousel/img5.webp" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
     <!-- Movies Cards -->
     <section class="movies section" style="padding-top: 100px">
       <h2 class="section-title">Recommended Movies</h2>
@@ -98,7 +121,7 @@
     <!-- Sports Cards  -->
     <section class="Sports section">
       <h2 class="section-title">Sports</h2>
-      <div class="Movie-container">
+      <div class="Sports-container">
       </div>
     </section>
     <!-- Events Cards -->
@@ -160,7 +183,7 @@
               </figure>
 
               <div class="card-content">
-                <h3 class="h5 card-title">Events</h3>
+                <h3 class="h5 card-title">EVENTS</h3>
 
                 <a href="#" class="btn btn-primary has-after">
                   <span class="span">EXPLORE</span>
@@ -327,8 +350,21 @@
       </div>
     <!-- </footer> -->
 
+    <!-- Check User Logged In  -->
+    <script>
+      document.addEventListener('DOMContentLoaded',function(){
+        if (sessionStorage.getItem('loggedIn')==='true') {
+          document.getElementById("loginbtn").textContent='Logout';
+          document.getElementById("loginbtn").addEventListener('click',function(){
+            sessionStorage.clear();
+          })
+          
+        }
+      })
+    </script>
     <script src="../JAVASCRIPT/Controllers/Index_Controller.js" type="module"></script>
     <script src="../JAVASCRIPT/Controllers/Event_Controller.js" type="module"></script>
+    <script src="../JAVASCRIPT/Controllers/Sports_Controller.js" type="module"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
