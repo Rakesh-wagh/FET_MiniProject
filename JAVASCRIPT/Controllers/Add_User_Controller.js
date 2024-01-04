@@ -5,7 +5,7 @@ import User from "../Models/User.js";
 
 $(document).ready(function () {
   // $("#register").click(function () {
-  $(document).on("click", "#register", function () {
+  $(document).on("click", ".register_button", function () {
     let name = $("#name").val();
     let password = "";
     let password1 = $("#password").val();
@@ -27,9 +27,10 @@ $(document).ready(function () {
     if (password1 === password2) {
       password = $("#cpassword").val();
     } else {
-      alert("Re-enter Your Password");
+      alert("Password Not Matched !!");
       return false;
     }
+
     // create model of User (class)
     let user = new User();
     user.FullName = name;
@@ -41,12 +42,11 @@ $(document).ready(function () {
     user.phone = phone;
     user.state = state;
     user.city = city;
-
+    alert("User Created Successfully");
     //call service method
     UserService.addUsersDetails(user)
       .then((response) => {
-        alert("User Created Successfully");
-        window.location.href = "../../html/Login.html";
+        window.location.href = "../HTML/Login.html";
       })
       .catch((error) => {
         console.log("Error: ", error);

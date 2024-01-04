@@ -1,12 +1,20 @@
-.button-color {
-  background-color: #5e72e3 !important;
-  color: #ffffff;
+:root {
+  --marigold: hsl(39, 96%, 48%);
+  --ff-poppins: "Poppins", sans-serif;
 }
+
+.button-color {
+  background-color: var(--marigold) !important;
+  color: #ffffff;
+  height: 60px;
+  width: 39%;
+}
+
 label {
   font-weight: bold;
 }
 .password-color {
-  color: #5e72e3 !important;
+  color: var(--marigold) !important;
 }
 #signup {
   position: absolute;
@@ -14,8 +22,8 @@ label {
 }
 #register {
   font-size: 30px;
-  font-family: sans-serif;
-  font-weight: 700;
+  font-family: var(--ff-poppins);
+  /* font-weight: 700; */
 }
 .input-icon {
   background-color: #ffffff !important;
@@ -32,7 +40,6 @@ label {
 
 .login-background {
   height: 100%;
-  background-image: linear-gradient(165deg, #5e72e3 50%, #ffffff 10%);
 }
 
 .greetings-color {
@@ -41,4 +48,17 @@ label {
 .email-phone {
   display: grid;
   grid-template-rows: 1fr;
+}
+.main-card {
+  height: 750px;
+  margin-top: 2px;
+}
+
+.register_button {
+  border: 2px solid var(--marigold);
+  background-color: var(--marigold);
+  font-size: 13px;
+  margin-left: 43%;
+  margin-top: 6px;
+  font-family: var(--ff-poppins);
 }

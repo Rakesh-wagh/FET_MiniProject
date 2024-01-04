@@ -10,14 +10,21 @@ $(document).ready(() => {
           break;
         }
         count++;
-        let card = `<div class="Mcard">
+        let card = `<div class="Mcard" >
       <img src="${i.img}" alt="Movie" />
       <h3>${i.title}</h3>
       <p >${i.genre}</p>
       <p >${i.language}</p>
+     <a id="Go" class="Go stretched-link" categoryId="${i.id}"></a>
+     
     </div>`;
         $(".Movie-container").append(card);
       }
+      //For redirection of movies
+      $(".Go").click(function () {
+        var Id = $(this).attr("categoryId");
+        window.location.href = "Bio_Page.html?id=" + Id;
+      });
     })
     .catch(() => {});
 });

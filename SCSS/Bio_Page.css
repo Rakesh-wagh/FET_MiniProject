@@ -14,11 +14,16 @@
 }
 .left-card {
   height: 90%;
-  background: url(https://th.bing.com/th/id/OIP.H6Vz9zpi9tCZZe1rjvNalQHaL2?rs=1&pid=ImgDetMain);
+  /* background: url(); */
   background-size: cover;
   box-shadow: 6px 6px 5px black;
   width: 16vw;
   border-radius: 7px;
+}
+.left-card img {
+  height: inherit;
+  width: inherit;
+  top: 20px;
 }
 .right {
   height: 50%;

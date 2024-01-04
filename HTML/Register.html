@@ -8,27 +8,17 @@
     <link rel="stylesheet" href="../SCSS/Login.css" />
   </head>
   <body>
-    <div class="login-background">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="text-center fs-1 mt-5 mb-3 greetings-color">
-              Welcome
-            </div>
-            <div class="text-center mb-5 greetings-color">
-              Welcome to Book Me!!
-            </div>
-          </div>
-        </div>
+    
 
-        <div class="row">
-          <div class="col-lg-10 col-md-8 col-sm-5 m-auto">
-            <div class="card border-0 rounded mb-3 shadow">
-              <div class="card-body">
-                <h5 class="card-title text-center mb-5 mt-4" id="register">
+        <div class="row mt-1">
+          <div class="col-lg-5 col-md-4 col-sm-3 m-auto">
+            <div class="card border-0 rounded mb-1 shadow main-card">
+              <div class="card-body " >
+                <h5 class="card-title text-center mb-4 mt-2" id="register" >
                   Registration
                 </h5>
-                <label for="name" class="font-weight-bold">Full Name:</label>
+                <form action="" id="registrationForm" method="post">
+                <label for="name" class="font-weight-bold">Full Name:*</label>
                 <div class="mb-3 input-group shadow p-2">
                   <input
                     type="text"
@@ -39,7 +29,9 @@
                     maxlength="30"
                   />
                 </div>
-                <label for="email">Email:</label>
+                <div class="row">
+                  <div class="col-lg-6 col-md-5 col-sm-4 m-auto">
+                <label for="email">Email:*</label>
                 <div class="mb-3 input-group shadow p-2">
                   <input
                     type="email"
@@ -49,8 +41,10 @@
                     required
                   />
                 </div>
+                  </div>
+                  <div class="col-lg-6 col-md-5 col-sm-4 m-auto">
                 <label for="phone" class="font-weight-bold"
-                  >Phone Number:</label
+                  >Phone Number:*</label
                 >
                 <div class="mb-3 input-group shadow p-2">
                   <input
@@ -62,6 +56,10 @@
                     maxlength="10"
                   />
                 </div>
+              </div>
+              </div>
+                <div class="row">
+                  <div class="col-lg-6 col-md-5 col-sm-4 m-auto">
                 <label for="dob" class="font-weight-bold">Date Of Birth:</label>
                 <div class="mb-3 input-group shadow p-2">
                   <input
@@ -71,7 +69,9 @@
                     id="dob"
                   />
                 </div>
-                <label for="gender" class="font-weight-bold">Gender:</label>
+                  </div>
+                  <div class="col-lg-6 col-md-5 col-sm-4 m-auto">
+                <label for="gender" class="font-weight-bold">Gender:*</label>
                 <div class="mb-3 input-group shadow p-2">
                   <input
                     type="radio"
@@ -95,6 +95,8 @@
                     class="m-2"
                   />Other
                 </div>
+              </div>
+                </div>
                 <label for="address" class="font-weight-bold">Address:</label>
                 <div class="mb-3 input-group shadow p-2">
                   <input
@@ -104,7 +106,9 @@
                     id="address"
                   />
                 </div>
-                <label for="city" class="font-weight-bold">City:</label>
+                <div class="row">
+                  <div class="col-lg-6 col-md-5 col-sm-4 m-auto">
+                <label for="city" class="font-weight-bold">City:*</label>
                 <div class="mb-3 input-group shadow p-2">
                   <input
                     type="text"
@@ -114,7 +118,9 @@
                     required
                   />
                 </div>
-                <label for="state" class="font-weight-bold">State:</label>
+                  </div>
+                  <div class="col-lg-6 col-md-5 col-sm-4 m-auto">
+                <label for="state" class="font-weight-bold">State:*</label>
                 <div class="mb-3 input-group shadow p-2">
                   <input
                     type="text"
@@ -124,9 +130,12 @@
                     required
                   />
                 </div>
-
+              </div>
+                </div>
+                <div class="row">
+                <div class="col-lg-6 col-md-5 col-sm-4 m-auto">
                 <label for="password" class="font-weight-bold"
-                  >Create Password:</label
+                  >Create Password:*</label
                 >
                 <div class="mb-3 input-group shadow p-2">
                   <input
@@ -137,9 +146,14 @@
                     placeholder="Create Password"
                     maxlength="10"
                   />
+                  <div id="password-validation-message" class="text-danger"></div>
+
                 </div>
+              </div>
+              <div class="col-lg-6 col-md-5 col-sm-4 m-auto">
+              
                 <label for="cpassword" class="font-weight-bold"
-                  >Confirm Password:</label
+                  >Confirm Password:*</label
                 >
                 <div class="mb-3 input-group shadow p-2">
                   <input
@@ -148,14 +162,23 @@
                     maxlength="10"
                     class="form-control input-box"
                     placeholder="Confirm Password"
+                    required
                   />
-                </div>
-                <div class="text-center mb-5 my-5">
-                  <a type="button" class="btn button-color" id="register">
-                    Register
-                  </a>
+                  <div id="password-validation-message" class="text-danger"></div>
+
                 </div>
               </div>
+              </div><br><br>
+
+                <!-- <div class="text-center mb-3 my-3 ">
+                  <a type="button" class="btn button-color btn-sm" >
+                    Register
+                  </a>
+                </div> -->
+                <div id="reg-btn">
+                <a type="submit"  class="btn register_button" id="submitBtn" >Register</a>
+              </div>
+            </form>
             </div>
           </div>
         </div>
