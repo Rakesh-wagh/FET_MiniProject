@@ -5,6 +5,12 @@ $(document).ready(() => {
     let username = $("#username").val();
     let password = $("#password").val();
 
+    // Validate email and password
+    if (username === "" || password === "") {
+      alert("Please enter both email and password");
+      return false; // Prevent form submission
+    }
+
     console.log(username, password);
     let ans = 0;
 

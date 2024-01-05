@@ -6,15 +6,22 @@
 .main {
   width: 100%;
   opacity: 0.8;
+  position: relative;
   height: 55vh;
-  background: url(https://th.bing.com/th/id/OIP.H6Vz9zpi9tCZZe1rjvNalQHaL2?rs=1&pid=ImgDetMain);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+}
+.genre,
+.rating {
+  color: white;
+  font-size: 20px;
+}
+.main img {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  height: inherit;
 }
 .left-card {
   height: 90%;
-  /* background: url(); */
   background-size: cover;
   box-shadow: 6px 6px 5px black;
   width: 16vw;
@@ -23,7 +30,10 @@
 .left-card img {
   height: inherit;
   width: inherit;
-  top: 20px;
+  opacity: 1;
+  top: 34px;
+  z-index: 500;
+  border-radius: 8px;
 }
 .right {
   height: 50%;
@@ -31,13 +41,15 @@
   position: absolute;
   left: 20rem;
   top: 25px;
+  z-index: 500;
 }
 .subheading {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
   line-height: 30px;
   margin-top: 10px;
-  color: rgb(0, 0, 0);
+  color: white;
 }
 .description {
   font-size: 18px;
@@ -45,16 +57,19 @@
 }
 .about {
   margin: 15px 3px;
+  color: black;
 }
 .outer-container {
   height: 180px;
   padding: 8px;
+  display: flex;
   margin: 10px 4px;
   width: 180px;
 }
 .outer-container img {
   border-radius: 60px;
   width: 120px;
+  margin: 10px;
   height: 120px;
 }
 .cast-name {

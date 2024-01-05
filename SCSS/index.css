@@ -495,7 +495,7 @@ body.active {
   width: 100%;
   text-wrap: wrap; */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
 }
 .Sports-container {
   display: grid;
@@ -510,7 +510,7 @@ body.active {
   background-color: white;
   min-width: 100px;
   max-width: 220px;
-  margin: 21px 16px;
+  margin: 10px 5px;
   margin-left: 20%;
   border: 2px solid var(--marigold);
   border-radius: 9px;

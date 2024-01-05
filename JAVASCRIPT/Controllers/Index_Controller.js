@@ -41,15 +41,15 @@ $(document).ready(() => {
       <img src="${i.sports_poster}" alt="Movie" />
       <h3>${i.sportName}</h3>
       <p >${i.place}</p>
-     <a id="GoToSports" class="Go stretched-link" categoryId="${i.sports_id}"></a>
+     <a id="GoToSports" class="GoToSports stretched-link" sportId="${i.sports_id}"></a>
      
     </div>`;
       $(".Sports-container").append(card);
     }
     //For redirection of sports
     $(".GoToSports").click(function () {
-      const Id = $(this).attr("categoryId");
-      window.location.href = "Bio_Page.html?id=" + Id;
+      const SId = $(this).attr("sportId");
+      window.location.href = "Seat_Allocation.html?SId=" + SId;
     });
   });
   // For Fetching Event Data
@@ -67,15 +67,15 @@ $(document).ready(() => {
       <h3>${i.event_name}</h3>
       <p >${i.artist_name}</p>
       <p >${i.ticket_price}</p>
-     <a id="GoToEvents" class="Go stretched-link" categoryId="${i.id}"></a>
+     <a id="GoToEvents" class="GoToEvents stretched-link" EventId="${i.event_id}"></a>
      
     </div>`;
         $(".Event-container").append(card);
       }
       //For redirection of events
       $(".GoToEvents").click(function () {
-        const Id = $(this).attr("categoryId");
-        window.location.href = "Bio_Page.html?id=" + Id;
+        const EId = $(this).attr("EventId");
+        window.location.href = "Seat_Allocation.html?EId=" + EId;
       });
     })
     .catch((err) => {

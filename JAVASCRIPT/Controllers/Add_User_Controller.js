@@ -2,7 +2,6 @@ import UserService from "../Services/Add_User_Service.js";
 import User from "../Models/User.js";
 
 // Main Function
-
 $(document).ready(function () {
   // $("#register").click(function () {
   $(document).on("click", ".register_button", function () {
@@ -28,6 +27,28 @@ $(document).ready(function () {
       password = $("#cpassword").val();
     } else {
       alert("Password Not Matched !!");
+      return false;
+    }
+
+    // validation
+    if (!name || !email || !phone || !gender || !city || !state || !password) {
+      alert("All fields marked with * are required.");
+      return;
+    }
+    if (name.trim() === "") {
+      alert("Full Name is required");
+      return false;
+    }
+    // Example email validation
+    let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      alert("Invalid Email");
+      return false;
+    }
+    // Example phone number validation (assuming a 10-digit phone number)
+    let phoneRegex = /^\d{10}$/;
+    if (!phoneRegex.test(phone)) {
+      alert("Invalid Phone Number");
       return false;
     }
 

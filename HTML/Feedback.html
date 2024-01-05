@@ -3,77 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Feedback|BookMe</title>
+    <title>Feedback Form</title>
     <script src="../PLUGINS/All_cdn.js"></script>
-    <link rel="stylesheet" href="../SCSS/Feedback.css" />
   </head>
   <body>
-    <div class="card">
-      <div class="row">
-        <div class="col-2">
-          <img
-            src="../IMAGES/profile-icon.jfif"
-            width="70"
-            class="rounded-circle mt-2"
-            alt="profileicon"
-          />
-        </div>
-
-        <div class="col-10">
-          <div class="comment-box ml-2">
-            <h4>Add a comment</h4>
-
-            <div class="rating">
-              <input type="radio" name="rating" value="5" id="5" /><label
-                for="5"
-                >☆</label
-              >
-              <input type="radio" name="rating" value="4" id="4" /><label
-                for="4"
-                >☆</label
-              >
-              <input type="radio" name="rating" value="3" id="3" /><label
-                for="3"
-                >☆</label
-              >
-              <input type="radio" name="rating" value="2" id="2" /><label
-                for="2"
-                >☆</label
-              >
-              <input type="radio" name="rating" value="1" id="1" /><label
-                for="1"
-                >☆</label
-              >
-            </div>
-
-            <div class="comment-area">
-              <textarea
-                class="form-control"
-                placeholder="what is your view?"
-                rows="4"
-              ></textarea>
-            </div>
-
-            <div class="comment-btns mt-2">
-              <div class="row">
-                <div class="col-6">
-                  <div class="pull-left">
-                    <button class="btn btn-success btn-sm">Cancel</button>
-                  </div>
-                </div>
-
-                <div class="col-6">
-                  <div class="pull-right">
-                    <button class="btn btn-success send btn-sm">
-                      Send <i class="fa fa-long-arrow-right ml-1"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="container p-3">
+      <h2 style="text-align: center">Thanks for booking with bookme.com</h2>
+      <div class="border border-2 p-3 w-50 m-auto">
+        <span>Name:</span><span id="name"></span><br />
+        <span>Movie Name:</span><span id="movie"></span><br />
+        <span>Invoice:</span><span id="invoice">#123456</span><br />
+        <span>Date: </span><span id="currDate"></span><br />
+        <span><b>Total Amount:</b></span
+        ><span id="amount"></span><br />
+        <button
+          type="button"
+          class="btn btn-success"
+          id="toggle"
+          onclick="getDate()"
+        >
+          Pay
+        </button>
       </div>
     </div>
+
+    <div class="container m-auto" id="feedback_container"></div>
+    <script>
+      function getDate() {
+        let currentdate = new Date();
+        document.getElementById("currDate").textContent = currentdate;
+      }
+    </script>
+    <script
+      src="../JAVASCRIPT/Controllers/Payment_Controller.js"
+      type="module"
+    ></script>
   </body>
 </html>

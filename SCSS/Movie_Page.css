@@ -31,12 +31,11 @@
   /* border: 1px solid var(--marigold); */
   margin: 8px;
   font-style: var(--ff-poppins);
-  color: var(--marigold);
 }
 .filter_card {
   border: 1px solid white;
 }
-/* .button {
+.button {
   font-size: 13px;
   background-color: white;
 
@@ -46,15 +45,15 @@
   margin-left: 15px;
   margin-bottom: 5px;
   border-radius: 5px;
-} */
+}
 .card {
   margin-top: 16px;
 }
-/* .button:hover {
+.button:hover {
   color: white;
   background-color: var(--marigold);
   box-shadow: 0 8px 16px 0 var(--marigold) 0 6px 20px 0 var(--marigold);
-} */
+}
 span {
   text-align: left;
   color: var(--marigold);
@@ -75,10 +74,7 @@ span {
       grid-template-columns: auto auto auto auto ;
       grid-template-areas: 'first second third fourth';*/
 }
-.checkbox {
-  margin-left: 15px;
-  color: var(--marigold);
-}
+
 .c1 {
   grid-area: first;
 }
@@ -102,18 +98,36 @@ span {
 .card-body:hover {
   box-shadow: 3px 3px 2px var(--marigold);
 }
-.card-body img {
-  height: 75%;
-  width: 100%;
+.card-image {
+  height: 250px;
+  width: 180px;
 
   border-radius: 9px 9px 0px 0px;
+}
+.card-img-top {
+  height: 100%;
+  width: 100%;
+  border: 2px solid var(--marigold);
+  align-items: center;
+}
+.card-content {
+  /* height: 80px; */
+  width: 180px;
+  margin-top: 5px;
+
+  text-align: center;
+  background-color: var(--marigold);
+}
+.movie_explore {
+  color: white;
 }
 a {
   color: var(--marigold);
   margin-left: 10px;
 }
 .card-title {
-  text-align: left;
+  text-align: center;
+
   color: var(--marigold);
   font-weight: 400;
   font-size: 17px;
