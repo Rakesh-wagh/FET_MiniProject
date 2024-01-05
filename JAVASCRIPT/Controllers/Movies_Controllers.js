@@ -58,7 +58,7 @@ $(document).ready(function () {
                   alt="..."
                 />
                 <h3 class="card-title">${i.title}</h3>
-                <a href="#" class="movie_explore">Explore</a>
+                <a href="#" class="movie_explore" style="cursor: pointer;">Explore</a>
               </div></div>`;
             $(".cards-container").append(card);
           }

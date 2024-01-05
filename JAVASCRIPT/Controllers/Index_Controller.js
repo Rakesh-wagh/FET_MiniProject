@@ -1,7 +1,59 @@
 import MovieService from "../Services/Movies_Service.js";
+import EventService from "../Services/Events_Service.js";
+import SportService from "../Services/Sports_Service.js";
+
 // Fetching data from json
 $(document).ready(() => {
-  MovieService.getmovieDetails()
+  MovieService.getmovieDetails().then((response) => {
+    let data = response.data;
+    let count = 1;
+    for (let i of data) {
+      if (count > 4) {
+        break;
+      }
+      count++;
+      let card = `<div class="Mcard" >
+      <img src="${i.img}" alt="Movie" />
+      <h3>${i.title}</h3>
+      <p >${i.genre}</p>
+      <p >${i.language}</p>
+     <a id="Go" class="Go stretched-link" categoryId="${i.id}"></a>
+     
+    </div>`;
+      $(".Movie-container").append(card);
+    }
+    //For redirection of movies
+    $(".Go").click(function () {
+      const Id = $(this).attr("categoryId");
+      window.location.href = "Bio_Page.html?id=" + Id;
+    });
+  });
+  // For Fetching SportsData
+  SportService.getsportDetails().then((response) => {
+    let sdata = response.data;
+    let scount = 1;
+    for (let i of sdata) {
+      if (scount > 4) {
+        break;
+      }
+      scount++;
+      let card = `<div class="Mcard" >
+      <img src="${i.sports_poster}" alt="Movie" />
+      <h3>${i.sportName}</h3>
+      <p >${i.place}</p>
+     <a id="GoToSports" class="Go stretched-link" categoryId="${i.sports_id}"></a>
+     
+    </div>`;
+      $(".Sports-container").append(card);
+    }
+    //For redirection of sports
+    $(".GoToSports").click(function () {
+      const Id = $(this).attr("categoryId");
+      window.location.href = "Bio_Page.html?id=" + Id;
+    });
+  });
+  // For Fetching Event Data
+  EventService.geteventDetails()
     .then((response) => {
       let data = response.data;
       let count = 1;
@@ -11,23 +63,26 @@ $(document).ready(() => {
         }
         count++;
         let card = `<div class="Mcard" >
-      <img src="${i.img}" alt="Movie" />
-      <h3>${i.title}</h3>
-      <p >${i.genre}</p>
-      <p >${i.language}</p>
-     <a id="Go" class="Go stretched-link" categoryId="${i.id}"></a>
+      <img src="${i.event_poster}" alt="Movie" />
+      <h3>${i.event_name}</h3>
+      <p >${i.artist_name}</p>
+      <p >${i.ticket_price}</p>
+     <a id="GoToEvents" class="Go stretched-link" categoryId="${i.id}"></a>
      
     </div>`;
-        $(".Movie-container").append(card);
+        $(".Event-container").append(card);
       }
-      //For redirection of movies
-      $(".Go").click(function () {
+      //For redirection of events
+      $(".GoToEvents").click(function () {
         const Id = $(this).attr("categoryId");
         window.location.href = "Bio_Page.html?id=" + Id;
       });
     })
-    .catch(() => {});
+    .catch((err) => {
+      console.log(err);
+    });
 });
+
 // ("use strict");
 
 const addEventOnElements = function (elem, type, callback) {
