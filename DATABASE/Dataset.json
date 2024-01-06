@@ -135,7 +135,7 @@
           "Born": "December 27, 1995",
           "Birthplace": "New York City, United States Of America",
           "About": "Timothee Hal Chalamet is an American actor. He began his acting career in short films, before appearing in the television drama series Homeland in 2012. Two years later, he made his feature film debut in the drama Men, Women and Children",
-          "img": "..IMAGES/Cast_data/timoth_e_chalamet.webp"
+          "img": "../IMAGES/Cast_data/timoth_e_chalamet.webp"
         },
         {
           "id": 2,
@@ -145,7 +145,7 @@
           "Born": "January 6, 1955",
           "Birthplace": "Consett, Durham, United Kingdom",
           "About": "Rowan Atkinson is an English actor, comedian, and screenwriter who is best known as Mr. Bean. His career took off on the small screen with the BBC comedy sketch show Not the Nine O`Clock News.",
-          "img": "..IMAGES/Cast_data/rowan_atkinson.webp"
+          "img": "../IMAGES/Cast_data/rowan_atkinson.webp"
         },
         {
           "id": 3,
@@ -690,32 +690,6 @@
     }
   ],
   "Feedback": [
-    {
-      "id": 1
-    },
-    {
-      "id": 2
-    },
-    {
-      "id": 3
-    },
-    {
-      "id": 4
-    },
-    {
-      "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "id": 7
-    },
-    {
-      "id": 8
-    },
-    {
-      "id": 9
-    }
+    
   ]
 }

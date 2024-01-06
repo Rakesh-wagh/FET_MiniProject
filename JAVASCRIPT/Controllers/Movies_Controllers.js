@@ -18,11 +18,16 @@ $(document).ready(() => {
         </div>
         <div class="card-content">
         
-        <a href="#" class="movie_explore">Explore</a>
+        <a href="#" class=" Go movie_explore" categoryId="${i.id}">Explore</a>
         </div>
       </div></div>`;
         $(".row").append(card);
       }
+      //For redirection of movies
+      $(".Go").click(function () {
+        const Id = $(this).attr("categoryId");
+        window.location.href = "Bio_Page.html?id=" + Id;
+      });
     })
     .catch(() => {});
 });
@@ -32,7 +37,7 @@ $(document).ready(function () {
   let params;
   $(document).on("click", ".checkbox", function () {
     let clicked = $(this).val();
-    alert(clicked);
+    // alert(clicked);
     //storing parameter value
 
     let genre_inp = clicked;
@@ -48,7 +53,7 @@ $(document).ready(function () {
         }
 
         //filtering genre of movies
-        alert(genre_inp);
+        // alert(genre_inp);
 
         if (genre_inp != "" && genre_inp != undefined && genre_inp != null) {
           if (genre_inp != clicked && genre_inp != "All") {
@@ -71,10 +76,15 @@ $(document).ready(function () {
                   alt="..."
                 />
                 <h3 class="card-title">${i.title}</h3>
-                <a href="#" class="movie_explore" style="cursor: pointer;">Explore</a>
+                <a href="#" class=" Go stretched-link movie_explore" categoryId="${i.id}" style="cursor: pointer;">Explore</a>
               </div></div>`;
             $(".cards-container").append(card);
           }
+          //For redirection of movies
+          $(".Go").click(function () {
+            const Id = $(this).attr("categoryId");
+            window.location.href = "Bio_Page.html?id=" + Id;
+          });
         }
       })
 

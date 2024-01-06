@@ -40,7 +40,6 @@ $(document).ready(() => {
       let card = `<div class="Mcard" >
       <img src="${i.sports_poster}" alt="Movie" />
       <h3>${i.sportName}</h3>
-      <p >${i.place}</p>
      <a id="GoToSports" class="GoToSports stretched-link" sportId="${i.sports_id}"></a>
      
     </div>`;
@@ -66,7 +65,6 @@ $(document).ready(() => {
       <img src="${i.event_poster}" alt="Movie" />
       <h3>${i.event_name}</h3>
       <p >${i.artist_name}</p>
-      <p >${i.ticket_price}</p>
      <a id="GoToEvents" class="GoToEvents stretched-link" EventId="${i.event_id}"></a>
      
     </div>`;

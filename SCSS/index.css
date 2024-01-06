@@ -502,6 +502,17 @@ body.active {
   background-color: rgb(87, 86, 84);
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.fade-in-image {
+  animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .Mcard {
   position: relative;
   display: inline-block;
@@ -510,6 +521,7 @@ body.active {
   background-color: white;
   min-width: 100px;
   max-width: 220px;
+  overflow: hidden;
   margin: 10px 5px;
   margin-left: 20%;
   border: 2px solid var(--marigold);
@@ -568,7 +580,7 @@ body.active {
   background-color: grey;
   border-radius: 8px;
   text-shadow: 2px 2px 3px white;
-  border: 2px solid var(--marigold);
+  /* border: 2px solid var(--marigold); */
 }
 .carousel {
   top: 50px;
