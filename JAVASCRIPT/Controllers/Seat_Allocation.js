@@ -8,12 +8,13 @@ $(document).ready(function () {
 
   const urlparams = new URLSearchParams(window.location.search);
   const MId = urlparams.get("id");
+
   MovieService.getmovieDetailsbyid(MId)
     .then((res) => {
       $("#mname").text(res.title);
       let final_count = count.textContent;
       let final_total = total.textContent;
-      let btn = `<a id="snackbtn" class="Book btn btn-primary movieId=${MId}">
+      let btn = `<a id="snackbtn" class="Book btn btn-primary movieId=${res.id}">
       Add Snacks
     </a>`;
       $(".movie-container").append(btn);
@@ -21,7 +22,7 @@ $(document).ready(function () {
       $(document).on("click", "#snackbtn", function () {
         let Mid = $(this).attr("movieId");
         window.location.href =
-          "../../HTML/Snacks.html?Mid=" +
+          "../../HTML/Snacks.html?id=" +
           Mid +
           "?count=" +
           final_count +

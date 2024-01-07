@@ -16,7 +16,8 @@
 }
 
 .header {
-  background-color: lightblue;
+  background-color: var(--marigold);
+  color: white;
   grid-area: h;
 
   display: flex;

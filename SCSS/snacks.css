@@ -15,7 +15,6 @@ body {
   flex-wrap: wrap;
   margin-left: 40px;
   margin-right: 40px;
-  /* margin-top: 20px; */
 
   border: 2px solid var(--marigold);
   justify-content: center; /* Center snacks on the page */
@@ -34,8 +33,6 @@ body {
   height: 400px;
   color: var(--marigold);
   border-radius: 7px;
-
-  border: 2px solid var(--marigold);
 
   img {
     max-width: 100%;
@@ -94,7 +91,6 @@ h2 {
   color: white;
   text-decoration: none;
   font-size: 16px;
-  height: 20px;
   width: 150px;
   border-radius: 5px;
   margin-left: 30px;

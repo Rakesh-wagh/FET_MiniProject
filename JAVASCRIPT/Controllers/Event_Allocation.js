@@ -41,15 +41,15 @@ document.addEventListener("DOMContentLoaded", function () {
       switch (this.value) {
         case "platinum":
           selectedSeats = 150;
-          seatCost = 10000.0;
+          seatCost = 1000.0;
           break;
         case "silver":
           selectedSeats = 100;
-          seatCost = 8500.0;
+          seatCost = 800.0;
           break;
         case "gold":
           selectedSeats = 50;
-          seatCost = 5000.0;
+          seatCost = 500.0;
           break;
         default:
           break;

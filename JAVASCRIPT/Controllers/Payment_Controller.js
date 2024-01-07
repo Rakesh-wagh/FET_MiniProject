@@ -2,6 +2,7 @@ import Feedback from "../Models/Feedback.js";
 import FeedbackService from "../Services/Feedback_service.js";
 import EventService from "../Services/Events_Service.js";
 import UserService from "../Services/Add_User_Service.js";
+
 $(document).ready(function () {
   // Get User Data
   let uid = sessionStorage.getItem("Id");
@@ -9,14 +10,13 @@ $(document).ready(function () {
     .then((res) => {
       let uname = res._FullName;
       $("#name").text(uname);
+      $("#amount").text(1000.0);
     })
     .catch((err) => {
       console.log(err);
     });
   const urlparams = new URLSearchParams(window.location.search);
   const eventId = urlparams.get("id");
-
-  //Getting User name
 
   // end
   //Getting Receipt details of event
@@ -25,14 +25,14 @@ $(document).ready(function () {
       let eventDetails = response;
       let Ename = eventDetails.event_name;
       $("#movie").text(Ename);
-      $(document).on("click", "#proceed-btn", function () {
+      $(document).on("click", "#paybtn", function () {
         const Id = $(this).attr("eventId");
         window.location.href = "Feedback.html?id=" + Id;
       });
       // end
       $(document).on("click", "#toggle", function () {
         let form = `
-        <h2 id="msg" style="text-align:center">Payment Successful</h2><br/>
+        <h2 id="msg" style="text-align:center">Booking Successful! Pay At Venue</h2><br/>
     
         <img
               src="../IMAGES/success.gif"
@@ -40,9 +40,9 @@ $(document).ready(function () {
               style="max-height: 100px; max-width: 100px;margin:20px 45%"
             />
         <div class="form-group">
-        <label for="feedbackStatement">Please rate your experience: </label
+        <label for="feedbackStatement" >Please rate your experience: </label
         ><br />
-        <div class="d-flex">
+        <div class="d-flex" id="review">
           <div class="form-check">
             <input
               type="radio"
@@ -117,12 +117,15 @@ $(document).ready(function () {
         let movie = $("#movie").text();
         let currDate = $("#currDate").text();
         let amount = $("#amount").text();
-
+        let comment = $("#additionalComments").val();
+        let review = $("#review").val();
         let User_feedback = new Feedback();
         User_feedback._username = Uname;
         User_feedback._moviename = movie;
         User_feedback._date = currDate;
         User_feedback._amount = amount;
+        User_feedback._review = review;
+        User_feedback._comment = comment;
         alert("Feedback Submitted");
         FeedbackService.addFeedbackDetails(User_feedback)
           .then((response) => {

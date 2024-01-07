@@ -7,19 +7,16 @@ $(document).ready(function () {
   EventService.geteventDetailsbyid(eventId).then((response) => {
     let eventDetails = response;
 
-    // console.log(eventDetails.event_name);
     let h2 = `<h2>${eventDetails.event_name}</h2>`;
     $(".event-details").append(h2);
-    // let event_total = $("#total-cost");
-    // console.log(event_total.textContent);
-    let proceedBtn = `<button id="proceed-btn" eventId="${eventDetails.id}">Proceed</button>`;
-    $(".proceed").append(proceedBtn);
+    let eventBtn = `<button id="proceed_btn" eventId="${eventDetails.id}">Proceed</button>`;
+    $(".proceed").append(eventBtn);
 
-    $(document).on("click", "#proceed-btn", function () {
+    $(document).on("click", "#proceed_btn", function () {
       const Id = $(this).attr("eventId");
-      let event_total = $("#total-cost");
-      console.log(event_total.textContent);
-      window.location.href = "Feedback.html?id=" + Id + "?et=" + event_total;
+      let event_total = $("#total-cost").textContent;
+      console.log(event_total);
+      window.location.href = "Feedback.html?id=" + Id;
     });
   });
 });

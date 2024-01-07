@@ -40,7 +40,7 @@ $(document).ready(() => {
       let card = `<div class="Mcard" >
       <img src="${i.sports_poster}" alt="Movie" />
       <h3>${i.sportName}</h3>
-     <a id="GoToSports" class="GoToSports stretched-link" sportId="${i.sports_id}"></a>
+     <a id="GoToSports" class="GoToSports stretched-link" sportId="${i.id}"></a>
      
     </div>`;
       $(".Sports-container").append(card);
@@ -48,7 +48,7 @@ $(document).ready(() => {
     //For redirection of sports
     $(".GoToSports").click(function () {
       const SId = $(this).attr("sportId");
-      window.location.href = "Seat_Allocation.html?SId=" + SId;
+      window.location.href = "Sports_Bio.html?id=" + SId;
     });
   });
   // For Fetching Event Data
@@ -76,7 +76,6 @@ $(document).ready(() => {
         data.forEach((element) => {
           let name = element.artist_name;
           name.forEach((artist_name) => {
-            // console.log(artist_name);
             if (artist_name.includes(`${artist}`)) {
               console.log(element);
               let card = `<div class="Mcard" >

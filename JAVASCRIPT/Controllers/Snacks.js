@@ -9,7 +9,7 @@ $(document).ready(function () {
   let cart = [];
   // next
   const urlparams = new URLSearchParams(window.location.search);
-  const movieId = urlparams.get("Mid");
+  const movieId = urlparams.get("id");
 
   let m_id = movieId.slice(0, 1);
   console.log(m_id);

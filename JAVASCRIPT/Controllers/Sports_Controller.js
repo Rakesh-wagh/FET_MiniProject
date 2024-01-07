@@ -21,7 +21,7 @@ $(document).ready(() => {
         </div>
         <div class="card-content">
         
-        <a href="#" class=" GoToSports movie_explore" sportId="${i.sports_id}">Explore</a>
+        <a href="#" class=" GoToSports movie_explore" sportId="${i.id}">Explore</a>
         </div>
       </div></div>`;
         $(".Sports-container").append(card);
@@ -30,7 +30,7 @@ $(document).ready(() => {
       //For redirection of sports
       $(".GoToSports").click(function () {
         const SId = $(this).attr("sportId");
-        window.location.href = "Seat_Allocation.html?SId=" + SId;
+        window.location.href = "Sports_Bio.html?id=" + SId;
       });
     })
     .catch(() => {});
