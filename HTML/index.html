@@ -62,26 +62,45 @@
           </ul>
         </nav>
         <!-- Search Bar  -->
-        <!-- <div
+        <div
           class="input-group"
-          style="border: 2px solid orange; border-radius: 5px; padding: 4px"
+          style="
+            border: 2px solid orange;
+            border-radius: 5px;
+            padding: 4px;
+            width: 20%;
+          "
         >
           <input
             type="search"
-            id="form1"
+            id="searchBar"
             class="form-control"
             placeholder="Search"
           />
-          <button type="button" data-mdb-ripple-init>
+          <button type="button" id="searchBtn" data-mdb-ripple-init>
             <i class="fas fa-search p-2"></i>
-          </button> 
-        </div>-->
+          </button>
+        </div>
+
         <div class="header-action">
+          <a
+            href=""
+            class="btn btn-primary has-after"
+            id="citybtn"
+            onclick="selectCity()"
+          >
+            City
+          </a>
           <a href="./Login.html" class="btn btn-primary has-after" id="loginbtn"
             >Login</a
           >
         </div>
-
+        <a
+          class="fa-solid fa-circle-user social-link"
+          id="profile"
+          style="display: none"
+          href="./Profile_Page.html"
+        ></a>
         <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
           <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
         </button>
@@ -396,14 +415,22 @@
       document.addEventListener("DOMContentLoaded", function () {
         if (sessionStorage.getItem("loggedIn") === "true") {
           document.getElementById("loginbtn").textContent = "Logout";
+          document.getElementById("profile").style.display = "block";
           document
             .getElementById("loginbtn")
             .addEventListener("click", function () {
               sessionStorage.clear();
             });
+        } else {
+          document.getElementById("profile").style.display = "none";
         }
       });
+      function selectCity() {
+        let city = prompt("Select Your City");
+        document.getElementById("citybtn").textContent = city;
+      }
     </script>
+
     <script
       src="../JAVASCRIPT/Controllers/Index_Controller.js"
       type="module"

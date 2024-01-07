@@ -3,6 +3,7 @@ import MovieService from "../Services/Movies_Service.js";
 $(document).ready(function () {
   const urlparams = new URLSearchParams(window.location.search);
   const movieId = urlparams.get("id");
+
   MovieService.getmovieDetailsbyid(movieId).then((response) => {
     let data = response;
     let About = `<span>${data.description}</span>`;
@@ -23,6 +24,7 @@ $(document).ready(function () {
       Book Ticket
     </a>`;
     $(".right").append(title);
+
     $(".right").append(genre);
     $(".right").append(rating);
     $(".right").append(btn);
@@ -38,7 +40,7 @@ $(document).ready(function () {
     $(document).on("click", "#Book", function () {
       if (sessionStorage.getItem("loggedIn") === "true") {
         const MId = $(this).attr("movieId");
-        window.location.href = "../../HTML/Seat_Allocation.html?id=" + MId;
+        window.location.href = "../../HTML/Theaters.html?id=" + MId;
       } else {
         window.location.href = "../../HTML/Login.html";
       }

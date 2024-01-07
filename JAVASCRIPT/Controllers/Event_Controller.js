@@ -3,7 +3,6 @@ import EventService from "../Services/Events_Service.js";
 $(document).ready(() => {
   EventService.geteventDetails()
     .then((response) => {
-      console.log(response);
       let data = response.data;
       for (let i of data) {
         let card = `
@@ -20,17 +19,17 @@ $(document).ready(() => {
         />
         </div>
         <div class="card-content">
-        
-        <a href="#" class=" Go movie_explore" categoryId="${i.event_id}">Explore</a>
+
+        <a href="#" class="Go movie_explore" categoryId="${i.id}">Explore</a>
         </div>
       </div></div>`;
         $(".Event-container").append(card);
         $(".row").append(card);
       }
-      //For redirection of movies
+      //For redirection of events
       $(".Go").click(function () {
         const Id = $(this).attr("categoryId");
-        window.location.href = "Bio_Page.html?id=" + Id;
+        window.location.href = "Event_Bio.html?id=" + Id;
       });
     })
     .catch(() => {});

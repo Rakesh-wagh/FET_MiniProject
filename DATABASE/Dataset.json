@@ -89,7 +89,8 @@
           "Born": "August 31, 1984",
           "Birthplace": "Gurgaon, Haryana, India",
           "About": "Playing a 324-year-old man in the 2017 romantic drama Raabta or a lawyer and human rights activist in Shahid, Rajkummar Rao has proved to be one of the most bankable actors in his generation of actors. Despite playing supporting roles in movies Gangs of Wasseypur - Part 2, Talaash, and Aligarh,",
-          "img": "../IMAGES/Cast_data/rajkummar_rao.webp"
+          "img": "../IMAGES/Cast_data/rajkummar_rao.webp",
+          "price": "250"
         },
         {
           "id": 2,
@@ -505,9 +506,11 @@
   ],
   "events": [
     {
-      "event_id": 1,
+      "id": 1,
       "event_name": "Rambo Circus",
-      "artist_name": "African Artists",
+      "artist_name": [
+        "Akash Thosar"
+      ],
       "venue": "Phoenix MarketCity, Pune",
       "date": "January 4 2024",
       "time": "06:30 PM",
@@ -517,9 +520,11 @@
       "event_poster": "../IMAGES/Events/img1.webp"
     },
     {
-      "event_id": 2,
+      "id": 2,
       "event_name": "Standup Comedy",
-      "artist_name": "Zakir Khan",
+      "artist_name": [
+        "Zakir Khan"
+      ],
       "venue": "Mayfield Estate, Pune",
       "date": "January 21, 2024",
       "time": "05:30 PM",
@@ -529,9 +534,11 @@
       "event_poster": "../IMAGES/Events/img2.webp"
     },
     {
-      "event_id": 3,
+      "id": 3,
       "event_name": "Ed Sheran: +-=x India Tour",
-      "artist_name": "Ed Sheran",
+      "artist_name": [
+        "Ed Sheran"
+      ],
       "venue": "Mahalakshmi Race Course, Mumbai",
       "date": "March 16, 2024",
       "time": "03:00 PM",
@@ -541,9 +548,11 @@
       "event_poster": "../IMAGES/Events/img3.webp"
     },
     {
-      "event_id": 4,
+      "id": 4,
       "event_name": "Kisi Ko Batana Mat",
-      "artist_name": "Anubhav Singh Bassi",
+      "artist_name": [
+        "Anubhav Singh Bassi"
+      ],
       "venue": "Rang Sharda, Mumbai",
       "date": "January 28, 2024",
       "time": "05:00 PM",
@@ -553,9 +562,11 @@
       "event_poster": "../IMAGES/Events/img4.webp"
     },
     {
-      "event_id": 5,
+      "id": 5,
       "event_name": "Toxic-Stand Up Comedy",
-      "artist_name": "Abhishek Upmanyu",
+      "artist_name": [
+        "Abhishek Upmanyu"
+      ],
       "venue": "JT Performing Arts Centre, Kochi",
       "date": "January 31, 2024",
       "time": "10:30 AM",
@@ -565,9 +576,11 @@
       "event_poster": "../IMAGES/Events/img5.webp"
     },
     {
-      "event_id": 6,
+      "id": 6,
       "event_name": "Musical Fiesta",
-      "artist_name": "Mahesh Kale",
+      "artist_name": [
+        "Mahesh Kale"
+      ],
       "venue": "Mahakavi Kalidas Kalamandir, Nashik",
       "date": "January 15, 2024",
       "time": "05:00 PM",
@@ -690,6 +703,141 @@
     }
   ],
   "Feedback": [
-    
+    {
+      "_username": "John William",
+      "_moviename": "Ed Sheran: +-=x India Tour",
+      "_date": "Sun Jan 07 2024 10:06:35 GMT+0530 (India Standard Time)",
+      "_amount": "",
+      "id": 1
+    },
+    {
+      "_username": "abc",
+      "_moviename": "Toxic-Stand Up Comedy",
+      "_date": "Sun Jan 07 2024 10:08:13 GMT+0530 (India Standard Time)",
+      "_amount": "",
+      "id": 2
+    }
+  ],
+  "theaters": [
+    {
+      "name": "PVR Cinemas",
+      "location": "Phoenix Marketcity",
+      "showTimings": [
+        {
+          "day": "Monday",
+          "time": "15:00"
+        },
+        {
+          "day": "Tuesday",
+          "time": "18:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "20:15"
+        },
+        {
+          "day": "Thursday",
+          "time": "16:45"
+        },
+        {
+          "day": "Friday",
+          "time": "19:00"
+        },
+        {
+          "day": "Saturday",
+          "time": "21:30"
+        }
+      ]
+    },
+    {
+      "name": "INOX",
+      "location": "Bund Garden Road",
+      "showTimings": [
+        {
+          "day": "Monday",
+          "time": "15:00"
+        },
+        {
+          "day": "Tuesday",
+          "time": "18:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "20:15"
+        },
+        {
+          "day": "Thursday",
+          "time": "16:45"
+        },
+        {
+          "day": "Friday",
+          "time": "19:00"
+        },
+        {
+          "day": "Saturday",
+          "time": "21:30"
+        }
+      ]
+    },
+    {
+      "name": "City Pride",
+      "location": "Kothrud",
+      "showTimings": [
+        {
+          "day": "Monday",
+          "time": "15:00"
+        },
+        {
+          "day": "Tuesday",
+          "time": "18:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "20:15"
+        },
+        {
+          "day": "Thursday",
+          "time": "16:45"
+        },
+        {
+          "day": "Friday",
+          "time": "19:00"
+        },
+        {
+          "day": "Saturday",
+          "time": "21:30"
+        }
+      ]
+    },
+    {
+      "name": "Carnival",
+      "location": "Seasons Mall, Magarpatta",
+      "showTimings": [
+        {
+          "day": "Monday",
+          "time": "15:00"
+        },
+        {
+          "day": "Tuesday",
+          "time": "18:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "20:15"
+        },
+        {
+          "day": "Thursday",
+          "time": "16:45"
+        },
+        {
+          "day": "Friday",
+          "time": "19:00"
+        },
+        {
+          "day": "Saturday",
+          "time": "21:30"
+        }
+      ]
+    }
   ]
 }

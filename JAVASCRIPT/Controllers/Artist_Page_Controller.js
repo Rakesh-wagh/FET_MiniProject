@@ -27,7 +27,7 @@ $(document).ready(function () {
             <div class="artist-info mx-3">
               <h2>${cinfo.Actor_name}</h2>
               <p><strong>Also Known As:</strong>${cinfo.Also_Known_As}</p>
-              <p><strong>Occupation:</strong>${cinfo.Occupation}/p>
+              <p><strong>Occupation:</strong>${cinfo.Occupation}</p>
               <p><strong>Born:</strong>${cinfo.Born}</p>
               <p><strong>Birthplace:</strong>${cinfo.Birthplace}</p>
             </div>

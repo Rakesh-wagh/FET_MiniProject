@@ -65,15 +65,43 @@ $(document).ready(() => {
       <img src="${i.event_poster}" alt="Movie" />
       <h3>${i.event_name}</h3>
       <p >${i.artist_name}</p>
-     <a id="GoToEvents" class="GoToEvents stretched-link" EventId="${i.event_id}"></a>
+     <a id="GoToEvents" class="GoToEvents stretched-link" EventId="${i.id}"></a>
      
     </div>`;
         $(".Event-container").append(card);
       }
+      // search by artist
+      $("#searchBtn").click(function () {
+        let artist = $("#searchBar").val();
+        data.forEach((element) => {
+          let name = element.artist_name;
+          name.forEach((artist_name) => {
+            // console.log(artist_name);
+            if (artist_name.includes(`${artist}`)) {
+              console.log(element);
+              let card = `<div class="Mcard" >
+              <img src="${element.event_poster}" alt="Movie" />
+              <h3>${element.event_name}</h3>
+              <p >${element.artist_name}</p>
+             <a id="GoToEvents" class="GoToEvents stretched-link" EventId="${element.id}"></a>
+  
+            </div>`;
+              $(".Event-container").html(card);
+            }
+          });
+
+          $("#searchBar").val("");
+          //For redirection of events
+          $(".GoToEvents").click(function () {
+            const EId = $(this).attr("EventId");
+            window.location.href = "Event_Bio.html?id=" + EId;
+          });
+        });
+      });
       //For redirection of events
       $(".GoToEvents").click(function () {
         const EId = $(this).attr("EventId");
-        window.location.href = "Seat_Allocation.html?EId=" + EId;
+        window.location.href = "Event_Bio.html?id=" + EId;
       });
     })
     .catch((err) => {

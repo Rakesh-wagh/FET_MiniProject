@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
+$(document).ready(function () {
+  // document.addEventListener("DOMContentLoaded", function () {
   const snacksContainer = document.getElementById("snacks-container");
   const cartList = document.getElementById("cart-list");
   const totalCost = document.getElementById("total-cost");
@@ -6,6 +7,31 @@ document.addEventListener("DOMContentLoaded", function () {
     "proceed-to-billing-link"
   );
   let cart = [];
+  // next
+  const urlparams = new URLSearchParams(window.location.search);
+  const movieId = urlparams.get("Mid");
+
+  let m_id = movieId.slice(0, 1);
+  console.log(m_id);
+  let count = movieId.slice(movieId.length - 1);
+  console.log(count);
+  let total = movieId.slice(1, 2);
+  console.log(total);
+  let snack_total = $("#total-cost").val();
+  console.log(snack_total);
+  $(document).on("click", "#proceed-to-billing-link", function () {
+    window.location.href =
+      "../../HTML/Feedback.html?Mid=" +
+      m_id +
+      "?count=" +
+      count +
+      "?total=" +
+      total +
+      "?stotal" +
+      snack_total;
+  });
+
+  // start
 
   // Sample snacks data in JSON format
   const snacksData = [
@@ -101,3 +127,5 @@ document.addEventListener("DOMContentLoaded", function () {
     // You can add further logic for navigating to the billing page here
   });
 });
+
+// end

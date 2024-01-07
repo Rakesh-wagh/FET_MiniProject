@@ -883,7 +883,7 @@ body.active {
     .header-action {
       display: flex;
       align-items: center;
-      gap: 15px;
+      gap: 13px;
     }
 
     .cart-btn {

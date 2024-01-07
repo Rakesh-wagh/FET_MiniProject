@@ -1,0 +1,104 @@
+$main-font: 'Poppins', sans-serif;
+$main-color: #f0f0f0;
+$accent-color: #FFD700;
+$hover-color: #FFC107;
+$border-color: black;
+$border-radius: 15px;
+$container-width: 400px;
+$container-height: 400px;
+$padding: 40px;
+$margin-bottom: 20px;
+
+@mixin button-styles {
+    padding: 10px;
+    margin-bottom: 10px; /* Space between buttons */
+    cursor: pointer;
+    border: 2px solid $border-color; /* Black border */
+    border-radius: 5px;
+    background-color: $accent-color; /* Marigold color background */
+    color: white;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+    &:hover {
+        background-color: $hover-color; /* Hover background color */
+        border-color: $hover-color; /* Hover border color */
+    }
+}
+
+body {
+    font-family: $main-font;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: $main-color;
+    padding: $padding; /* Increase padding for a larger box */
+    border-radius: $border-radius; /* Adjust border-radius accordingly */
+    width: $container-width; /* Increase the width for a larger box */
+    height: $container-height; /* Set the height to match the width for a square box */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.radio-buttons {
+    margin-bottom: $margin-bottom;
+
+    button {
+        @include button-styles;
+        input {
+            margin-right: 10px;
+        }
+    }
+}
+
+.seat-selection {
+    margin-top: 20px;
+    display: none;
+
+    .seat-count {
+        margin-bottom: $margin-bottom;
+
+        label {
+            margin-right: 10px;
+        }
+
+        input {
+            width: 60px; /* Increase input width */
+            text-align: center;
+            margin: 0 10px;
+        }
+
+        .counter {
+            font-size: 1.5em; /* Increase font size */
+            cursor: pointer;
+        }
+    }
+
+    .total-cost {
+        p {
+            margin: $margin-bottom 0; /* Increase margin for better spacing */
+        }
+    }
+}
+#proceed-btn{
+padding: 5px;
+border-radius: 3px;
+background-color: $accent-color;
+color: black;
+border: none;
+font-weight: 500;
+
+}
+.container{
+    max-width: 50%;
+    background-color: #f0f0f0;
+    box-shadow: 3px 3px 3px grey;
+    padding: 10px;
+    height: auto;
+}

@@ -1,0 +1,81 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 40px; /* Increase padding for a larger box */
+  border-radius: 15px; /* Adjust border-radius accordingly */
+  width: 400px; /* Increase the width for a larger box */
+  height: 400px; /* Set the height to match the width for a square box */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.radio-buttons {
+  margin-bottom: 20px;
+}
+.radio-buttons button {
+  padding: 10px;
+  margin-bottom: 10px; /* Space between buttons */
+  cursor: pointer;
+  border: 2px solid black; /* Black border */
+  border-radius: 5px;
+  background-color: #FFD700; /* Marigold color background */
+  color: white;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.radio-buttons button:hover {
+  background-color: #FFC107; /* Hover background color */
+  border-color: #FFC107; /* Hover border color */
+}
+.radio-buttons button input {
+  margin-right: 10px;
+}
+
+.seat-selection {
+  margin-top: 20px;
+  display: none;
+}
+.seat-selection .seat-count {
+  margin-bottom: 20px;
+}
+.seat-selection .seat-count label {
+  margin-right: 10px;
+}
+.seat-selection .seat-count input {
+  width: 60px; /* Increase input width */
+  text-align: center;
+  margin: 0 10px;
+}
+.seat-selection .seat-count .counter {
+  font-size: 1.5em; /* Increase font size */
+  cursor: pointer;
+}
+.seat-selection .total-cost p {
+  margin: 20px 0; /* Increase margin for better spacing */
+}
+
+#proceed-btn {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFD700;
+  color: black;
+  border: none;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 50%;
+  background-color: #f0f0f0;
+  box-shadow: 3px 3px 3px grey;
+  padding: 10px;
+  height: auto;
+}/*# sourceMappingURL=Event_Allocation.css.map */
