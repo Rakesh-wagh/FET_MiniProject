@@ -1,35 +1,34 @@
 import Feedback from "../Models/Feedback.js";
 import FeedbackService from "../Services/Feedback_service.js";
-import EventService from "../Services/Events_Service.js";
+import MovieService from "../Services/Movies_Service.js";
 import UserService from "../Services/Add_User_Service.js";
 
 $(document).ready(function () {
   // Get User Data
   let uid = sessionStorage.getItem("Id");
+  let mid = sessionStorage.getItem("Mid");
+  let snack = sessionStorage.getItem("snack");
+  let total = sessionStorage.getItem("total");
+  let final_total = Number(snack) + Number(total);
+
   UserService.getUserDetailsbyid(uid)
     .then((res) => {
       let uname = res._FullName;
       $("#name").text(uname);
-      $("#amount").text(1000.0);
+      $("#amount").text(final_total);
     })
     .catch((err) => {
       console.log(err);
     });
-  const urlparams = new URLSearchParams(window.location.search);
-  const eventId = urlparams.get("id");
 
   // end
   //Getting Receipt details of event
-  EventService.geteventDetailsbyid(eventId)
+  MovieService.getmovieDetailsbyid(mid)
     .then((response) => {
-      let eventDetails = response;
-      let Ename = eventDetails.event_name;
+      let movieDetails = response;
+      let Ename = movieDetails.title;
       $("#movie").text(Ename);
-      $(document).on("click", "#paybtn", function () {
-        const Id = $(this).attr("eventId");
-        window.location.href = "Feedback.html?id=" + Id;
-      });
-      // end
+
       $(document).on("click", "#toggle", function () {
         let form = `
         <h2 id="msg" style="text-align:center">Booking Successful! Pay At Venue</h2><br/>
@@ -138,6 +137,7 @@ $(document).ready(function () {
         User_feedback._amount = amount;
         User_feedback._review = rating;
         User_feedback._comment = comment;
+        sessionStorage.clear();
         alert("Feedback Submitted");
         FeedbackService.addFeedbackDetails(User_feedback)
           .then((response) => {

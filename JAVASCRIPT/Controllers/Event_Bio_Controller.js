@@ -15,7 +15,6 @@ $(document).ready(function () {
     let ticket_price = `<h6 class="ticket_price">${data.ticket_price}</h6>`;
     let time = `<h6 class="time">${data.time}</h6>`;
     let terms_and_conditions = `<p class="terms_and_conditions">${data.terms_and_conditions}</p>`;
-    let banner = `<img src="${data.sports_poster}" id=bannerimg>`;
 
     //redirect artist id
     let artists = data.artist_name;

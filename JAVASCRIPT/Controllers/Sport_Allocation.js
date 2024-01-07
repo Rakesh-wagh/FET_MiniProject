@@ -9,7 +9,9 @@ function showSeatSelection() {
 function updateTotal() {
   const numSeats = parseInt(document.getElementById("num-seats").value);
   document.getElementById("total-seats").textContent = numSeats;
-  document.getElementById("total-cost").textContent = numSeats * seatCost;
+  document.getElementById("total-cost").textContent = (
+    numSeats * seatCost
+  ).toFixed(2);
 }
 
 function increment() {

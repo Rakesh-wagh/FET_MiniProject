@@ -34,7 +34,6 @@ $(document).ready(() => {
 
 //filter
 $(document).ready(function () {
-  let params;
   $(document).on("click", ".checkbox", function () {
     let clicked = $(this).val();
     // alert(clicked);
@@ -88,21 +87,6 @@ $(document).ready(function () {
         }
       })
 
-      .catch((error) => {
-        console.log(error);
-      });
-  });
-
-  $(document).on("click", ".button", function () {
-    let value = $(".button").val();
-
-    //common from this
-    MovieService.getMovieDetailsbyFilter(params)
-      .then((response) => {
-        let movies = response.data;
-
-        showCards(movies);
-      })
       .catch((error) => {
         console.log(error);
       });

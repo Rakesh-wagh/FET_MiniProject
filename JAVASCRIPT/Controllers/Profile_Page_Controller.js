@@ -1,7 +1,7 @@
 import UserService from "../Services/Add_User_Service.js";
 $(document).ready(function () {
   let uid = sessionStorage.getItem("Id");
-  //   console.log(uid);
+
   UserService.getUserDetailsbyid(uid)
     .then((res) => {
       $("#fname").text(res._FullName);

@@ -7,9 +7,7 @@ $(document).ready(function () {
     let data = response;
     console.log(data);
     let About = `<span>${data.about}</span>`;
-    // let image = `<img src="${data.event_poster}">`;
     let sport_title = `<h4 class="eventName">${data.sportName}</h4>`;
-    // let artistname = `<h4 class="artistName">${data.artist_name}</h4>`;
     let venue = `<h5 class="venue">${data.place}</h5>`;
     let date = `<h6 class="date">${data.date}</h6>`;
     let ticket_price = `<h6 class="ticket_price">${data.ticket_price}</h6>`;

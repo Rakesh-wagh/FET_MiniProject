@@ -2,7 +2,7 @@ import MovieService from "../Services/Movies_Service.js";
 $(document).ready(function () {
   const urlparams = new URLSearchParams(window.location.search);
   const movieId = urlparams.get("Mid");
-  //   console.log(movieId);
+
   let m_id = movieId.slice(0, 1);
   let c_id = movieId.slice(movieId.length - 1);
   console.log(m_id);

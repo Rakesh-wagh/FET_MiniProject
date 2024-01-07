@@ -9,13 +9,11 @@ $(document).ready(function () {
 
     let h2 = `<h2>${eventDetails.event_name}</h2>`;
     $(".event-details").append(h2);
-    let eventBtn = `<button id="proceed_btn" eventId="${eventDetails.id}">Proceed</button>`;
+    let eventBtn = `<button id="proceed-btn" eventId="${eventDetails.id}">Proceed</button>`;
     $(".proceed").append(eventBtn);
 
-    $(document).on("click", "#proceed_btn", function () {
+    $(document).on("click", "#proceed-btn", function () {
       const Id = $(this).attr("eventId");
-      let event_total = $("#total-cost").textContent;
-      console.log(event_total);
       window.location.href = "Feedback.html?id=" + Id;
     });
   });

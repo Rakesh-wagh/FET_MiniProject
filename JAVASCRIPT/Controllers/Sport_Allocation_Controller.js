@@ -14,9 +14,8 @@ $(document).ready(function () {
 
     $(document).on("click", "#proceed-btn", function () {
       const Id = $(this).attr("eventId");
-      let event_total = $("#total-cost").text();
       // console.log(event_total
-      window.location.href = "Feedback.html?id=" + Id;
+      window.location.href = "Feedback1.html?id=" + Id;
     });
   });
 });

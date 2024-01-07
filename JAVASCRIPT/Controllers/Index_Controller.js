@@ -86,6 +86,8 @@ $(document).ready(() => {
   
             </div>`;
               $(".Event-container").html(card);
+            } else {
+              alert("Artist Not Found");
             }
           });
 

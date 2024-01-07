@@ -1,6 +1,6 @@
 import Feedback from "../Models/Feedback.js";
 import FeedbackService from "../Services/Feedback_service.js";
-import EventService from "../Services/Events_Service.js";
+import SportService from "../Services/Sports_Service.js";
 import UserService from "../Services/Add_User_Service.js";
 
 $(document).ready(function () {
@@ -10,24 +10,24 @@ $(document).ready(function () {
     .then((res) => {
       let uname = res._FullName;
       $("#name").text(uname);
-      $("#amount").text(1000.0);
+      $("#amount").text(1000);
     })
     .catch((err) => {
       console.log(err);
     });
   const urlparams = new URLSearchParams(window.location.search);
-  const eventId = urlparams.get("id");
+  const sportId = urlparams.get("id");
 
   // end
   //Getting Receipt details of event
-  EventService.geteventDetailsbyid(eventId)
+  SportService.getsportDetailsbyid(sportId)
     .then((response) => {
       let eventDetails = response;
-      let Ename = eventDetails.event_name;
+      let Ename = eventDetails.sportName;
       $("#movie").text(Ename);
       $(document).on("click", "#paybtn", function () {
         const Id = $(this).attr("eventId");
-        window.location.href = "Feedback.html?id=" + Id;
+        window.location.href = "Feedback1.html?id=" + Id;
       });
       // end
       $(document).on("click", "#toggle", function () {
@@ -138,6 +138,7 @@ $(document).ready(function () {
         User_feedback._amount = amount;
         User_feedback._review = rating;
         User_feedback._comment = comment;
+        sessionStorage.clear();
         alert("Feedback Submitted");
         FeedbackService.addFeedbackDetails(User_feedback)
           .then((response) => {

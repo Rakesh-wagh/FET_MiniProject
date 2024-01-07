@@ -8,34 +8,25 @@ $(document).ready(function () {
 
   const urlparams = new URLSearchParams(window.location.search);
   const MId = urlparams.get("id");
-
+  sessionStorage.setItem("Mid", MId);
   MovieService.getmovieDetailsbyid(MId)
     .then((res) => {
       $("#mname").text(res.title);
-      let final_count = count.textContent;
-      let final_total = total.textContent;
       let btn = `<a id="snackbtn" class="Book btn btn-primary movieId=${res.id}">
       Add Snacks
     </a>`;
       $(".movie-container").append(btn);
-
+      let movieId = MId;
+      console.log(movieId);
       $(document).on("click", "#snackbtn", function () {
-        let Mid = $(this).attr("movieId");
-        window.location.href =
-          "../../HTML/Snacks.html?id=" +
-          Mid +
-          "?count=" +
-          final_count +
-          "?total=" +
-          final_total;
+        let abc = document.querySelectorAll(".selected").length;
+        let def = abc * ticketPrice;
+
+        window.location.href = "../../HTML/Snacks.html?total=" + def;
       });
 
       // start
 
-      // Get the username input field
-      const usernameInput = document.getElementById("username");
-
-      // let ticketPrice = +movieSelect.value;
       let ticketPrice = +200;
 
       //Update total and count
