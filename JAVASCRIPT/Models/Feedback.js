@@ -11,6 +11,9 @@ class Feedback {
   set amount(amount) {
     this._amount = amount;
   }
+  set seat_Count(seat_Count) {
+    this._seat_Count = seat_Count;
+  }
   set review(review) {
     this._review = review;
   }
@@ -22,6 +25,9 @@ class Feedback {
   }
   get moviename() {
     return this._moviename;
+  }
+  get seat_Count() {
+    return this._seat_Count;
   }
   get date() {
     return this._date;

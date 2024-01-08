@@ -19,8 +19,9 @@ $(document).ready(function () {
       let movieId = MId;
       console.log(movieId);
       $(document).on("click", "#snackbtn", function () {
-        let abc = document.querySelectorAll(".selected").length;
+        let abc = document.querySelectorAll(".selected").length - 1;
         let def = abc * ticketPrice;
+        sessionStorage.setItem("seats", abc);
 
         window.location.href = "../../HTML/Snacks.html?total=" + def;
       });

@@ -10,12 +10,14 @@ $(document).ready(function () {
   let snack = sessionStorage.getItem("snack");
   let total = sessionStorage.getItem("total");
   let final_total = Number(snack) + Number(total);
+  let seatCount = sessionStorage.getItem("seats");
 
   UserService.getUserDetailsbyid(uid)
     .then((res) => {
       let uname = res._FullName;
       $("#name").text(uname);
       $("#amount").text(final_total);
+      $("#count").text(seatCount);
     })
     .catch((err) => {
       console.log(err);
@@ -117,6 +119,7 @@ $(document).ready(function () {
         let currDate = $("#currDate").text();
         let amount = $("#amount").text();
         let comment = $("#additionalComments").val();
+
         let rating;
         if ($("#rating1").is(":checked")) {
           rating = $("#rating1").val();
@@ -137,6 +140,8 @@ $(document).ready(function () {
         User_feedback._amount = amount;
         User_feedback._review = rating;
         User_feedback._comment = comment;
+        User_feedback._seat_Count = seatCount;
+
         sessionStorage.clear();
         alert("Feedback Submitted");
         FeedbackService.addFeedbackDetails(User_feedback)
