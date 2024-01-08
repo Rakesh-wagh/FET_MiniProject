@@ -23,11 +23,15 @@ $(document).ready(function () {
     } else {
       gender = $("#other").val();
     }
-    if (password1 === password2) {
-      password = $("#cpassword").val();
+    if (password1.length >= 8 && password2 >= 8) {
+      if (password1 === password2) {
+        password = $("#cpassword").val();
+      } else {
+        alert("Password Not Matched !!");
+        return false;
+      }
     } else {
-      alert("Password Not Matched !!");
-      return false;
+      alert("Password Length Must Be 8-10 Characters");
     }
 
     // validation

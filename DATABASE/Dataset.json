@@ -11,30 +11,6 @@
       "_state": "maharashtra",
       "_city": "Aurangabad",
       "id": 1
-    },
-    {
-      "_FullName": "abc",
-      "_email": "abc@gmail.com",
-      "_gender": "Male",
-      "_date_of_birth": "",
-      "_password": "1212",
-      "_address": "",
-      "_phone": "7485961254",
-      "_state": "maharashtra",
-      "_city": "nashik",
-      "id": 2
-    },
-    {
-      "_FullName": "Sumat Jain",
-      "_email": "sumat@gmail.com",
-      "_gender": "Male",
-      "_date_of_birth": "2024-01-05",
-      "_password": "1111",
-      "_address": "ShivajiNagar",
-      "_phone": "7845555547",
-      "_state": "maharashtra",
-      "_city": "Kalyan",
-      "id": 3
     }
   ],
   "movies": [
@@ -920,6 +896,34 @@
       "_comment": "ddd",
       "_seat_Count": "2",
       "id": 15
+    },
+    {
+      "_username": "Anand Shah",
+      "_moviename": "Andaz Apna Apna",
+      "_date": "Mon Jan 08 2024 11:56:10 GMT+0530 (India Standard Time)",
+      "_amount": "600",
+      "_review": "4",
+      "_comment": "good",
+      "_seat_Count": "2",
+      "id": 16
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Football - Mumbai City FC vs Bengaluru FC",
+      "_date": "Mon Jan 08 2024 11:59:29 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "_review": "3",
+      "_comment": "Nice",
+      "id": 17
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Cricket - IPL T20: Mumbai Indians vs Chennai Super Kings",
+      "_date": "Mon Jan 08 2024 12:24:37 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "_review": "4",
+      "_comment": "esf",
+      "id": 18
     }
   ]
 }
