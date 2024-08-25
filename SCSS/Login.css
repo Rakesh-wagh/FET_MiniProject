@@ -1,0 +1,43 @@
+:root {
+  --marigold: hsl(39, 96%, 48%);
+  --ff-poppins: "Poppins", sans-serif;
+}
+
+.button-color {
+  color: #ffffff;
+  border: 2px solid var(--marigold);
+  background-color: var(--marigold);
+  font-size: 13px;
+  margin: 10px auto;
+  font-family: var(--ff-poppins);
+}
+
+label {
+  font-weight: bold;
+}
+.password-color {
+  color: var(--marigold) !important;
+}
+#signup {
+  position: absolute;
+  right: 25px;
+  margin-top: 5px;
+}
+
+.input-icon {
+  background-color: #ffffff !important;
+  border: 0;
+  border-right: 2px solid #ccc;
+}
+.input-box {
+  border: 0;
+  box-shadow: none;
+}
+
+.main-card {
+  margin-top: 10%;
+  align-items: center;
+}
+.card-title {
+  font-size: 25px;
+}

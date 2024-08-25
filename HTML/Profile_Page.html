@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile|BookMe</title>
+    <link rel="stylesheet" href="../SCSS/Profile_Page.css">
+    <script src="../PLUGINS/All_cdn.js"></script>
+</head>
+<body>
+    <div class="container rounded bg-white mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-3 border-right">
+                <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="https://th.bing.com/th/id/OIP.PMhANanxddOBObcYxcYOcwHaGy?rs=1&pid=ImgDetMain" alt="image"><span class="font-weight-bold" id="fname"></span><span class="text-black-50" id="email"></span><span> </span></div>
+            </div>
+            <div class="col-md-5 border-right">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4 class="text-right">My Profile</h4>
+                    </div>
+                    <div class="row mt-2">
+                    <div class="col-md-12"><label class="labels"><b>Full Name</b> </label><input type="text" class="form-control" placeholder="" value="" id="full"></div>
+                    
+                    <div class="col-md-12"><label class="labels"><b>Email ID</b> </label><input type="text" class="form-control" placeholder="" value="" id="emailid"></div></div>
+                    <div class="row mt-3">
+                    <div class="col-md-12"><label class="labels"><b>Phone Number</b></label><input type="text" class="form-control" placeholder="" value="" id="phone"></div>
+                    <div class="col-md-12"><label class="labels"><b>Gender</b></label><input type="text" class="form-control" placeholder="" value="" id="gender"></div>
+                    <div class="col-md-12"><label class="labels"><b>Address</b></label><input type="text" class="form-control" placeholder="" value="" id="address"></div>
+                    <div class="col-md-12"><label class="labels"><b>City</b></label><input type="text" class="form-control" placeholder="" value="" id="city"></div>
+                    <div class="col-md-12"><label class="labels"><b>State</b></label><input type="text" class="form-control" placeholder="" value="" id="state"></div>
+                </div>
+                   
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center experience"><h4>My Orders</h4></div><br>
+                    <div class="col-md-12"><label class="labels">Order 1</label><input type="text" class="form-control" placeholder="content" value=""></div> <br>
+                    <div class="col-md-12"><label class="labels">Order 2</label><input type="text" class="form-control" placeholder="content " value=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="../JAVASCRIPT/Controllers/Profile_Page_Controller.js" type="module"></script>
+</body>
+</html>

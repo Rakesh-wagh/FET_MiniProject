@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../SCSS/Event_Allocation.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <script src="../PLUGINS/All_cdn.js"></script>
+    <title> Seat Booking</title>
+</head>
+<body>
+    <div class="container">
+        <h4>Seat Booking</h1>
+            <div class="event-details">
+
+            </div>
+
+        <div class="radio-buttons">
+            <label><input type="radio" name="seat-type" value="platinum"> Platinum</label>
+            <label><input type="radio" name="seat-type" value="silver"> Silver</label>
+            <label><input type="radio" name="seat-type" value="gold"> Gold</label>
+        </div>
+        <div class="seat-selection">
+            <div class="seat-count">
+                <label for="num-seats">Number of Seats:</label>
+                <button class="counter" onclick="decrement()">-</button>
+                <input type="text" id="num-seats" value="0" readonly>
+                <button class="counter" onclick="increment()">+</button>
+            </div>
+            <div class="total-cost">
+                <p>Total Seats Selected: <span id="total-seats">0</span></p>
+                <p>Total Cost: Rs <span id="total-cost">0.00</span></p>
+            </div>
+
+            <div class="proceed ">
+
+            </div>
+        </div>
+    </div>
+    <script src="../JAVASCRIPT/Controllers/Sport_Allocation.js"></script>
+    <script src="../JAVASCRIPT/Controllers/Sport_Allocation_Controller.js" type="module"></script>
+    <script src="../JAVASCRIPT/Controllers/Payment_Controller1.js" type="module"></script>
+</body>
+</html>

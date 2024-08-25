@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event |Feedback Form</title>
+    <script src="../PLUGINS/All_cdn.js"></script>
+  </head>
+  <body>
+    <div class="container p-3">
+      <h2 style="text-align: center">Thanks for booking with bookme.com</h2>
+      <div class="border border-2 p-3 w-50 m-auto">
+        <span>Name:</span><span id="name"></span><br />
+        <span>Movie Name | Event |Sport :</span><span id="movie"></span><br />
+        <span>Invoice:</span><span id="invoice">#123456</span><br />
+        <span>Date: </span><span id="currDate"></span><br />
+        <span><b>Total Amount:</b></span
+        ><span id="amount"></span><br />
+        <button
+          type="button"
+          class="btn btn-success"
+          id="toggle"
+          onclick="getDate()"
+        >
+          Confirm
+        </button>
+      </div>
+    </div>
+
+    <div class="container" style="max-width: 45%" id="feedback_container"></div>
+    <script>
+      function getDate() {
+        let currentdate = new Date();
+        document.getElementById("currDate").textContent = currentdate;
+      }
+    </script>
+    <script
+      src="../JAVASCRIPT/Controllers/Payment_Controller.js"
+      type="module"
+    ></script>
+  </body>
+</html>

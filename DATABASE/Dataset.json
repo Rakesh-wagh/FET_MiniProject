@@ -1,0 +1,998 @@
+{
+  "Users": [
+    {
+      "_FullName": "John William",
+      "_email": "John@yahoo.com",
+      "_gender": "Male",
+      "_date_of_birth": "2000-05-14",
+      "_password": "1111",
+      "_address": "Harinagar",
+      "_phone": "7458962514",
+      "_state": "maharashtra",
+      "_city": "Aurangabad",
+      "id": 1
+    },
+    {
+      "_FullName": "Sumat Jain",
+      "_email": "sumat@gmail.com",
+      "_gender": "Male",
+      "_date_of_birth": "",
+      "_password": "12345678",
+      "_address": "ShivajiNagar",
+      "_phone": "7854814444",
+      "_state": "maharashtra",
+      "_city": "nashik",
+      "id": 2
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "title": "The Conjuring",
+      "genre": "Horror",
+      "duration_minutes": "112 minutes",
+      "language": "English",
+      "director": "James Wan",
+      "producer": "Peter Safran,Vera Farmiga",
+      "cast": [
+        {
+          "id": 0,
+          "Actor_name": "Patrick Wilson",
+          "Also_Known_As": "Patrick John Wilson",
+          "Occupation": "Special Appearances • Actor • Producer • Singer • Director",
+          "Born": "July 3, 1973",
+          "Birthplace": "Norfolk, Virginia, United States Of America",
+          "About": "Patrick Wilson is an American actor and singer. He started his acting career with Broadway musicals in 1995, and few of his notable works include The Full Monty and Oklahoma.",
+          "img": "../IMAGES/Cast_data/patrick_wilson.webp"
+        },
+        {
+          "id": 1,
+          "Actor_name": "Vera Farmiga",
+          "Also_Known_As": "Vera Ann Farmiga",
+          "Occupation": "Actor",
+          "Born": "August 6, 1973",
+          "Birthplace": "Clifton, New Jersey, United States Of America",
+          "About": "Born on 6th August 1973, Vera Farmiga is an American actress who made her television debut with the fantasy adventure series Roar.",
+          "img": "../IMAGES/Cast_data/vera_farmiga.webp"
+        },
+        {
+          "id": 2,
+          "Actor_name": "Peter Sarsgaard",
+          "Also_Known_As": "John Peter Sarsgaard",
+          "Occupation": "Actor",
+          "Born": "March 7, 1971",
+          "Birthplace": "Illinois, United States Of America",
+          "About": "Peter Sarsgaard is an American film, television, and stage actor who is best known for portraying the character of John Lotter in the movie Boys Don`t Cry (1999) and for essaying the role of the American journalist Charles Lane in the movie Shattered Glass (2003). ",
+          "img": "../IMAGES/Cast_data/peter_sarsgaard.webp"
+        }
+      ],
+      "rating": " 7.5/10 (IMDb)",
+      "description": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. As they dig deeper, they encounter sinister forces.",
+      "music_director": "Joseph Bishara",
+      "img": "../IMAGES/cover_img/theconjuring_50.webp",
+      "bg": "../IMAGES/bg image/theconjuring-bg.webp"
+    },
+    {
+      "id": "2",
+      "title": "Stree",
+      "genre": "Horror",
+      "duration_minutes": "128 minutes",
+      "language": "Hindi",
+      "director": "Amar Kushik",
+      "producer": "Dinesh Vijan, Raj & D.K.",
+      "cast": [
+        {
+          "id": 0,
+          "Actor_name": "Rajkumar Rao",
+          "Also_Known_As": "Rajkumar Yadav",
+          "Occupation": "Actor • Special Appearances",
+          "Born": "August 31, 1984",
+          "Birthplace": "Gurgaon, Haryana, India",
+          "About": "Playing a 324-year-old man in the 2017 romantic drama Raabta or a lawyer and human rights activist in Shahid, Rajkummar Rao has proved to be one of the most bankable actors in his generation of actors. Despite playing supporting roles in movies Gangs of Wasseypur - Part 2, Talaash, and Aligarh,",
+          "img": "../IMAGES/Cast_data/rajkummar_rao.webp"
+        },
+        {
+          "id": 1,
+          "Actor_name": "Shraddha Kapoor",
+          "Also_Known_As": "Shraddha Kapoor",
+          "Occupation": "Actor • Special Appearances",
+          "Born": "March 3, 1987",
+          "Birthplace": "Mumbai, Maharashtra, India",
+          "About": "Best known for her portrayal of Arohi in Mohit Suri`s 2013 romance Aashiqui 2, Shraddha Kapoor is a Bollywood actress and singer. Although she had made her debut in 2010 alongside Amitabh Bachchan in Teen Patti, Aashiqui 2",
+          "img": "../IMAGES/Cast_data/shraddha_kapoor.webp"
+        },
+        {
+          "id": 2,
+          "Actor_name": "Pankaj Tripathi",
+          "Also_Known_As": "Pankaj Tripathi",
+          "Occupation": "Actor • Writer • Dialogue Writer",
+          "Born": "September 5, 1976",
+          "Birthplace": "Bihar, India",
+          "About": "Known for his natural acting and calm demeanor, film and television actor Pankaj Tripathi is an alumnus of the National School of Drama and has predominantly worked in the Hindi film industry.",
+          "img": "../IMAGES/Cast_data/pankaj_tripathi.webp"
+        }
+      ],
+      "rating": "7.6/10 (IMDb)",
+      "description": "In the town of Chanderi, men start disappearing every night, leaving behind their clothes. The mysterious entity responsible is believed to be the ghost of a woman, Stree, who stalks and abducts men.Unfortunately, I couldn't find the music director for Stree, but I hope you find these recommendations intriguing!",
+      "music_director": "Sachin–Jigar",
+      "img": "../IMAGES/cover_img/stree_360x480.webp",
+      "bg": "../IMAGES/bg image/stree-bg.webp"
+    },
+    {
+      "id": "3",
+      "title": "Wonka",
+      "genre": "Comedy",
+      "duration_minutes": "116 minutes",
+      "language": "English",
+      "director": "Paul King",
+      "producer": "Nathan Crowley",
+      "cast": [
+        {
+          "id": 0,
+          "Actor_name": "Timothée Chalamet",
+          "Also_Known_As": "Timothée Chalamet",
+          "Occupation": "Actor",
+          "Born": "December 27, 1995",
+          "Birthplace": "New York City, United States Of America",
+          "About": "Timothee Hal Chalamet is an American actor. He began his acting career in short films, before appearing in the television drama series Homeland in 2012. Two years later, he made his feature film debut in the drama Men, Women and Children",
+          "img": "../IMAGES/Cast_data/timoth_e_chalamet.webp"
+        },
+        {
+          "id": 1,
+          "Actor_name": "Rowan Atkinson",
+          "Also_Known_As": "Rowan Sebastian Atkinson, Row, Mr. Bean",
+          "Occupation": "Voice Cast • Actor • Executive Producer",
+          "Born": "January 6, 1955",
+          "Birthplace": "Consett, Durham, United Kingdom",
+          "About": "Rowan Atkinson is an English actor, comedian, and screenwriter who is best known as Mr. Bean. His career took off on the small screen with the BBC comedy sketch show Not the Nine O`Clock News.",
+          "img": "../IMAGES/Cast_data/rowan_atkinson.webp"
+        },
+        {
+          "id": 2,
+          "Actor_name": "Hugh Grant",
+          "Also_Known_As": "Hugh John Mungo Grant",
+          "Occupation": "Actor • Voice Cast",
+          "Born": "September 9, 1960",
+          "Birthplace": "Hammersmith, London, England, United Kingdom",
+          "About": "His big-screen debut in Privileged (1982) by director Michael Hoffman. Grant`s first leading film role was in Merchant-Ivory`s Edwardian drama Maurice (1987), adapted from E. M. Forster`s novel Volpi Cup.",
+          "img": "../IMAGES/Cast_data/hugh_grant.webp"
+        }
+      ],
+      "rating": "8.7/10 (IMDb)",
+      "description": "Based on the extraordinary character of Charlie and the Chocolate Factory, Roald Dahl`s most iconic children`s book, Wonka tells the wondrous story of how the world`s greatest inventor, magician and chocolate-maker became the beloved Willy Wonka we know today.",
+      "music_director": "Paul King",
+      "img": "../IMAGES/cover_img/wonka.webp",
+      "bg": "../IMAGES/bg image/wonka-bg.webp"
+    },
+    {
+      "id": "4",
+      "title": "Andaz Apna Apna",
+      "genre": "Comedy",
+      "duration_minutes": "160 minutes",
+      "language": "Hindi",
+      "director": "Rajkumar Santoshi",
+      "producer": "Vinay Kumar Sinha",
+      "cast": [
+        {
+          "id": 0,
+          "Actor_name": "Aamir Khan",
+          "Also_Known_As": "Mohammed Aamir Hussain Khan",
+          "Occupation": "Actor • Producer • Executive Producer",
+          "Born": "March 14, 1965",
+          "Birthplace": "Mumbai, Maharashtra, India",
+          "About": "Perfectionist, resourceful, inspiring, youthful, & alluring are just a few of the many adjectives associated with this Superstar. Considered a `thinking` hero, Aamir Khan has been in the industry since the 80s and is known for his versatility.",
+          "img": "../IMAGES/Cast_data/aamir_khan.webp"
+        },
+        {
+          "id": 1,
+          "Actor_name": "Salman Khan",
+          "Also_Known_As": "Bhaijaan, Sallu Bhai",
+          "Occupation": "Actor • Writer • Singer • Narrator",
+          "Born": "December 27, 1965",
+          "Birthplace": "Indore, Madhya Pradesh, India",
+          "About": "Known as the bad boy of Bollywood, Salman Khan is one of the most charismatic, flamboyant and commercially successful actors of Hindi cinema. The superstar has a huge fan following not just in India but all around the world and his popularity is perfectly reflected by the numerous awards and recognitions bestowed on him. Voted as the Sexiest Man Alive in 2010 by the People Magazine India.",
+          "img": "../IMAGES/Cast_data/salman_khan.webp"
+        },
+        {
+          "id": 2,
+          "Actor_name": "Karisma Kapoor",
+          "Also_Known_As": "Karishma Kapoor, Lolo",
+          "Occupation": "Actor • Voice Cast • Special Appearances",
+          "Born": "June 25, 1974",
+          "Birthplace": "Mumbai, Maharashtra, India",
+          "About": "Having made her acting debut at the age of seventeen, Karisma Kapoor is a Bollywood actress, who was one of the topmost actresses of the 90s. Hailing from the most celebrated family of Bollywood, the Kapoor family, Karisma is the granddaughter of the legendary actor Raj Kapoor, and hence it comes as no surprise that the actress has several critically acclaimed and commercially successful films to her credit.",
+          "img": "../IMAGES/Cast_data/karisma_kapoor.webp"
+        }
+      ],
+      "rating": "Rating: 8.2/10 (IMDb)",
+      "description": "A classic Bollywood comedy, Andaz Apna Apna revolves around two slackers who dream of getting rich by wooing an heiress. The film is a laughter riot with memorable characters and hilarious situations.Please note that ratings and details may vary, and it's always a good idea to check the latest information before watching.",
+      "music_director": "Tushar Bhatia",
+      "img": "../IMAGES/cover_img/andaz-apna-apna.webp",
+      "bg": "../IMAGES/bg image/andaz-apna-apna-bg.webp"
+    },
+    {
+      "id": "5",
+      "title": "Mad Max: Fury Road",
+      "genre": "Action",
+      "duration_minutes": "120 minutes",
+      "language": "English",
+      "director": "George Miller",
+      "producer": "Doug Mitchell, George Miller, P.J. Voeten",
+      "cast": [
+        {
+          "id": 0,
+          "Actor_name": "Tom Hardy",
+          "Also_Known_As": "Edward Thomas Hardy, Tom, Thomas Hardy",
+          "Occupation": "Actor • Producer • Writer",
+          "Born": "September 15, 1977",
+          "Birthplace": "Hammersmith, England, United Kingdom",
+          "About": "Edward Thomas Hardy (popularly known as Tom Hardy) is a London born English actor, producer and screenwriter. Having made his film debut with the action flick Black Hawk Down in 2001, Hardy has climbed the ladder of success with effortlessly portraying tough-guy roles in his movies.",
+          "img": "../IMAGES/Cast_data/tom_hardy.webp"
+        },
+        {
+          "id": 1,
+          "Actor_name": "Charlize Theron",
+          "Also_Known_As": "Charlie",
+          "Occupation": "Producer • Actor • Voice Cast • Executive Producer",
+          "Born": "August 7, 1975",
+          "Birthplace": "Benoni, Gauteng, South Africa",
+          "About": "Charlize Theron is the brunette beauty from South Africa, who has made a glorious career in Hollywood, as a movie actress and producer. Some of her highly acclaimed performances have come in films such as The Devil`s Advocate (1997), Mighty Joe Young (1998), Monster (2003), The Italian Job (2003), Hancock (2008), and Mad Max: Fury Road (2015).",
+          "img": "../IMAGES/Cast_data/charlize_theron.webp"
+        },
+        {
+          "id": 2,
+          "Actor_name": "Nicholas Hoult",
+          "Also_Known_As": "Nicholas Hoult",
+          "Occupation": "Actor • Voice Cast",
+          "Born": "December 7, 1989",
+          "Birthplace": "United Kingdom",
+          "About": "Having a penchant for acting at a very early age, Nicholas Hoult appeared in a play titled The Caucasian Chalk Circle at the age of three. It only took another two years for him to make his professional debut at the age of five in the movie Intimate Relations. However, it was his role in the movie About A Boy which earned him critical appreciation and was also nominated for the Critics Choice Movie Award for Best Young Performer.",
+          "img": "../IMAGES/Cast_data/nicholas_hoult.webp"
+        }
+      ],
+      "rating": "8.1/10 (IMDb)",
+      "description": " In a post-apocalyptic wasteland, Max teams up with Furiosa to escape a tyrannical warlord and his army, leading to a high-octane, relentless pursuit across the desert.Hindi Action Movie:",
+      "music_director": "junkie XL",
+      "img": "../IMAGES/cover_img/mad-max-fury-road_360x480.webp",
+      "bg": "../IMAGES/bg image/mad-max-fury-road-bg.webp"
+    },
+    {
+      "id": "6",
+      "title": "Baahubali: The Beginning",
+      "genre": "Action",
+      "duration_minutes": "",
+      "language": "Hindi",
+      "director": "S. S. Rajamouli",
+      "producer": "Shobu Yarlagadda, Prasad Devineni",
+      "cast": [
+        {
+          "id": 0,
+          "Actor_name": "Prabhas",
+          "Also_Known_As": "Prabhas Raju Uppalapati",
+          "Occupation": "Actor • Special Appearances • Voice Cast",
+          "Born": "October 23, 1979",
+          "Birthplace": "Chennai, Tamil Nadu, India",
+          "About": "Born as Prabhas Raju Uppalapati, Prabhas is a popular Indian actor who appears in Telugu cinema. He is the nephew of the veteran actor of the Telugu film industry, Uppalapati Krishnam Raju. In the year 2015, Prabhas starred in the movie, Baahubali, which is one of the highest grossing movies of Indian cinema and later reprised his titular role in Baahubali 2: The Conclusion (2017), which became the first Indian film in the history of Indian cinema to gross 1000 crores INR at the box office. The huge star that Prabhas is, the actor not only has a huge fan base across India but also over the years has earned several nick names from his fans including Mr. Perfect, Pubsi and Prabha.",
+          "img": "../IMAGES/Cast_data/prabhas.webp"
+        },
+        {
+          "id": 1,
+          "Actor_name": "Rana Daggubati",
+          "Also_Known_As": "Rama Naidu Daggubati, Rana",
+          "Occupation": "Actor • Producer • Voice Cast • Special Appearances",
+          "Born": "December 14, 1984",
+          "Birthplace": "Chennai, Tamil Nadu, India",
+          "About": "Rana Daggubati is an Indian film actor, producer, visual effects co-ordinator, and photographer who appears in Telugu, Tamil, and Hindi movies. He made his acting debut with the Telugu movie Leader and went on to star in several south Indian and Hindi movies. The actor is the recipient of the State Nandi Award for Best Special Effects for the movie Sainikudu",
+          "img": "../IMAGES/Cast_data/rana_daggubati.webp"
+        },
+        {
+          "id": 2,
+          "Actor_name": "Anushka Shetty",
+          "Also_Known_As": "Sweety Shetty, Mac",
+          "Occupation": "Actor • Special Appearances",
+          "Born": "November 7, 1981",
+          "Birthplace": "Mangalore, Karnataka, India",
+          "About": "One of the leading actresses of Telugu cinema, Sweety Shetty is better known by her stage name Anushka Shetty. Besides acting in Telugu films, Anushka is also a successful Tamil actress. She has acted in many commercially and critically successful Telegu films and has also received Filmfare, Nandi, and CineMAA awards.",
+          "img": "../IMAGES/Cast_data/anushka_shetty.webp"
+        }
+      ],
+      "rating": "8.1/10 (IMDb)",
+      "description": "The film follows the epic journey of Shivudu as he discovers his roots, faces powerful enemies, and unravels the mystery behind the kingdom of Mahishmati, featuring breathtaking action sequences and visual effects.Please note that ratings may vary, and these are approximate values from IMDb as of my last update in January 2022.",
+      "music_director": "M.M. Keeravani",
+      "img": "../IMAGES/cover_img/baahubali-the-beginning_360x480.webp",
+      "bg": "../IMAGES/bg image/baahubali-the-beginning-bg.webp"
+    },
+    {
+      "id": "7",
+      "title": "Andhadhun",
+      "genre": "Thriller",
+      "duration_minutes": "139 minutes",
+      "language": "Hindi",
+      "director": "Sriram Raghavan",
+      "producer": "Viacom18 Motion Pictures, Matchbox Pictures",
+      "cast": [
+        {
+          "id": 0,
+          "Actor_name": "Ayushmann Khurrana",
+          "Also_Known_As": "Ayushmann Khurrana",
+          "Occupation": "Actor • Music • Singer",
+          "Born": "September 14, 1984",
+          "Birthplace": "Chandigarh, Punjab, India",
+          "About": "From a popular VJ to one of the most bankable young actors in contemporary Bollywood, Ayushmann Khurrana has come a long way in such a short span of time. His first big break in showbiz came when he won the second season of the reality show MTV Roadies at the age of 20. This was followed by a successful stint as a tv host, and subsequently, a dream debut courtesy of the acclaimed rom-com Vicky Donor (2012) which was also a box office hit.",
+          "img": "../IMAGES/Cast_data/ayushmann_khurrana.webp"
+        },
+        {
+          "id": 1,
+          "Actor_name": "Tabu",
+          "Also_Known_As": "Tabassum Hashmi, Tabassum Fatima Hashmi",
+          "Occupation": "Actor • Special Appearances",
+          "Born": "November 4, 1971",
+          "Birthplace": "Hyderabad, Telangana, India",
+          "About": "One of the most versatile actresses of the Indian film fraternity, Tabu is famous for starring in movies like Maachis (1996), Virasat (1997), Astitva (2000),Chandni Bar (2001), Maqbool (2003) Cheeni Kum (2007), The Namesake (2007), Life Of Pi (2012), and Haider (2014). In 2011, this two-time National Award winning actress was felicitated with the Padma Sri, India`s fourth highest civilian award, for her contribution to Indian cinema.",
+          "img": "../IMAGES/Cast_data/tabu.webp"
+        },
+        {
+          "id": 2,
+          "Actor_name": "Radhika Apte",
+          "Also_Known_As": "Radhika Apte",
+          "Occupation": "Actor • Screenplay",
+          "Born": "September 7, 1985",
+          "Birthplace": "Pune, Maharashtra, India",
+          "About": "Born on 7th September 1985, Radhika Apte is an Indian film and stage actress, who made her feature film debut in Vaah! Life Ho Toh Aisi, co-starring Shahid Kapoor and Amrita Rao. Apart from starring in Bollywood movies like Badlapur and Phobia, Apte has also appeared in a number of Bengali, Marathi, Telugu, Tamil and Malayalam films.",
+          "img": "../IMAGES/Cast_data/radhika_apte.webp"
+        }
+      ],
+      "rating": "8.3/10 (IMDb)",
+      "description": "Andhadhun is a suspenseful thriller where a visually impaired pianist becomes entangled in a web of crime after witnessing a murder. The film keeps the audience on the edge with its unpredictable twists and turns.Please note that the ratings are based on IMDb scores as of my last knowledge update in January 2022, and they may have changed since then.",
+      "music_director": "Raftaar and Girish Nakod, and Amit Trivedi",
+      "img": "../IMAGES/cover_img/andhadhun_360x480.webp",
+      "bg": "../IMAGES/bg image/andhadhun-bg.webp"
+    },
+    {
+      "id": "8",
+      "title": "Gone Girl",
+      "genre": "Thriller",
+      "duration_minutes": "149 minutes",
+      "language": "English",
+      "director": "David Fincher",
+      "producer": "Leslie Dixon, Bruna Papandrea, Reese Witherspoon, Cean Chaffin",
+      "cast": [
+        {
+          "id": 0,
+          "Actor_name": "Ben Affleck",
+          "Also_Known_As": "Benjamin Geza Affleck-Boldt",
+          "Occupation": "Actor • Screenplay • Writer • Produce",
+          "Born": "August 15, 1972",
+          "Birthplace": "California, United States Of America",
+          "About": "Ben Affleck is an American television and film actor, director, writer, and producer who started his acting career as a child artist with the PBS educational television series The Voyage of the Mimi in 1984. He is was seen in films like Shakespeare in Love, Pearl Harbor, and Gone Girl. However, he is best remembered for his portrayal of Batman in Batman v Superman: Dawn of Justice.",
+          "img": "../IMAGES/Cast_data/ben_affleck.webp"
+        },
+        {
+          "id": 1,
+          "Actor_name": "Rosamund Pike",
+          "Also_Known_As": "Rosamund Mary Ellen Pike",
+          "Occupation": "Actor • Music • Singer",
+          "Born": "January 27, 1979",
+          "Birthplace": "London, England, United Kingdom",
+          "About": "Academy Award nominated English actress Rosamund Pike was born in London to a family of musicians: her mother was a classical violinist and her father was an opera singer. Following a childhood that was spent across Europe, she ventured into acting at a very young age through stage productions like Romeo and Juliet and Skylight. Soon afterwards, Pike made her television debut in 1998 with the BBC telefilm A Rather English Marriage.",
+          "img": "../IMAGES/Cast_data/rosamund_pike.webp"
+        },
+        {
+          "id": 2,
+          "Actor_name": "Neil Patrick Harris",
+          "Also_Known_As": "Nph",
+          "Occupation": "Actor • Voice Cast",
+          "Born": "June 15, 1973",
+          "Birthplace": "Albuquerque, New Mexico, United States Of America",
+          "About": "Neil Patrick Harris is a television, actor, producer, director and amateur singer. He was born in New Mexico. Neil participated in school plays and made his debut with Purple People Eater (1988) and Clara`s Heart (1988). Neil was only 16 years old when he was cast in the iconic role of Doogie Howser M.D (1989).",
+          "img": "../IMAGES/Cast_data/neil_patrick_harris.webp"
+        }
+      ],
+      "rating": "8.1/10 (IMDb)",
+      "description": "Gone Girl is a gripping mystery thriller that explores the complexities of a marriage in the midst of a high-profile disappearance. As the media frenzy unfolds, secrets unravel, and the line between truth and deception blurs.",
+      "music_director": "Tent Reznor ",
+      "img": "../IMAGES/cover_img/gone-girl.webp",
+      "bg": "../IMAGES/bg image/gone-girl-bg.jfif"
+    },
+    {
+      "id": "9",
+      "title": "The Notebook",
+      "genre": "Romantic",
+      "duration_minutes": "123 minutes",
+      "language": "English",
+      "director": "Nick Cassavetes",
+      "producer": "Mark Johnson",
+      "cast": [
+        {
+          "id": 0,
+          "Actor_name": "Ryan Gosling",
+          "Also_Known_As": "Ryan Thomas Gosling, Trouble, Ryan Thomas Baby Goose Gosling",
+          "Occupation": "Actor • Producer • Executive Producer",
+          "Born": "November 12, 1980",
+          "Birthplace": "Ontario, Canada",
+          "About": "Famous for doing starring roles in romantic films like The Notebook, Blue Valentine, and Crazy, Stupid, Love, Ryan Gosling is a London-born Canadian actor, producer, director, philanthropist, and businessman. For portraying Dan Dunne, a troubled history teacher in the drama film Half Nelson, Gosling received an Academy Award nomination for Best Actor. He has also starred in the television shows Breaker High from 1997-98, and the spin-off show Young Hercules from 1998-99, where he played the titular character",
+          "img": "../IMAGES/Cast_data/ryan_gosling.webp"
+        },
+        {
+          "id": 1,
+          "Actor_name": "Rachel McAdams",
+          "Also_Known_As": "Rachel Anne McAdams, Rachel MacAdams, Rach",
+          "Occupation": "Actor • Voice Cast",
+          "Born": "November 17, 1978",
+          "Birthplace": "London, Ontario, Canada",
+          "About": "Rachel McAdams is a Canadian actress popularly known for her roles in the movie The Notebook (2004) and in the Academy Award Winning movie Spotlight (2016). She was also nominated for the Academy Award for Best Supporting Actress for her performance in Spotlight. Beginning her career with Canadian TV, McAdams shot to fame with the movie Mean Girls (2004) and has also appeared in the second season of the acclaimed TV series True Detective, which also stars Colin Farrell.",
+          "img": "../IMAGES/Cast_data/rachel_mcadams.webp"
+        }
+      ],
+      "rating": "7.8/10 (IMDb)",
+      "description": "The Notebook is a heartwarming tale of young love and enduring passion. It follows the story of Noah and Allie, who fall deeply in love during the summer but are separated by societal expectations. The movie explores the power of true love and the impact of choices made throughout a lifetime.",
+      "music_director": "Aaron Zigman",
+      "img": "../IMAGES/cover_img/the-notebook.webp",
+      "bg": "../IMAGES/bg image/the notebook-bg.jfif"
+    },
+    {
+      "id": "10",
+      "title": "Dilwale Dulhania Le Jayenge",
+      "genre": "Romantic",
+      "duration_minutes": "189 minutes",
+      "language": "Hindi",
+      "director": "Aditya Chopra",
+      "producer": "Yash Chopra",
+      "cast": [
+        {
+          "id": 0,
+          "Actor_name": "Shah Rukh Khan",
+          "Also_Known_As": "SRK, ShahRukh Khan",
+          "Occupation": "Actor • Producer • Voice Cast • Special Appearances",
+          "Born": "November 2, 1965",
+          "Birthplace": "New Delhi, Delhi, India",
+          "About": "Hailed as the world`s biggest superstar and the King of Bollywood, Shah Rukh Khan is a phenomenon like no other. From his humble beginnings as an outsider in a largely dynastic Hindi cinema to earning the numero uno position in the industry, his rise might seem like a fairytale; but is in fact a testament to the actor`s sheer talent, infectious energy and hard work. An incredible artistic journey that started with the 1989 tv series Fauji has continued to flourish for around three decades now, scaling dizzying heights of stardom and redefining Bollywood along the way.",
+          "img": "../IMAGES/Cast_data/shah_rukhkhan.webp"
+        },
+        {
+          "id": 1,
+          "Actor_name": "Kajol",
+          "Also_Known_As": "Kajol Mukherjee, Kajol Devgn, Kajol Mukherjee Devgn",
+          "Occupation": "Actor • Screenplay",
+          "Born": "August 5, 1974",
+          "Birthplace": "Mumbai, Maharashtra, India",
+          "About": "Kajol Mukherjee, better known by her mononymous screen name, Kajol is an Indian actress and philanthropist who predominantly works in Bollywood films. The actress who made her acting debut with the 1992 romantic-drama Bekhudi has established herself as one of the most versatile actresses in the industry. Her stellar performances in movies like Baazigar (1993), Dilwale Dulhania Le Jayenge (1995), Kuch Kuch Hota Hai (1998), Kabhi Khushi Kabhie Gham (2001) and My Name is Khan (2010) won her several accolades and awards including six Filmfare Awards. For her outstanding contribution to the Indian cinema, the government of India honored her with the coveted Padma Shri in 2011.",
+          "img": "../IMAGES/Cast_data/kajol.webp"
+        }
+      ],
+      "rating": "8.1/10 (IMDb)",
+      "description": "Dilwale Dulhania Le Jayenge is a timeless classic that tells the story of Raj and Simran, two individuals who fall in love during a trip to Europe. However, their love faces opposition from Simran's conservative father. The movie is celebrated for its memorable dialogues, iconic scenes, and its portrayal of traditional values.",
+      "music_director": "Jatin-Lalit",
+      "img": "../IMAGES/cover_img/DDLJ_360x480.webp",
+      "bg": "../IMAGES/bg image/DDLJ-bg.webp"
+    },
+    {
+      "id": "11",
+      "title": "Sairat",
+      "genre": "Romantic",
+      "duration_minutes": "174 minutes",
+      "language": "Marathi",
+      "director": "Nagraj Manjule",
+      "producer": "Nagraj Manjule, Nitin Keni, and Nikhil Sane",
+      "cast": [
+        {
+          "id": 0,
+          "Actor_name": "Akash Thosar",
+          "Also_Known_As": "Akash Thosar",
+          "Occupation": "Actor • Screenplay",
+          "Born": "February 23, 1993",
+          "Birthplace": "Karmala, Maharashtra, India",
+          "About": "Best remembered for his portrayal of Parshya in the musical romantic-drama Sairat in 2016, Akash Thosar is a Marathi movie actor, who made an impact with his debut movie itself.",
+          "img": "../IMAGES/Cast_data/akash_thosar.webp"
+        },
+        {
+          "id": 1,
+          "Actor_name": "Rinku Rajguru",
+          "Also_Known_As": "Rinku Rajguru",
+          "Occupation": "Actor • Screenplay",
+          "Born": "June 3, 2001",
+          "Birthplace": "Maharashtra, India",
+          "About": "Rinku Rajguru is an Indian actress, who made her debut with the blockbuster Marathi movie, Sairat that released in 2016. The movie went on to become the highest-grossing movie of Marathi cinema and Rinku won a Special Mention Award at the National Awards for her performance in the movie.",
+          "img": "../IMAGES/Cast_data/rinku_rajguru.webp"
+        }
+      ],
+      "rating": "8.0/10 (IMDb)",
+      "description": "Sairat is a love story that transcends social boundaries, exploring the challenges faced by a young couple from different castes in rural Maharashtra. The film captures the raw emotions and harsh realities of societal norms, making it a powerful and acclaimed romantic drama.",
+      "music_director": "Ajay-Atul",
+      "img": "../IMAGES/cover_img/sairat.webp",
+      "bg": "../IMAGES/bg image/sairat-bg.webp"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "event_name": "Rambo Circus",
+      "artist_name": [
+        "African Artists"
+      ],
+      "venue": "Phoenix MarketCity, Pune",
+      "date": "January 4 2024",
+      "time": "06:30 PM",
+      "ticket_price": "₹ 350 onwards",
+      "about_event": "Catch a whiff of nostalgia at the award-winning Rambo Circus! The age old circus has some classics and lots of new tricks for you - from death-defying acts like Contortion, German Wheel, Cycle Tricks, Rolla Bolla to fresh new acts like roller skating, ladder balance. And how can one forget the entertaining acts of the beloved clowns!",
+      "terms_and_conditions": "1. No outside food and drinks allowed. 2. No video recording allowed.",
+      "event_poster": "../IMAGES/Events/img1.webp"
+    },
+    {
+      "id": 2,
+      "event_name": "Standup Comedy",
+      "artist_name": [
+        "Zakir Khan"
+      ],
+      "venue": "Mayfield Estate, Pune",
+      "date": "January 21, 2024",
+      "time": "05:30 PM",
+      "ticket_price": "₹ 1499 onwards",
+      "about_event": "1Ready for a night of giggles and gastronomic delights? Clear your calendars and leave your 'Hmm..accha thik hain' attitude at the door because the sultan of stand-up, Zakir Khan is rolling into your town like a laughter tornado with his new tour",
+      "terms_and_conditions": "1. Age Limit: 18+ 2. Tickets once booked cannot be exchanged or refunded 3. Entry will be first come, first serve basis as per your ticket category",
+      "event_poster": "../IMAGES/Events/img2.webp"
+    },
+    {
+      "id": 3,
+      "event_name": "Ed Sheran: +-=x India Tour",
+      "artist_name": [
+        "Ed Sheran"
+      ],
+      "venue": "Mahalakshmi Race Course, Mumbai",
+      "date": "March 16, 2024",
+      "time": "03:00 PM",
+      "ticket_price": "₹ 8500 onwards",
+      "about_event": "We're Thinking Out Loud here, but picture yourself at Ed Sheeran's LIVE concert!",
+      "terms_and_conditions": "1. By accepting, holding or using a ticket, you acknowledge that you have read, understood, accepted and agreed to the full terms and conditions. 2. Admits one (1) person of age 5 years and above only. ",
+      "event_poster": "../IMAGES/Events/img3.webp"
+    },
+    {
+      "id": 4,
+      "event_name": "Kisi Ko Batana Mat",
+      "artist_name": [
+        "Anubhav Singh Bassi"
+      ],
+      "venue": "Rang Sharda, Mumbai",
+      "date": "January 28, 2024",
+      "time": "05:00 PM",
+      "ticket_price": "₹ 1500",
+      "about_event": "After the great success of his previous show Bas kar bassi, Anubhav Singh Bassi is coming back to perform live on stage. This time, he will bring a whole new set of funny stories and jokes that will keep you entertained. Get ready to enjoy an exciting and hilarious performance that will make you laugh uncontrollably and leave you in high spirits.",
+      "terms_and_conditions": "1. Tickets once booked cannot be exchanged or refunded 2. An Internet handling fee per ticket may be levied. Please check the total amount before payment",
+      "event_poster": "../IMAGES/Events/img4.webp"
+    },
+    {
+      "id": 5,
+      "event_name": "Toxic-Stand Up Comedy",
+      "artist_name": [
+        "Abhishek Upmanyu"
+      ],
+      "venue": "JT Performing Arts Centre, Kochi",
+      "date": "January 31, 2024",
+      "time": "10:30 AM",
+      "ticket_price": "₹ 999 onwards",
+      "about_event": "In Abhishek Upmanyu Live, Abhishek takes you on a hilarious journey through the everyday quirks and absurdities of life. With his unique observational humor, he takes everything from relationships and technology to Indian culture and more, offering a fresh perspective on the world we live in.",
+      "terms_and_conditions": "1. Tickets once booked cannot be exchanged or refunded 2. An Internet handling fee per ticket may be levied. Please check the total amount before payment",
+      "event_poster": "../IMAGES/Events/img5.webp"
+    },
+    {
+      "id": 6,
+      "event_name": "Musical Fiesta",
+      "artist_name": [
+        "Mahesh Kale"
+      ],
+      "venue": "Mahakavi Kalidas Kalamandir, Nashik",
+      "date": "January 15, 2024",
+      "time": "05:00 PM",
+      "ticket_price": "₹ 500 onwards",
+      "about_event": "The great or the best is Sawaai and this is a collection of best of Mahesh Kale's songs. This event is specially designed for his fans.",
+      "terms_and_conditions": "No professional videography allowed. Strictly no resale of tickets.",
+      "event_poster": "../IMAGES/Events/img6.webp"
+    }
+  ],
+  "sports": [
+    {
+      "id": 1,
+      "sportName": "Mumbai Half Marathon",
+      "place": "Bandra Fort Garden, Mumbai",
+      "date": "January 4, 2024",
+      "time": "05:30 AM",
+      "ticket_price": "₹ 1500 onwards",
+      "about": "Run will be on scenic Bandstand Carter Road Route.All Participants will get Bib, Medal, T-Shirt, Banana, Water, Breakfast and e-Certificate.",
+      "terms_and_conditions": "1. Age Categories - 10 years to 44 years and 45 years to 59 years and 60 years and above Male and Female. 2. We recommend that you arrive at-least 30 minutes prior at the venue for a seamless entry. ",
+      "sports_poster": "../IMAGES/sports_data/img1.jfif"
+    },
+    {
+      "id": 2,
+      "sportName": "Football - Mumbai City FC vs Bengaluru FC",
+      "place": "Mumbai Football Arena, Mumbai",
+      "date": "January 17, 2024",
+      "time": "6:00 PM",
+      "ticket_price": "₹ 1999 onwards",
+      "about": "A high-intensity football match in the Indian Super League.",
+      "terms_and_conditions": "1. Entry allowed with valid tickets only. 2. No re-entry after exiting the stadium. 3. Alcoholic beverages not permitted.",
+      "sports_poster": "../IMAGES/sports_data/img2.jfif"
+    },
+    {
+      "id": 3,
+      "sportName": "Cricket - IPL T20: Mumbai Indians vs Chennai Super Kings",
+      "place": "Wankhede Stadium, Mumbai",
+      "date": "February 4, 2024",
+      "time": "8:00 PM",
+      "ticket_price": "₹ 2999 onwards",
+      "about": "The biggest rivalry of IPL between Mumbai Indians and Chennai Super Kings.",
+      "terms_and_conditions": "1. No resale of tickets allowed. 2. Alcoholic beverages not permitted inside the stadium. 3. Security checks mandatory.",
+      "sports_poster": "../IMAGES/sports_data/img3.jpg"
+    },
+    {
+      "id": 4,
+      "sportName": "Commonwealth Games - Athletics",
+      "place": "Shree Shiv Chhatrapati Sports Complex, Pune",
+      "date": "February 4, 2024",
+      "time": "9:00 AM",
+      "ticket_price": "₹ 499 onwards",
+      "about": "Athletic events showcasing global talent in the Commonwealth Games.",
+      "terms_and_conditions": "1. No entry without a valid ticket. 2. Security checks at the entrance. 3. Prohibited items include weapons and sharp objects.",
+      "sports_poster": "../IMAGES/sports_data/img5.jfif"
+    },
+    {
+      "id": 5,
+      "sportName": "Kabaddi - Pro Kabaddi League",
+      "place": "NSCI Dome, Mumbai",
+      "date": "March 28, 2024",
+      "time": "6:30 PM",
+      "ticket_price": "₹ 1299 onwards",
+      "about": "A high-stakes match in the Pro Kabaddi League showcasing exceptional talent.",
+      "terms_and_conditions": "1. No entry without a valid ticket. 2. Limited parking available. 3. Spectators to adhere to seating arrangements.",
+      "sports_poster": "../IMAGES/sports_data/img7.jfif"
+    },
+    {
+      "id": 6,
+      "sportName": "Cricket - India vs Pakistan T20",
+      "place": "Wankhede Stadium, Mumbai",
+      "date": "March 30, 2024",
+      "time": "7:30 PM",
+      "ticket_price": "₹ 3999 onwards",
+      "about": "An intense T20 match between arch-rivals India and Pakistan.",
+      "terms_and_conditions": "1. No resale of tickets allowed. 2. Alcoholic beverages not permitted. 3. Security checks at stadium entrances.",
+      "sports_poster": "../IMAGES/sports_data/img8.jfif"
+    }
+  ],
+  "theaters": [
+    {
+      "name": "PVR Cinemas",
+      "location": "Phoenix Marketcity",
+      "showTimings": [
+        {
+          "day": "Monday",
+          "time": "15:00"
+        },
+        {
+          "day": "Tuesday",
+          "time": "18:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "20:15"
+        },
+        {
+          "day": "Thursday",
+          "time": "16:45"
+        },
+        {
+          "day": "Friday",
+          "time": "19:00"
+        },
+        {
+          "day": "Saturday",
+          "time": "21:30"
+        }
+      ]
+    },
+    {
+      "name": "INOX",
+      "location": "Bund Garden Road",
+      "showTimings": [
+        {
+          "day": "Monday",
+          "time": "15:00"
+        },
+        {
+          "day": "Tuesday",
+          "time": "18:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "20:15"
+        },
+        {
+          "day": "Thursday",
+          "time": "16:45"
+        },
+        {
+          "day": "Friday",
+          "time": "19:00"
+        },
+        {
+          "day": "Saturday",
+          "time": "21:30"
+        }
+      ]
+    },
+    {
+      "name": "City Pride",
+      "location": "Kothrud",
+      "showTimings": [
+        {
+          "day": "Monday",
+          "time": "15:00"
+        },
+        {
+          "day": "Tuesday",
+          "time": "18:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "20:15"
+        },
+        {
+          "day": "Thursday",
+          "time": "16:45"
+        },
+        {
+          "day": "Friday",
+          "time": "19:00"
+        },
+        {
+          "day": "Saturday",
+          "time": "21:30"
+        }
+      ]
+    },
+    {
+      "name": "Carnival",
+      "location": "Seasons Mall, Magarpatta",
+      "showTimings": [
+        {
+          "day": "Monday",
+          "time": "15:00"
+        },
+        {
+          "day": "Tuesday",
+          "time": "18:30"
+        },
+        {
+          "day": "Wednesday",
+          "time": "20:15"
+        },
+        {
+          "day": "Thursday",
+          "time": "16:45"
+        },
+        {
+          "day": "Friday",
+          "time": "19:00"
+        },
+        {
+          "day": "Saturday",
+          "time": "21:30"
+        }
+      ]
+    }
+  ],
+  "Feedback": [
+    {
+      "_username": "John William",
+      "_moviename": "Standup Comedy",
+      "_date": "Sun Jan 07 2024 16:16:42 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "id": 1
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Toxic-Stand Up Comedy",
+      "_date": "Sun Jan 07 2024 16:17:26 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "id": 2
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Rambo Circus",
+      "_date": "Sun Jan 07 2024 16:23:21 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "id": 3
+    },
+    {
+      "_username": "Sumat Jain",
+      "_moviename": "Rambo Circus",
+      "_date": "Sun Jan 07 2024 17:13:59 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "id": 4
+    },
+    {
+      "_username": "Sumat Jain",
+      "_moviename": "Standup Comedy",
+      "_date": "Sun Jan 07 2024 17:20:46 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "_review": "",
+      "_comment": "great",
+      "id": 5
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Rambo Circus",
+      "_date": "Sun Jan 07 2024 23:13:00 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "_review": "4",
+      "_comment": "Great website",
+      "id": 6
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Cricket - IPL T20: Mumbai Indians vs Chennai Super Kings",
+      "_date": "Sun Jan 07 2024 23:20:04 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "_review": "3",
+      "_comment": "Nice MAtch",
+      "id": 7
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Standup Comedy",
+      "_date": "Sun Jan 07 2024 23:27:20 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "_review": "4",
+      "_comment": "Great",
+      "id": 8
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Wonka",
+      "_date": "Mon Jan 08 2024 00:25:45 GMT+0530 (India Standard Time)",
+      "_amount": "600",
+      "_review": "4",
+      "_comment": "Done",
+      "id": 9
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Andaz Apna Apna",
+      "_date": "Mon Jan 08 2024 00:27:03 GMT+0530 (India Standard Time)",
+      "_amount": "500",
+      "_review": "1",
+      "_comment": "hgt",
+      "id": 10
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Football - Mumbai City FC vs Bengaluru FC",
+      "_date": "Mon Jan 08 2024 00:44:40 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "_review": "3",
+      "_comment": "low",
+      "id": 11
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Toxic-Stand Up Comedy",
+      "_date": "Mon Jan 08 2024 09:33:16 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "_review": "4",
+      "_comment": "Great",
+      "id": 12
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Stree",
+      "_date": "Mon Jan 08 2024 09:34:59 GMT+0530 (India Standard Time)",
+      "_amount": "700",
+      "_review": "3",
+      "_comment": "Nioe",
+      "id": 13
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Stree",
+      "_date": "Mon Jan 08 2024 11:12:02 GMT+0530 (India Standard Time)",
+      "_amount": "500",
+      "_review": "4",
+      "_comment": "",
+      "_seat_Count": "",
+      "id": 14
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Wonka",
+      "_date": "Mon Jan 08 2024 11:13:46 GMT+0530 (India Standard Time)",
+      "_amount": "600",
+      "_review": "1",
+      "_comment": "ddd",
+      "_seat_Count": "2",
+      "id": 15
+    },
+    {
+      "_username": "Anand Shah",
+      "_moviename": "Andaz Apna Apna",
+      "_date": "Mon Jan 08 2024 11:56:10 GMT+0530 (India Standard Time)",
+      "_amount": "600",
+      "_review": "4",
+      "_comment": "good",
+      "_seat_Count": "2",
+      "id": 16
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Football - Mumbai City FC vs Bengaluru FC",
+      "_date": "Mon Jan 08 2024 11:59:29 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "_review": "3",
+      "_comment": "Nice",
+      "id": 17
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Cricket - IPL T20: Mumbai Indians vs Chennai Super Kings",
+      "_date": "Mon Jan 08 2024 12:24:37 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "_review": "4",
+      "_comment": "esf",
+      "id": 18
+    },
+    {
+      "_username": "Sumat Jain",
+      "_moviename": "The Conjuring",
+      "_date": "Mon Jan 08 2024 13:37:21 GMT+0530 (India Standard Time)",
+      "_amount": "700",
+      "_review": "2",
+      "_comment": "Nice Movie",
+      "_seat_Count": "2",
+      "id": 19
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Cricket - IPL T20: Mumbai Indians vs Chennai Super Kings",
+      "_date": "Mon Jan 08 2024 13:44:09 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "_review": "4",
+      "_comment": "good",
+      "id": 20
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Wonka",
+      "_date": "Sun Feb 04 2024 19:05:58 GMT+0530 (India Standard Time)",
+      "_amount": "500",
+      "_review": "4",
+      "_comment": "Great Work",
+      "_seat_Count": "2",
+      "id": 21
+    },
+    {
+      "_username": "John William",
+      "_moviename": "Ed Sheran: +-=x India Tour",
+      "_date": "Sun Feb 04 2024 19:07:42 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "_review": "4",
+      "_comment": "Hi",
+      "id": 22
+    },
+    {
+      "_username": "Sumat Jain",
+      "_moviename": "Stree",
+      "_date": "Sat May 18 2024 17:20:24 GMT+0530 (India Standard Time)",
+      "_amount": "500",
+      "_review": "4",
+      "_comment": "Great",
+      "_seat_Count": "2",
+      "id": 23
+    },
+    {
+      "_username": "Sumat Jain",
+      "_moviename": "Mumbai Half Marathon",
+      "_date": "Sat May 18 2024 18:33:25 GMT+0530 (India Standard Time)",
+      "_amount": "1000",
+      "_review": "4",
+      "_comment": "Nice",
+      "id": 24
+    }
+  ]
+}
